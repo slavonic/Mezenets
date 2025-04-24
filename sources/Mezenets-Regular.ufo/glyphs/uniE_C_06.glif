@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEC06" format="2">
+  <advance width="999"/>
+  <unicode hex="EC06"/>
+  <anchor x="1115" y="410" name="FinalPitch"/>
+  <anchor x="460" y="50" name="Borzaya"/>
+  <anchor x="0" y="370" name="Tikhaya"/>
+  <anchor x="130" y="770" name="PitchMark"/>
+  <anchor x="540" y="150" name="Lomka"/>
+  <anchor x="960" y="350" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="425" y="660" name="Auxiliary"/>
+  <anchor x="1010" y="610" name="Podvertka"/>
+  <anchor x="785" y="840" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="795" y="870" name="TonalRange"/>
+  <anchor x="1010" y="670" name="Zaderzhka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="865" y="570" name="Tochka"/>
+  <anchor x="750" y="410" name="Podchashie"/>
+  <outline>
+    <contour>
+      <point x="688" y="782" type="line"/>
+      <point x="709" y="843"/>
+      <point x="772" y="852"/>
+      <point x="772" y="852" type="curve"/>
+      <point x="761" y="728" type="line"/>
+      <point x="761" y="728"/>
+      <point x="707" y="719"/>
+      <point x="676" y="656" type="curve"/>
+    </contour>
+    <contour>
+      <point x="912" y="782" type="curve" smooth="yes"/>
+      <point x="931.503" y="782"/>
+      <point x="969.074" y="741.11"/>
+      <point x="969.074" y="716.823" type="curve" smooth="yes"/>
+      <point x="969.074" y="716.204"/>
+      <point x="969.05" y="715.596"/>
+      <point x="969" y="715" type="curve" smooth="yes"/>
+      <point x="957" y="613" type="line"/>
+      <point x="954" y="628"/>
+      <point x="942" y="653"/>
+      <point x="918" y="672" type="curve" smooth="yes"/>
+      <point x="916" y="674"/>
+      <point x="913" y="675"/>
+      <point x="909" y="675" type="curve" smooth="yes"/>
+      <point x="875" y="675"/>
+      <point x="788" y="599"/>
+      <point x="745" y="556" type="curve" smooth="yes"/>
+      <point x="643" y="456"/>
+      <point x="513" y="309"/>
+      <point x="513" y="309" type="curve"/>
+      <point x="552" y="693" type="line"/>
+      <point x="580" y="710" type="line"/>
+      <point x="553" y="451" type="line"/>
+      <point x="598" y="506"/>
+      <point x="633" y="545"/>
+      <point x="696" y="608" type="curve" smooth="yes"/>
+      <point x="759" y="671"/>
+      <point x="891" y="782"/>
+    </contour>
+    <contour>
+      <point x="70" y="162" type="line"/>
+      <point x="113" y="237"/>
+      <point x="199" y="262"/>
+      <point x="199" y="262" type="curve"/>
+      <point x="184" y="122" type="line"/>
+      <point x="184" y="122"/>
+      <point x="74" y="90"/>
+      <point x="30" y="0" type="curve"/>
+      <point x="79" y="480" type="line"/>
+      <point x="105" y="496" type="line"/>
+    </contour>
+    <contour>
+      <point x="389" y="351" type="line"/>
+      <point x="410" y="412"/>
+      <point x="473" y="421"/>
+      <point x="473" y="421" type="curve"/>
+      <point x="460" y="297" type="line"/>
+      <point x="460" y="297"/>
+      <point x="406" y="288"/>
+      <point x="375" y="225" type="curve"/>
+    </contour>
+    <contour>
+      <point x="253" y="271" type="line"/>
+      <point x="274" y="332"/>
+      <point x="337" y="341"/>
+      <point x="337" y="341" type="curve"/>
+      <point x="324" y="217" type="line"/>
+      <point x="324" y="217"/>
+      <point x="270" y="208"/>
+      <point x="239" y="145" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>675</integer>
+            <key>width</key>
+            <integer>107</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

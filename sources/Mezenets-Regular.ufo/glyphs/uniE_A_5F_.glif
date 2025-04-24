@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEA5F" format="2">
+  <advance width="145"/>
+  <unicode hex="EA5F"/>
+  <anchor x="145" y="325" name="Tochka"/>
+  <anchor x="70" y="-30" name="Podchashie"/>
+  <anchor x="305" y="660" name="TonalRange"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="285" y="640" name="Flexion"/>
+  <anchor x="120" y="0" name="Podvertka"/>
+  <anchor x="155" y="660" name="Auxiliary"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
+  <anchor x="190" y="150" name="Lomka"/>
+  <anchor x="130" y="770" name="PitchMark"/>
+  <anchor x="325" y="300" name="FinalPitch"/>
+  <anchor x="256" y="149" name="Omet"/>
+  <anchor x="144" y="357" name="Zaderzhka"/>
+  <outline>
+    <contour>
+      <point x="112" y="444" type="curve" smooth="yes"/>
+      <point x="106.716" y="444"/>
+      <point x="103.023" y="449.318"/>
+      <point x="99" y="452" type="curve"/>
+      <point x="55" y="28" type="line"/>
+      <point x="29" y="0" type="line"/>
+      <point x="77" y="469" type="line"/>
+      <point x="60" y="481"/>
+      <point x="42.2422" y="493.504"/>
+      <point x="26" y="501" type="curve" smooth="yes"/>
+      <point x="13" y="507"/>
+      <point x="27" y="514"/>
+      <point x="30" y="515" type="curve" smooth="yes"/>
+      <point x="36" y="518"/>
+      <point x="58" y="527"/>
+      <point x="66" y="527" type="curve" smooth="yes"/>
+      <point x="68" y="527" type="line"/>
+      <point x="98" y="518"/>
+      <point x="138" y="482"/>
+      <point x="152" y="468" type="curve" smooth="yes"/>
+      <point x="158" y="462"/>
+      <point x="148" y="458"/>
+      <point x="143" y="455" type="curve" smooth="yes"/>
+      <point x="140" y="453"/>
+      <point x="122" y="444"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEB63" format="2">
+  <advance width="1"/>
+  <unicode hex="EB63"/>
+  <anchor x="-375" y="500" name="_TonalRange"/>
+  <outline>
+    <contour>
+      <point x="-335" y="461" type="line"/>
+      <point x="-370" y="455"/>
+      <point x="-409" y="421"/>
+      <point x="-425" y="389" type="curve"/>
+      <point x="-413" y="515" type="line"/>
+      <point x="-404" y="542"/>
+      <point x="-375" y="569"/>
+      <point x="-348" y="579" type="curve"/>
+      <point x="-339" y="670" type="line"/>
+      <point x="-316" y="681" type="line"/>
+    </contour>
+    <contour>
+      <point x="-539" y="397" type="line"/>
+      <point x="-529" y="426"/>
+      <point x="-500" y="456"/>
+      <point x="-471" y="463" type="curve"/>
+      <point x="-455" y="466" type="line"/>
+      <point x="-465" y="342" type="line"/>
+      <point x="-500" y="336"/>
+      <point x="-535" y="302"/>
+      <point x="-551" y="270" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-551</integer>
+            <key>width</key>
+            <integer>235</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

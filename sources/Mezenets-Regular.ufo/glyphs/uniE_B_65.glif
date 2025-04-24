@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEB65" format="2">
+  <advance width="1"/>
+  <unicode hex="EB65"/>
+  <anchor x="-395" y="480" name="_TonalRange"/>
+  <outline>
+    <contour>
+      <point x="-335" y="461" type="line"/>
+      <point x="-370" y="455"/>
+      <point x="-409" y="421"/>
+      <point x="-425" y="389" type="curve"/>
+      <point x="-413" y="515" type="line"/>
+      <point x="-404" y="542"/>
+      <point x="-375" y="569"/>
+      <point x="-348" y="579" type="curve"/>
+      <point x="-339" y="670" type="line"/>
+      <point x="-316" y="681" type="line"/>
+    </contour>
+    <contour>
+      <point x="-669" y="277" type="line"/>
+      <point x="-659" y="306"/>
+      <point x="-630" y="336"/>
+      <point x="-601" y="343" type="curve" smooth="yes"/>
+      <point x="-585" y="347" type="line"/>
+      <point x="-595" y="223" type="line"/>
+      <point x="-630" y="217"/>
+      <point x="-665" y="183"/>
+      <point x="-681" y="151" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-539" y="396" type="line"/>
+      <point x="-529" y="425"/>
+      <point x="-500" y="455"/>
+      <point x="-471" y="462" type="curve" smooth="yes"/>
+      <point x="-455" y="466" type="line"/>
+      <point x="-465" y="342" type="line"/>
+      <point x="-500" y="336"/>
+      <point x="-535" y="302"/>
+      <point x="-551" y="270" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

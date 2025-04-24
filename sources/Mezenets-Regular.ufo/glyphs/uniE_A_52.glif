@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEA52" format="2">
+  <advance width="160"/>
+  <unicode hex="EA52"/>
+  <anchor x="168" y="276" name="Omet"/>
+  <anchor x="244" y="202.6" name="FinalPitch"/>
+  <anchor x="350" y="150" name="Lomka"/>
+  <anchor x="0" y="-30" name="Tikhaya"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="50" y="-50" name="Kupnaya"/>
+  <anchor x="265" y="660" name="Auxiliary"/>
+  <anchor x="120" y="0" name="Podvertka"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="155" y="325" name="Tochka"/>
+  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="60" y="-30" name="Podchashie"/>
+  <anchor x="60" y="580" name="PitchMark"/>
+  <outline>
+    <contour>
+      <point x="83" y="63" type="curve"/>
+      <point x="77" y="-1"/>
+      <point x="69" y="-74"/>
+      <point x="69" y="-74" type="curve"/>
+      <point x="46" y="-80" type="line"/>
+      <point x="59" y="50" type="line"/>
+      <point x="39" y="38"/>
+      <point x="21" y="21"/>
+      <point x="10" y="-1" type="curve"/>
+      <point x="22" y="126" type="line"/>
+      <point x="30" y="149"/>
+      <point x="50" y="166"/>
+      <point x="72" y="178" type="curve"/>
+      <point x="80" y="259" type="line"/>
+      <point x="102" y="267" type="line"/>
+      <point x="98" y="224"/>
+      <point x="99" y="234"/>
+      <point x="95" y="190" type="curve"/>
+      <point x="123" y="202"/>
+      <point x="147" y="206"/>
+      <point x="147" y="206" type="curve"/>
+      <point x="137" y="82" type="line"/>
+      <point x="137" y="82"/>
+      <point x="112" y="76"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-1</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>10</integer>
+            <key>width</key>
+            <integer>137</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

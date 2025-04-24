@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniEAE4" format="2">
+  <advance width="345"/>
+  <unicode hex="EAE4"/>
+  <anchor x="515" y="200" name="FinalPitch"/>
+  <anchor x="275" y="150" name="Podvertka"/>
+  <anchor x="400" y="150" name="Lomka"/>
+  <anchor x="0" y="50" name="Tikhaya"/>
+  <anchor x="0" y="150" name="Borzaya"/>
+  <anchor x="50" y="0" name="Zevok"/>
+  <anchor x="50" y="660" name="Kachka"/>
+  <anchor x="0" y="100" name="Kupnaya"/>
+  <anchor x="90" y="370" name="Auxiliary"/>
+  <anchor x="395" y="640" name="Flexion"/>
+  <anchor x="0" y="-50" name="Podtinka"/>
+  <anchor x="415" y="660" name="TonalRange"/>
+  <anchor x="355" y="325" name="Tochka"/>
+  <anchor x="30" y="-120" name="Zaderzhka"/>
+  <anchor x="205" y="500" name="Omet"/>
+  <anchor x="100" y="-30" name="Podchashie"/>
+  <anchor x="60" y="580" name="PitchMark"/>
+  <outline>
+    <contour>
+      <point x="222" y="123" type="line"/>
+      <point x="243" y="184"/>
+      <point x="330" y="201"/>
+      <point x="330" y="201" type="curve"/>
+      <point x="319" y="77" type="line"/>
+      <point x="319" y="77"/>
+      <point x="241" y="60"/>
+      <point x="210" y="-3" type="curve"/>
+    </contour>
+    <contour>
+      <point x="35" y="244" type="line"/>
+      <point x="115" y="119" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="20" y="125" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="358" type="line"/>
+      <point x="195" y="233" type="line"/>
+      <point x="180" y="114" type="line"/>
+      <point x="100" y="239" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-3</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>20</integer>
+            <key>width</key>
+            <integer>310</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
