@@ -186,7 +186,7 @@ glyphslib==6.10.1
     #   fontmake
     #   gftools
     #   glyphsets
-h11==0.14.0
+h11==0.16.0
     # via wsproto
 idna==3.10
     # via
@@ -386,7 +386,7 @@ typing-extensions==4.13.2
     #   beautifulsoup4
     #   pygithub
     #   selenium
-ufo2ft[cffsubr,compreffor]==3.4.2
+ufo2ft[cffsubr,compreffor]==3.4.3
     # via
     #   fontbakery
     #   fontmake
@@ -423,7 +423,7 @@ unicodedata2==15.1.0
     #   fontbakery
     #   fonttools
     #   glyphsets
-unidecode==1.3.8
+unidecode==1.4.0
     # via gftools
 urllib3[socks]==2.4.0
     # via
