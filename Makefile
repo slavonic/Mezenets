@@ -68,3 +68,20 @@ update: venv venv-test
 
 	git commit -m "Update requirements" requirements.txt requirements-test.txt
 	git push
+
+regtest: test-result.pdf
+
+test-result.pdf:
+	rm -fr regtests/output
+	mkdir regtests/output
+	(cd regtests/; i=0; while read -r in; do i=$$(($$i+1)); sed -e s/foo/"$$in"/ regtest.tex > output/"$$i".tex; lualatex --interaction=nonstopmode --output-directory=output/ output/"$$i".tex; done < foo.lst)
+	(cd regtests/output; rm -fr *.aux *.log *.tex)
+	mkdir regtests/results
+	(cd regtests/; i=0; j=0; while read in; do i=$$(($$i+1)); compare -metric phash baseline/"$$i".pdf output/"$$i".pdf results/"$$i".pdf || j=$$(($$j+$$?)); echo ""; done < foo.lst; gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -sOutputFile=test-result.pdf results/*.pdf; cp test-result.pdf ../test-result.pdf; rm -fr results/; rm -fr output/; exit "$$j")
+
+baseline:
+	rm -fr regtests/baseline
+	mkdir regtests/baseline
+	(cd regtests/; i=0; while read -r in; do i=$$(($$i+1)); sed -e s/foo/"$$in"/ regtest.tex > baseline/"$$i".tex; lualatex --output-directory=baseline/ baseline/"$$i".tex; done < foo.lst)
+	(cd regtests/baseline; rm -fr *.aux *.log *.tex)
+
