@@ -60,6 +60,22 @@ Add this section.
 
 There is some documentation in [PDF format](https://www.ponomar.net/files/fonts-znam.pdf).
 
+## Regression testing
+
+The font is quite complex because of the various ligatures and multiple layers of diacritical marks controlled by anchor points. If you change anything in the font, be sure to run the regression tests and make sure that the OpenType features have not been corrupted:
+
+```
+make regtests
+```
+
+This creates a the file `test-results.pdf` that displays the results of the tests. Note that running the regression tests requires LuaLatex and ImageMagick. To create the baseline files that are used for the regression testing, stored in `regtests/baseline/`, run:
+
+```
+make baseline
+```
+
+Note that you should only do that if you are absolutely sure that the changes you made to GSUB and GPOS features are correct.
+
 ## More Znamenny Fonts
 
 See the [main repository](https://github.com/slavonic/fonts-znam/) and the [website](https://sci.ponomar.net/music.html).
