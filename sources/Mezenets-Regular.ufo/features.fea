@@ -6366,6 +6366,66 @@ lookup mkmkStackingofCinnabarMarks {
   markClass [\u1CF0B ] <anchor -110 455> @Stacking;
   markClass [\u1CF22 ] <anchor -117 457> @Stacking;
   markClass [\uniEA08 ] <anchor -152 463> @Stacking;
+  markClass [\uni0483 \uniE9F0 ] <anchor -180 636> @Stacking;
+  markClass [\uni0484 ] <anchor -161 603> @Stacking;
+  markClass [\uni0485 ] <anchor -340 626> @Stacking;
+  markClass [\uni0486 ] <anchor -297 626> @Stacking;
+  markClass [\uni0487 ] <anchor -179 698> @Stacking;
+  markClass [\uni2DE0 \uniE9E0 \uniE9E1 \uniE9E8 ] <anchor -210 583> @Stacking;
+  markClass [\uni2DE1 ] <anchor -190 562> @Stacking;
+  markClass [\uni2DE2 \uni2DF0 ] <anchor -210 602> @Stacking;
+  markClass [\uni2DE3 ] <anchor -131 593> @Stacking;
+  markClass [\uni2DE4 ] <anchor -148 652> @Stacking;
+  markClass [\uni2DE5 ] <anchor -194 630> @Stacking;
+  markClass [\uni2DE6 ] <anchor -210 531> @Stacking;
+  markClass [\uni2DE7 ] <anchor -190 582> @Stacking;
+  markClass [\uni2DE8 ] <anchor -224 727> @Stacking;
+  markClass [\uni2DE9 ] <anchor -210 622> @Stacking;
+  markClass [\uni2DEA ] <anchor -150 611> @Stacking;
+  markClass [\uni2DEB ] <anchor -199 622> @Stacking;
+  markClass [\uni2DEC ] <anchor -209 562> @Stacking;
+  markClass [\uni2DED ] <anchor -210 639> @Stacking;
+  markClass [\uni2DEE ] <anchor -193 668> @Stacking;
+  markClass [\uni2DEF ] <anchor -209 676> @Stacking;
+  markClass [\uni2DF1 \uniE9EB ] <anchor -210 623> @Stacking;
+  markClass [\uni2DF2 ] <anchor -210 704> @Stacking;
+  markClass [\uni2DF3 ] <anchor -210 604> @Stacking;
+  markClass [\uni2DF4 ] <anchor -149 653> @Stacking;
+  markClass [\uni2DF5 ] <anchor -9 690> @Stacking;
+  markClass [\uni2DF6 ] <anchor -9 675> @Stacking;
+  markClass [\uni2DF7 ] <anchor -199 650> @Stacking;
+  markClass [\uni2DF9 ] <anchor -197 599> @Stacking;
+  markClass [\uni2DFA ] <anchor -189 622> @Stacking;
+  markClass [\uni2DFB ] <anchor -189 655> @Stacking;
+  markClass [\uni2DFC ] <anchor -210 640> @Stacking;
+  markClass [\uni2DFD ] <anchor -179 642> @Stacking;
+  markClass [\uniA66F ] <anchor -357 625> @Stacking;
+  markClass [\uniA674 ] <anchor -270 605> @Stacking;
+  markClass [\uniA675 ] <anchor -209 690> @Stacking;
+  markClass [\uniA676 ] <anchor -170 499> @Stacking;
+  markClass [\uniA677 ] <anchor -150 453> @Stacking;
+  markClass [\uniA678 ] <anchor -90 675> @Stacking;
+  markClass [\uniA679 ] <anchor -150 683> @Stacking;
+  markClass [\uniA67A ] <anchor -110 683> @Stacking;
+  markClass [\uniA67B ] <anchor -190 583> @Stacking;
+  markClass [\uniA67C ] <anchor -199 576> @Stacking;
+  markClass [\uniA69E ] <anchor -180 611> @Stacking;
+  markClass [\uniA69F ] <anchor -190 639> @Stacking;
+  markClass [\uniE001 ] <anchor -359 630> @Stacking;
+  markClass [\uniE003 ] <anchor -359 596> @Stacking;
+  markClass [\uniE005 ] <anchor -215 593> @Stacking;
+  markClass [\uniE9F1 ] <anchor -190 594> @Stacking;
+  markClass [\uniE9F2 ] <anchor -190 573> @Stacking;
+  markClass [\uniE9E2 ] <anchor -210 633> @Stacking;
+  markClass [\uniE9E3 ] <anchor -230 563> @Stacking;
+  markClass [\uniE9E4 ] <anchor -210 593> @Stacking;
+  markClass [\uniE9E5 ] <anchor -210 663> @Stacking;
+  markClass [\uniE9E6 ] <anchor -170 634> @Stacking;
+  markClass [\uniE9E7 \uniE9E9 ] <anchor -210 643> @Stacking;
+  markClass [\uniE9EA \uniE9ED ] <anchor -210 613> @Stacking;
+  markClass [\uniE9EC ] <anchor -210 713> @Stacking;
+  markClass [\uniE9EE ] <anchor -150 693> @Stacking;
+  markClass [\uniE9EF ] <anchor 0 654> @Stacking;
   pos mark [\u1CF00.ss04 \u1CF0C ] <anchor 226 563> mark @Stacking;
   pos mark [\u1CF01.ss04 ] <anchor 234 562> mark @Stacking;
   pos mark [\u1CF02.ss04 \u1CF02 ] <anchor 134 561> mark @Stacking;
@@ -6402,6 +6462,70 @@ lookup mkmkStackingofCinnabarMarks {
   pos mark [\u1CF22 ] <anchor 123 562> mark @Stacking;
   pos mark [\uniEA18 ] <anchor 74 344> mark @Stacking;
   pos mark [\uniEA08 ] <anchor 108 568> mark @Stacking;
+  pos mark [\uni0483 ] <anchor -194 870> mark @Stacking;
+  pos mark [\uni0484 ] <anchor -175 825> mark @Stacking;
+  pos mark [\uni0485 ] <anchor -354 860> mark @Stacking;
+  pos mark [\uni0486 ] <anchor -311 860> mark @Stacking;
+  pos mark [\uni0487 ] <anchor -173 974> mark @Stacking;
+  pos mark [\uni2DE0 ] <anchor -204 967> mark @Stacking;
+  pos mark [\uni2DE1 ] <anchor -204 834> mark @Stacking;
+  pos mark [\uni2DE2 ] <anchor -224 874> mark @Stacking;
+  pos mark [\uni2DE3 ] <anchor -149 1023> mark @Stacking;
+  pos mark [\uni2DE4 ] <anchor -142 1028> mark @Stacking;
+  pos mark [\uni2DE5 ] <anchor -184 1118> mark @Stacking;
+  pos mark [\uni2DE6 ] <anchor -224 803> mark @Stacking;
+  pos mark [\uni2DE7 ] <anchor -204 854> mark @Stacking;
+  pos mark [\uni2DE8 ] <anchor -207 1003> mark @Stacking;
+  pos mark [\uni2DE9 ] <anchor -224 894> mark @Stacking;
+  pos mark [\uni2DEA ] <anchor -164 883> mark @Stacking;
+  pos mark [\uni2DEB ] <anchor -213 894> mark @Stacking;
+  pos mark [\uni2DEC ] <anchor -213 924> mark @Stacking;
+  pos mark [\uni2DED ] <anchor -224 885> mark @Stacking;
+  pos mark [\uni2DEE ] <anchor -189 892> mark @Stacking;
+  pos mark [\uni2DEF ] <anchor -205 1050> mark @Stacking;
+  pos mark [\uni2DF0 ] <anchor -204 944> mark @Stacking;
+  pos mark [\uni2DF1 ] <anchor -204 913> mark @Stacking;
+  pos mark [\uni2DF2 ] <anchor -204 1016> mark @Stacking;
+  pos mark [\uni2DF3 ] <anchor -204 963> mark @Stacking;
+  pos mark [\uni2DF4 ] <anchor -128 1101> mark @Stacking;
+  pos mark [\uni2DF5 ] <anchor -5 1124> mark @Stacking;
+  pos mark [\uni2DF6 ] <anchor -5 989> mark @Stacking;
+  pos mark [\uni2DF7 ] <anchor -191 1184> mark @Stacking;
+  pos mark [\uni2DF9 ] <anchor -108 1151> mark @Stacking;
+  pos mark [\uni2DFA ] <anchor -105 1096> mark @Stacking;
+  pos mark [\uni2DFB ] <anchor -145 1009> mark @Stacking;
+  pos mark [\uni2DFC ] <anchor -204 994> mark @Stacking;
+  pos mark [\uni2DFD ] <anchor -173 994> mark @Stacking;
+  pos mark [\uniA66F ] <anchor -361 905> mark @Stacking;
+  pos mark [\uniA674 ] <anchor -264 963> mark @Stacking;
+  pos mark [\uniA675 ] <anchor -205 1044> mark @Stacking;
+  pos mark [\uniA676 ] <anchor -164 854> mark @Stacking;
+  pos mark [\uniA677 ] <anchor -144 903> mark @Stacking;
+  pos mark [\uniA678 ] <anchor -84 1072> mark @Stacking;
+  pos mark [\uniA679 ] <anchor -144 1034> mark @Stacking;
+  pos mark [\uniA67A ] <anchor -104 1034> mark @Stacking;
+  pos mark [\uniA67B ] <anchor -184 934> mark @Stacking;
+  pos mark [\uniA67C ] <anchor -195 800> mark @Stacking;
+  pos mark [\uniA69E ] <anchor -174 1242> mark @Stacking;
+  pos mark [\uniA69F ] <anchor -183 1043> mark @Stacking;
+  pos mark [\uniE001 ] <anchor -355 854> mark @Stacking;
+  pos mark [\uniE003 ] <anchor -325 920> mark @Stacking;
+  pos mark [\uniE005 ] <anchor -209 1038> mark @Stacking;
+  pos mark [\uniE9F0 ] <anchor -174 1220> mark @Stacking;
+  pos mark [\uniE9F1 ] <anchor -184 1165> mark @Stacking;
+  pos mark [\uniE9F2 ] <anchor -184 1112> mark @Stacking;
+  pos mark [\uniE9E0 \uniE9E1 \uniE9E8 ] <anchor -204 1167> mark @Stacking;
+  pos mark [\uniE9E2 ] <anchor -204 1217> mark @Stacking;
+  pos mark [\uniE9E3 ] <anchor -224 1147> mark @Stacking;
+  pos mark [\uniE9E4 \uniE9E7 ] <anchor -204 1177> mark @Stacking;
+  pos mark [\uniE9E5 ] <anchor -204 1181> mark @Stacking;
+  pos mark [\uniE9E6 ] <anchor -164 1218> mark @Stacking;
+  pos mark [\uniE9E9 ] <anchor -204 1077> mark @Stacking;
+  pos mark [\uniE9EA \uniE9ED ] <anchor -204 1197> mark @Stacking;
+  pos mark [\uniE9EB ] <anchor -204 1207> mark @Stacking;
+  pos mark [\uniE9EC ] <anchor -204 1187> mark @Stacking;
+  pos mark [\uniE9EE ] <anchor -144 1277> mark @Stacking;
+  pos mark [\uniE9EF ] <anchor 6 1162> mark @Stacking;
 } mkmkStackingofCinnabarMarks;
 
 feature ss01 {
@@ -6588,7 +6712,21 @@ feature mkmk {
 	\uniEFC0 \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 
 	\uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B 
 	\dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro 
-	\minus ];
+	\minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 
+	\uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni0476 
+	\uni0477 \uni0478 \uni0479 \uni047A \uni047B \uni047C \uni047D \uni047E \uni047F 
+	\uni0482 \uni0488 \uni0489 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 \uni1C85 
+	\uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 \uniA64A 
+	\uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 \uniA657 
+	\uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D \uniA66E 
+	\uniA670 \uniA671 \uniA672 \uniA673 \uniA67D \uniA67E \uniA67F \uniA698 \uniA699 
+	\uniA69A \uniA69B \uniE0E0 \uniE0E1 \uniE0E2 \uniE0E3 \uniE0E4 \uniE0E5 \uniE0E6 
+	\uniE0E7 \uniE0E8 \uniE0E9 \uniE0EA \uniE0EB \uniE0EC \uniE0ED \uniE0EE \uniE0EF 
+	\uniE0F0 \uniE381 \uniE383 \uniE405 \uniE612 \uniE714 \uniE800 \uniE814 \uniE8E5 
+	\uniE8EB \uniE8F0 \uniE8E8 \uniE8E9 \uniE8EA \uniE8ED \uniE900 \uniE901 \uniE902 
+	\uniE904 \uniE906 \uniE907 \uniE90C \uniE90D \uniE90E \uniE920 \uniE921 \uniE922 
+	\uniE923 \uniE924 \uniE925 \uniE926 \uniE92A \uniE92B \uniE930 \uniE931 \u1F540 
+	\u1F541 \u1F542 \u1F543 \u1F544 \u1F545 ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
@@ -6703,7 +6841,15 @@ feature mkmk {
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C \u1CF41 \u1CF42 
 	\u1CF43 \u1CF44 \u1CF45 \u1CF46 \u1CF30 \u1CF31 \u1CF32 \u1CF33 \u1CF35 \u1CF36 
 	\u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B \u1CF3C \u1CF3D \u1CF3F \u1CF40 \uniEA14 
-	\uniEA18 \u1CF0C \u1CF0D \u1CF0E \uniEA08 ];
+	\uniEA18 \u1CF0C \u1CF0D \u1CF0E \uniEA08 \uni0483 \uni0484 \uni0485 \uni0486 
+	\uni0487 \uni2DE0 \uni2DE1 \uni2DE2 \uni2DE3 \uni2DE4 \uni2DE5 \uni2DE6 \uni2DE7 
+	\uni2DE8 \uni2DE9 \uni2DEA \uni2DEB \uni2DEC \uni2DED \uni2DEE \uni2DEF \uni2DF0 
+	\uni2DF1 \uni2DF2 \uni2DF3 \uni2DF4 \uni2DF5 \uni2DF6 \uni2DF7 \uni2DF9 \uni2DFA 
+	\uni2DFB \uni2DFC \uni2DFD \uniA66F \uniA674 \uniA675 \uniA676 \uniA677 \uniA678 
+	\uniA679 \uniA67A \uniA67B \uniA67C \uniA69E \uniA69F \uniE001 \uniE003 \uniE005 
+	\uniE9F0 \uniE9F1 \uniE9F2 \uniE9E0 \uniE9E1 \uniE9E2 \uniE9E3 \uniE9E4 \uniE9E5 
+	\uniE9E6 \uniE9E7 \uniE9E8 \uniE9E9 \uniE9EA \uniE9EB \uniE9EC \uniE9ED \uniE9EE 
+	\uniE9EF ];
 @GDEF_Component = [\uniEA50 \uniEA51 \uniEA52 ];
 
 table GDEF {
