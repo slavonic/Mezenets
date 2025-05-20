@@ -28,6 +28,81 @@ lookup Supportfordeprecatedmappingsccmp {
     sub \u1CF08.ss04 \u1CF2D.ss04  by \u1CF1D;
 } Supportfordeprecatedmappingsccmp;
 
+lookup ccmpGlyphCompositionDecompositionforSlavonic {
+  lookupflag 0;
+    sub \afii10022 \gravecomb  by \uni0400;
+    sub \afii10022 \dieresis  by \afii10023;
+    sub \afii10020 \acutecomb  by \afii10052;
+    sub \afii10055 \dieresis  by \afii10056;
+    sub \afii10028 \acutecomb  by \afii10061;
+    sub \afii10026 \gravecomb  by \uni040D;
+    sub \afii10026 \uni0306  by \afii10027;
+    sub \afii10074 \uni0306  by \afii10075;
+    sub \afii10070 \gravecomb  by \uni0450;
+    sub \afii10070 \dieresis  by \afii10071;
+    sub \afii10068 \acutecomb  by \afii10100;
+    sub \afii10103 \dieresis  by \afii10104;
+    sub \afii10076 \acutecomb  by \afii10109;
+    sub \afii10074 \gravecomb  by \uni045D;
+    sub \afii10085 \uni0306  by \afii10110;
+    sub \uni2DE2 \uni0487  by \uniF4E2;
+    sub \uni2DE6 \uni0487  by \uniF4E3;
+    sub \uni2DE7 \uni0487  by \uniF4E4;
+    sub \uni2DE9 \uni0487  by \uniF4E5;
+    sub \uni2DEA \uni0487  by \uniF4E6;
+    sub \uni2DEB \uni0487  by \uniF4E7;
+    sub \uni2DEC \uni0487  by \uniF4E8;
+    sub \uni2DED \uni0487  by \uniF4E9;
+    sub \uni2DF2 \uni0487  by \uniF4EC;
+    sub \uni2DF3 \uni0487  by \uniF4ED;
+    sub \uni2DF5 \uni0487  by \uniF4EE;
+    sub \uni2DFC \uni0487  by \uniF4EF;
+    sub \uni2DFD \uni0487  by \uniF4F0;
+    sub \uni2DF7 \uni0487  by \uniF4F1;
+    sub \afii10148 \uni030F  by \uni0476;
+    sub \afii10196 \uni030F  by \uni0477;
+    sub \afii10032 \afii10085  by \uni0478;
+    sub \uni1C82 \afii10085  by \uni0479;
+    sub \afii10080 \afii10085  by \uni0479;
+    sub \uni0486 \acutecomb  by \uniE001;
+    sub \uni0486 \gravecomb  by \uniE003;
+    sub \uni0486 \uni0308  by \uniE005;
+    sub \afii10065 \uni200D \afii10085  by \uniE612;
+    sub \afii10077 \uni200D \afii10085  by \uniE714;
+    sub \afii10084 \uni200D \afii10067  by \uniE800;
+    sub \afii10084 \uni200D \afii10082  by \uniE814;
+    sub \uniA64B \uni0308  by \uniE8EB;
+    sub \uniA64B \uni0486  by \uniE8E8;
+    sub \uniA64B \acutecomb  by \uniE8E9;
+    sub \uniA64B \gravecomb  by \uniE8EA;
+    sub \afii10194 \uni0486  by \uniE900;
+    sub \afii10194 \acutecomb  by \uniE901;
+    sub \afii10194 \gravecomb  by \uniE904;
+    sub \afii10194 \uni0311  by \uniE906;
+    sub \afii10103 \gravecomb  by \uniE920;
+    sub \afii10103 \acutecomb  by \uniE921;
+    sub \afii10103 \uni0486  by \uniE922;
+    sub \afii10103 \uni0308  by \uniE924;
+    sub \afii10103 \uni0483  by \uniE925;
+    sub \uni047E \acutecomb  by \uniE92A;
+    sub \uni047F \acutecomb  by \uniE92B;
+} ccmpGlyphCompositionDecompositionforSlavonic;
+
+lookup ccmpSecondaryLigaturesforSlavonic {
+  lookupflag 0;
+    sub \uniA64C \uniE005  by \uni047C;
+    sub \uniA64D \uniE005  by \uni047D;
+    sub \uniA64B \uniE001  by \uniE8F0;
+    sub \afii10194 \uniE001  by \uniE90E;
+    sub \uniE900 \acutecomb  by \uniE90E;
+    sub \afii10103 \uniE001  by \uniE923;
+    sub \uniE922 \acutecomb  by \uniE923;
+    sub \afii10103 \uniE003  by \uniE926;
+    sub \uniE922 \gravecomb  by \uniE926;
+    sub \uniA64C \uniE003  by \uniE930;
+    sub \uniA64D \uniE003  by \uniE931;
+} ccmpSecondaryLigaturesforSlavonic;
+
 lookup ZnamennyPriznakification {
   lookupflag 0;
     sub \u1CF50 \u1CF42  by \uniEB66;
@@ -1272,23 +1347,41 @@ lookup PostcompositionPriznakification {
 
 lookup ccmpMedialFormofRavno {
   lookupflag 0;
-    @cc8_match_1 = [\u1CF22 ];
-    @cc8_match_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+    @cc10_match_1 = [\u1CF22 ];
+    @cc10_match_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
 	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
 	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
-    @cc8_back_1 = [\u1CF22 ];
-    @cc8_back_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+    @cc10_back_1 = [\u1CF22 ];
+    @cc10_back_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
 	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
 	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
-    @cc8_ahead_1 = [\u1CF22 ];
-    @cc8_ahead_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+    @cc10_ahead_1 = [\u1CF22 ];
+    @cc10_ahead_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
 	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
 	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
-    sub @cc8_back_2 @cc8_match_1'  by [\uniEA18 ] ;
+    sub @cc10_back_2 @cc10_match_1'  by [\uniEA18 ] ;
 } ccmpMedialFormofRavno;
+
+lookup saltStylisticAlternativesforSlavonic {
+  lookupflag 0;
+    sub \afii10194 from [\uni0463.salt ];
+    sub \afii10040 from [\uni0426.salt ];
+    sub \afii10069 from [\uni0434.salt ];
+    sub \afii10082 from [\uni0440.salt ];
+    sub \afii10085 from [\uni0443.salt ];
+    sub \afii10086 from [\uni0444.salt \uni0444.salt2 ];
+    sub \afii10087 from [\uni0445.salt \uni0445.salt2 \uni0445.salt3 ];
+    sub \afii10088 from [\uni0446.salt ];
+    sub \afii10091 from [\uni0449.salt ];
+    sub \uni0471 from [\uni0471.salt \uni0471.salt ];
+    sub \uni0478 from [\uni0478.salt ];
+    sub \uni1C88 from [\uni1C88.salt ];
+    sub \uniA641 from [\uniA641.salt ];
+    sub \uniA64B from [\uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 ];
+} saltStylisticAlternativesforSlavonic;
 
 lookup StylisticAlternativesforZnamennysalt {
   lookupflag 0;
@@ -1636,6 +1729,8 @@ feature ccmp {
  script DFLT;
      language dflt ;
       lookup Supportfordeprecatedmappingsccmp;
+      lookup ccmpGlyphCompositionDecompositionforSlavonic;
+      lookup ccmpSecondaryLigaturesforSlavonic;
       lookup ZnamennyPriznakification;
       lookup ZnamennyPriznakificationRound2;
       lookup PrecomposedformsforZnamennyNotation;
@@ -1648,6 +1743,8 @@ feature ccmp {
  script cyrl;
      language dflt ;
       lookup Supportfordeprecatedmappingsccmp;
+      lookup ccmpGlyphCompositionDecompositionforSlavonic;
+      lookup ccmpSecondaryLigaturesforSlavonic;
       lookup ZnamennyPriznakification;
       lookup ZnamennyPriznakificationRound2;
       lookup PrecomposedformsforZnamennyNotation;
@@ -1660,6 +1757,8 @@ feature ccmp {
  script latn;
      language dflt ;
       lookup Supportfordeprecatedmappingsccmp;
+      lookup ccmpGlyphCompositionDecompositionforSlavonic;
+      lookup ccmpSecondaryLigaturesforSlavonic;
       lookup ZnamennyPriznakification;
       lookup ZnamennyPriznakificationRound2;
       lookup PrecomposedformsforZnamennyNotation;
@@ -1674,14 +1773,17 @@ feature salt {
 
  script DFLT;
      language dflt ;
+      lookup saltStylisticAlternativesforSlavonic;
       lookup StylisticAlternativesforZnamennysalt;
 
  script cyrl;
      language dflt ;
+      lookup saltStylisticAlternativesforSlavonic;
       lookup StylisticAlternativesforZnamennysalt;
 
  script latn;
      language dflt ;
+      lookup saltStylisticAlternativesforSlavonic;
       lookup StylisticAlternativesforZnamennysalt;
 } salt;
 
@@ -1738,48 +1840,48 @@ feature ss04 {
 
 lookup DemestvennySpecificKerning {
   lookupflag IgnoreMarks;
-    @kc18_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
+    @kc21_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
 	\uniEAD0 \uniEAD8 \uniEADA \uniEADC \uniEB17 \uniEB1D \uniEB24 \uniEB27 
 	\uniEB33 \uniEB38 \uniEB3D \uniEB41 \uniEF72 \uniF4D8 \uniEF61 \uniEF6A 
 	\uniEF6E ];
-    @kc18_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
+    @kc21_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
 	\uniEAAD \uniEAAE \uniEAAF \uniEAB0 \uniEAB1 \uniEAB2 \uniEAB3 \uniEAB4 
 	\uniEAB6 \uniEAB7 \uniEAB8 \uniEAB9 \uniEABA \uniEABB \uniEABC \uniEABD 
 	\u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 
 	\u1CF69 \u1CF6A ];
-    @kc18_second_2 = [\u1CF5D ];
-    pos @kc18_first_1 @kc18_second_1 -140;
-    pos @kc18_first_1 @kc18_second_2 -125;
+    @kc21_second_2 = [\u1CF5D ];
+    pos @kc21_first_1 @kc21_second_1 -140;
+    pos @kc21_first_1 @kc21_second_2 -125;
 } DemestvennySpecificKerning;
 
 lookup kernss01OldstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc19_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
+    @kc22_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
 	\uniF41B \uniF4D6 \uniEFA1 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 
 	\uniF565 \uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniF59C 
 	\uniF5B6 \u1CF50 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
 	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D \u1CFA9 \u1CFAA ];
-    @kc19_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
+    @kc22_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEB33 \uniEB34 
 	\uniEB38 \uniEB39 \uniEB3A \uniEB3C \uniEB3D \uniEB3E \uniEB3F \uniEC12 
 	\uniEC17 \u1CF50 \u1CF54 \u1CF56 \u1CF59 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB ];
-    pos @kc19_first_1 @kc19_second_1 -140;
+    pos @kc22_first_1 @kc22_second_1 -140;
 } kernss01OldstyleDemestvennykerning;
 
 lookup kernss02NewstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc20_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
+    @kc23_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
 	\uniF41B \uniF4D6 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 \uniF565 
 	\uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniEF69 \uniEF98 
 	\uniEF99 \uniEF9A \uniEF9B \uniEF9C \uniF5D0 \uniEF6D \uniEF77 \uniF5EA 
 	\u1CF50 \u1CF52 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
 	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D ];
-    @kc20_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
+    @kc23_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEC12 \uniEC17 
 	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6C \uniEF6B \uniEF6D 
 	\uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \u1CF50 \u1CF54 \u1CF56 
 	\u1CF59 ];
-    pos @kc20_first_1 @kc20_second_1 -140;
+    pos @kc23_first_1 @kc23_second_1 -140;
 } kernss02NewstyleDemestvennykerning;
 
 lookup markBlackMarkPositioning {
@@ -6667,23 +6769,21 @@ feature mkmk {
 	\quotesinglbase \quotereversed \quotedblleft \quotedblright \quotedblbase 
 	\uni201F \dagger \daggerdbl \bullet \uni2023 \onedotenleader \twodotenleader 
 	\ellipsis \uni2027 \guilsinglleft \guilsinglright \afii10146 \afii10194 
-	\afii10147 \afii10195 \afii10148 \afii10196 \uni0400 \afii10023 \afii10051 
-	\afii10052 \afii10053 \afii10054 \afii10055 \afii10056 \afii10057 \afii10058 
-	\afii10059 \afii10060 \afii10061 \uni040D \afii10062 \afii10145 \afii10017 
-	\afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 \afii10025 
-	\afii10026 \afii10027 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 
+	\afii10147 \afii10195 \afii10148 \afii10196 \afii10051 \afii10053 \afii10054 
+	\afii10055 \afii10057 \afii10058 \afii10059 \afii10060 \afii10062 \afii10145 
+	\afii10017 \afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 
+	\afii10025 \afii10026 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 
 	\afii10033 \afii10034 \afii10035 \afii10036 \afii10037 \afii10038 \afii10039 
 	\afii10040 \afii10041 \afii10042 \afii10043 \afii10044 \afii10045 \afii10046 
 	\afii10048 \afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 
-	\afii10070 \afii10072 \afii10073 \afii10074 \afii10075 \afii10076 \afii10077 
-	\afii10078 \afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 
-	\afii10085 \afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 
-	\afii10092 \afii10093 \afii10094 \afii10096 \afii10097 \uni0450 \afii10071 
-	\afii10099 \afii10100 \afii10101 \afii10102 \afii10103 \afii10104 \afii10105 
-	\afii10106 \afii10107 \afii10108 \afii10109 \uni045D \afii10110 \afii10193 
-	\uni033E \gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
-	\uni0307 \uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E 
-	\uni030F \uni0310 \uni0311 \exclamdown \cent \sterling \yen \dieresis \copyright 
+	\afii10070 \afii10072 \afii10073 \afii10074 \afii10076 \afii10077 \afii10078 
+	\afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 \afii10085 
+	\afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 \afii10092 
+	\afii10093 \afii10094 \afii10096 \afii10097 \afii10099 \afii10101 \afii10102 
+	\afii10103 \afii10105 \afii10106 \afii10107 \afii10108 \afii10193 \uni033E 
+	\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 
+	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E \uni030F 
+	\uni0310 \uni0311 \exclamdown \cent \sterling \yen \dieresis \copyright 
 	\ordfeminine \guillemotleft \registered \plusminus \uni00B2 \uni00B3 \acute 
 	\uni00B5 \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright 
 	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
@@ -6713,20 +6813,18 @@ feature mkmk {
 	\uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B 
 	\dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro 
 	\minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 
-	\uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni0476 
-	\uni0477 \uni0478 \uni0479 \uni047A \uni047B \uni047C \uni047D \uni047E \uni047F 
-	\uni0482 \uni0488 \uni0489 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 \uni1C85 
-	\uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 \uniA64A 
-	\uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 \uniA657 
-	\uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D \uniA66E 
-	\uniA670 \uniA671 \uniA672 \uniA673 \uniA67D \uniA67E \uniA67F \uniA698 \uniA699 
-	\uniA69A \uniA69B \uniE0E0 \uniE0E1 \uniE0E2 \uniE0E3 \uniE0E4 \uniE0E5 \uniE0E6 
-	\uniE0E7 \uniE0E8 \uniE0E9 \uniE0EA \uniE0EB \uniE0EC \uniE0ED \uniE0EE \uniE0EF 
-	\uniE0F0 \uniE381 \uniE383 \uniE405 \uniE612 \uniE714 \uniE800 \uniE814 \uniE8E5 
-	\uniE8EB \uniE8F0 \uniE8E8 \uniE8E9 \uniE8EA \uniE8ED \uniE900 \uniE901 \uniE902 
-	\uniE904 \uniE906 \uniE907 \uniE90C \uniE90D \uniE90E \uniE920 \uniE921 \uniE922 
-	\uniE923 \uniE924 \uniE925 \uniE926 \uniE92A \uniE92B \uniE930 \uniE931 \u1F540 
-	\u1F541 \u1F542 \u1F543 \u1F544 \u1F545 ];
+	\uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A 
+	\uni047B \uni047E \uni047F \uni0482 \uni0488 \uni0489 \uni1C80 \uni1C81 \uni1C82 
+	\uni1C83 \uni1C84 \uni1C85 \uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 
+	\uniA640 \uniA641 \uniA64A \uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 
+	\uniA653 \uniA656 \uniA657 \uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B 
+	\uniA66C \uniA66D \uniA66E \uniA670 \uniA671 \uniA672 \uniA673 \uniA67D \uniA67E 
+	\uniA67F \uniA698 \uniA699 \uniA69A \uniA69B \uniA641.salt \uni0440.salt 
+	\uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 \uni0444.salt \uni0444.salt2 
+	\uni0445.salt \uni0445.salt2 \uni0445.salt3 \uni0446.salt \uni0449.salt 
+	\uni0463.salt \uni0471.salt \uni0471.salt2 \uni0443.salt \uni0434.salt 
+	\uni1C88.salt \uni0478.salt \uni0426.salt \uniE8E5 \uniE8ED \uniE902 \uniE907 
+	\uniE90C \uniE90D \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 \u1F545 ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
@@ -6774,53 +6872,58 @@ feature mkmk {
 	\uniF4DE \uniEC04 \uniEC05 \uniEC06 \uniEC07 \uniEC08 \uniEC09 \uniEC0A \uniEC0B 
 	\uniEC0C \uniEC0D \uniEC0E \uniEC0F \uniEC12 \uniEC1C \uniEC1D \uniEC1E \uniEC22 
 	\uniEC23 \uniEC24 \uniEC26 \uniEC27 \uniEC28 \uniEC29 \uniEC2A \uniEC2B \uniEC2C 
-	\uniEC2D \uniEC2E \uniEC2F \uniF41A \uniF60C \uniF60F \uniEAA0 \uniEAB7 \uniF5EA 
-	\uniF5EE \uniF63B \uniEB40 \uniEB41 \uniEB42 \uniEB43 \uniF638 \uniF639 \uniF63A 
-	\uniEFF4 \uniF50C \uniF510 \uniEB37 \uniF48F \uniF490 \uniF4FC \uniEFE4 \uniEFE6 
-	\uniEFE7 \uniEFE8 \uniEFE9 \uniEFEA \uniEFEB \uniEFF0 \uniEFF1 \uniF5F9 \uniF5FA 
-	\uniF608 \uniF607 \uniF613 \uniF402 \uniF403 \uniF404 \uniF405 \uniF406 \uniF407 
-	\uniF40B \uniF40C \uniF40D \uniF40E \uniF40F \uniF428 \uniF429 \uniF412 \uniF413 
-	\uniF414 \uniF415 \uniF416 \uniF417 \uniF41C \uniF41D \uniF41E \uniF41F \uniF420 
-	\uniF421 \uniF422 \uniF423 \uniF424 \uniF425 \uniF426 \uniF427 \uniF42C \uniF42D 
-	\uniF42E \uniF436 \uniF437 \uniF438 \uniF439 \uniF43A \uniF43B \uniF444 \uniF445 
-	\uniF446 \uniF447 \uniF448 \uniF449 \uniF450 \uniF451 \uniF44E \uniF44F \uniF454 
-	\uniF456 \uniF457 \uniF45A \uniF45F \uniF460 \uniF461 \uniF462 \uniF469 \uniF46A 
-	\uniF46D \uniF46E \uniF473 \uniF474 \uniF475 \uniF476 \uniF47D \uniF47E \uniF489 
-	\uniF48A \uniF48B \uniF48C \uniF491 \uniF492 \uniF493 \uniF494 \uniF499 \uniF49A 
-	\uniF49B \uniF49C \uniF4A1 \uniF4A2 \uniF4A3 \uniF4A4 \uniF4A9 \uniF4AA \uniF4AB 
-	\uniF4AC \uniF4B1 \uniF4B2 \uniF4B3 \uniF4B4 \uniF4B9 \uniF4BA \uniF4BB \uniF4BC 
-	\uniF4C1 \uniF4C2 \uniF4C3 \uniF4C4 \uniF4C6 \uniF4C8 \uniF4C9 \uniF4CA \uniF4CB 
-	\uniF4CC \uniF4CD \uniF4CE \uniF4CF \uniF4D3 \uniF4D7 \uniF4D9 \uniF4DB \uniF4DF 
-	\uniF4E2 \uniF4E3 \uniF4E4 \uniF4E5 \uniF4E6 \uniF4E7 \uniF4E8 \uniF4E9 \uniF4EC 
-	\uniF4ED \uniF4EE \uniF4EF \uniF4F0 \uniF4F1 \uniF4F4 \uniF4F5 \uniF4F8 \uniF4F9 
-	\uniF4FD \uniF4FE \uniF4FF \uniF500 \uniF501 \uniF505 \uniF506 \uniF507 \uniF508 
-	\uniF509 \uniF50D \uniF511 \uniF516 \uniF517 \uniF518 \uniF519 \uniF51A \uniF51B 
-	\uniF51C \uniF51D \uniF51E \uniF51F \uniF520 \uniF521 \uniF522 \uniF523 \uniF524 
-	\uniF525 \uniF526 \uniF527 \uniF528 \uniF529 \uniF52A \uniF52B \uniF52C \uniF52D 
-	\uniF52E \uniF52F \uniF530 \uniF531 \uniF53A \uniF53B \uniF53C \uniF53D \uniF546 
-	\uniF547 \uniF548 \uniF549 \uniF54E \uniF54F \uniF550 \uniF551 \uniF556 \uniF557 
-	\uniF55C \uniF55D \uniF560 \uniF561 \uniF566 \uniF567 \uniF568 \uniF569 \uniF56C 
-	\uniF56D \uniF56E \uniF56F \uniF576 \uniF577 \uniF578 \uniF579 \uniF582 \uniF583 
-	\uniF58B \uniF58C \uniF58D \uniF58E \uniF58F \uniF590 \uniF591 \uniF599 \uniF59D 
-	\uniF59E \uniF59F \uniF5A0 \uniF5A1 \uniF5A2 \uniF5A3 \uniF5A4 \uniF5A5 \uniF5A6 
-	\uniF5A7 \uniF5A8 \uniF5A9 \uniF5AA \uniF5AB \uniF5AC \uniF5AD \uniF5AE \uniF5AF 
-	\uniF5B0 \uniF5B1 \uniF5B2 \uniF5B3 \uniF5B7 \uniF5BB \uniF5BF \uniF5C0 \uniF5C1 
-	\uniF5C2 \uniF5C3 \uniF5C4 \uniF5C5 \uniF5CD \uniF5D1 \uniF5D2 \uniF5D3 \uniF5D4 
-	\uniF5D5 \uniF5D6 \uniF5D7 \uniF5D8 \uniF5D9 \uniF5DA \uniF5DB \uniF5DC \uniF5DD 
-	\uniF5DE \uniF5DF \uniF5E0 \uniF5E1 \uniF5E2 \uniF5E3 \uniF5E4 \uniF5E5 \uniF5E6 
-	\uniF5E7 \uniF5EB \uniF5EF \uniEFF3 \uniEFF5 \uniEFF6 \uniEFF7 \uniEFF8 \uniEFF9 
-	\uniEFFA \uniEFFB \uniEB35 \uniEB36 \uniEB49 \uniF455 \uniF46B \uniF46C \uniF5FE 
-	\uniF5FD \uniF603 \uniF622 \uniF623 \uniF624 \uniF625 \uniF626 \uniF627 \uniF628 
-	\uniF629 \uniF62A \uniF62B \uniF62C \uniF62D \uniF62E \uniEB4D \uniEB4E \uniF631 
-	\uniF632 \uniF633 \uniF634 \uniF635 \uniF63D \uniF63E \uniF63F \uniF640 \uniF641 
-	\uniF642 \uniF643 \uniF644 \uniF645 \uniF646 \uniF647 \uniF648 \uniF649 \uniF64A 
-	\uniF64B \uniF64C \uniF64D \uniF64E \uniF64F \uniF650 \uniF651 \uniF652 \uniF653 
-	\uniF654 \uniF655 \uniF656 \uniF657 \uniF658 \uniF659 \uniF65A \uniF65B \uniF65C 
-	\uniF65D \uniF65E \uniF65F \uniF660 \uniF661 \uniF662 \uniF663 \uniF664 \uniF665 
-	\uniF666 \uniF667 \uniF668 \uniF669 \uniF66A \uniF66B \uniF66C \uniF66D \uniF66E 
-	\uniF66F \uniF670 \uniF671 \uniF672 \uniF673 \uniF676 \uniF677 \uniF678 \uniF679 
-	\uniF67A \uniF67B \uniF67C \uniF67D \uniF67E \uniF67F \uniF602 \uniEBF7 \uniEBF8 
-	\uniEBF9 \uniEBF1 \uniEBD0 ];
+	\uniEC2D \uniEC2E \uniEC2F \uniF41A \uniF60C \uniF60F \uniEAA0 \uniEAB7 \uni0400 
+	\afii10023 \afii10052 \afii10056 \afii10061 \uni040D \afii10027 \afii10075 
+	\uni0450 \afii10071 \afii10100 \afii10104 \afii10109 \uni045D \afii10110 
+	\uniF5EA \uniF5EE \uniF63B \uniEB40 \uniEB41 \uniEB42 \uniEB43 \uniF638 \uniF639 
+	\uniF63A \uniEFF4 \uniF50C \uniF510 \uniEB37 \uniF48F \uniF490 \uniF4FC \uniEFE4 
+	\uniEFE6 \uniEFE7 \uniEFE8 \uniEFE9 \uniEFEA \uniEFEB \uniEFF0 \uniEFF1 \uniF5F9 
+	\uniF5FA \uniF608 \uniF607 \uniF613 \uniF402 \uniF403 \uniF404 \uniF405 \uniF406 
+	\uniF407 \uniF40B \uniF40C \uniF40D \uniF40E \uniF40F \uniF428 \uniF429 \uniF412 
+	\uniF413 \uniF414 \uniF415 \uniF416 \uniF417 \uniF41C \uniF41D \uniF41E \uniF41F 
+	\uniF420 \uniF421 \uniF422 \uniF423 \uniF424 \uniF425 \uniF426 \uniF427 \uniF42C 
+	\uniF42D \uniF42E \uniF436 \uniF437 \uniF438 \uniF439 \uniF43A \uniF43B \uniF444 
+	\uniF445 \uniF446 \uniF447 \uniF448 \uniF449 \uniF450 \uniF451 \uniF44E \uniF44F 
+	\uniF454 \uniF456 \uniF457 \uniF45A \uniF45F \uniF460 \uniF461 \uniF462 \uniF469 
+	\uniF46A \uniF46D \uniF46E \uniF473 \uniF474 \uniF475 \uniF476 \uniF47D \uniF47E 
+	\uniF489 \uniF48A \uniF48B \uniF48C \uniF491 \uniF492 \uniF493 \uniF494 \uniF499 
+	\uniF49A \uniF49B \uniF49C \uniF4A1 \uniF4A2 \uniF4A3 \uniF4A4 \uniF4A9 \uniF4AA 
+	\uniF4AB \uniF4AC \uniF4B1 \uniF4B2 \uniF4B3 \uniF4B4 \uniF4B9 \uniF4BA \uniF4BB 
+	\uniF4BC \uniF4C1 \uniF4C2 \uniF4C3 \uniF4C4 \uniF4C6 \uniF4C8 \uniF4C9 \uniF4CA 
+	\uniF4CB \uniF4CC \uniF4CD \uniF4CE \uniF4CF \uniF4D3 \uniF4D7 \uniF4D9 \uniF4DB 
+	\uniF4DF \uniF4E2 \uniF4E3 \uniF4E4 \uniF4E5 \uniF4E6 \uniF4E7 \uniF4E8 \uniF4E9 
+	\uniF4EC \uniF4ED \uniF4EE \uniF4EF \uniF4F0 \uniF4F1 \uniF4F4 \uniF4F5 \uniF4F8 
+	\uniF4F9 \uniF4FD \uniF4FE \uniF4FF \uniF500 \uniF501 \uniF505 \uniF506 \uniF507 
+	\uniF508 \uniF509 \uniF50D \uniF511 \uniF516 \uniF517 \uniF518 \uniF519 \uniF51A 
+	\uniF51B \uniF51C \uniF51D \uniF51E \uniF51F \uniF520 \uniF521 \uniF522 \uniF523 
+	\uniF524 \uniF525 \uniF526 \uniF527 \uniF528 \uniF529 \uniF52A \uniF52B \uniF52C 
+	\uniF52D \uniF52E \uniF52F \uniF530 \uniF531 \uniF53A \uniF53B \uniF53C \uniF53D 
+	\uniF546 \uniF547 \uniF548 \uniF549 \uniF54E \uniF54F \uniF550 \uniF551 \uniF556 
+	\uniF557 \uniF55C \uniF55D \uniF560 \uniF561 \uniF566 \uniF567 \uniF568 \uniF569 
+	\uniF56C \uniF56D \uniF56E \uniF56F \uniF576 \uniF577 \uniF578 \uniF579 \uniF582 
+	\uniF583 \uniF58B \uniF58C \uniF58D \uniF58E \uniF58F \uniF590 \uniF591 \uniF599 
+	\uniF59D \uniF59E \uniF59F \uniF5A0 \uniF5A1 \uniF5A2 \uniF5A3 \uniF5A4 \uniF5A5 
+	\uniF5A6 \uniF5A7 \uniF5A8 \uniF5A9 \uniF5AA \uniF5AB \uniF5AC \uniF5AD \uniF5AE 
+	\uniF5AF \uniF5B0 \uniF5B1 \uniF5B2 \uniF5B3 \uniF5B7 \uniF5BB \uniF5BF \uniF5C0 
+	\uniF5C1 \uniF5C2 \uniF5C3 \uniF5C4 \uniF5C5 \uniF5CD \uniF5D1 \uniF5D2 \uniF5D3 
+	\uniF5D4 \uniF5D5 \uniF5D6 \uniF5D7 \uniF5D8 \uniF5D9 \uniF5DA \uniF5DB \uniF5DC 
+	\uniF5DD \uniF5DE \uniF5DF \uniF5E0 \uniF5E1 \uniF5E2 \uniF5E3 \uniF5E4 \uniF5E5 
+	\uniF5E6 \uniF5E7 \uniF5EB \uniF5EF \uniEFF3 \uniEFF5 \uniEFF6 \uniEFF7 \uniEFF8 
+	\uniEFF9 \uniEFFA \uniEFFB \uniEB35 \uniEB36 \uniEB49 \uniF455 \uniF46B \uniF46C 
+	\uniF5FE \uniF5FD \uniF603 \uniF622 \uniF623 \uniF624 \uniF625 \uniF626 \uniF627 
+	\uniF628 \uniF629 \uniF62A \uniF62B \uniF62C \uniF62D \uniF62E \uniEB4D \uniEB4E 
+	\uniF631 \uniF632 \uniF633 \uniF634 \uniF635 \uniF63D \uniF63E \uniF63F \uniF640 
+	\uniF641 \uniF642 \uniF643 \uniF644 \uniF645 \uniF646 \uniF647 \uniF648 \uniF649 
+	\uniF64A \uniF64B \uniF64C \uniF64D \uniF64E \uniF64F \uniF650 \uniF651 \uniF652 
+	\uniF653 \uniF654 \uniF655 \uniF656 \uniF657 \uniF658 \uniF659 \uniF65A \uniF65B 
+	\uniF65C \uniF65D \uniF65E \uniF65F \uniF660 \uniF661 \uniF662 \uniF663 \uniF664 
+	\uniF665 \uniF666 \uniF667 \uniF668 \uniF669 \uniF66A \uniF66B \uniF66C \uniF66D 
+	\uniF66E \uniF66F \uniF670 \uniF671 \uniF672 \uniF673 \uniF676 \uniF677 \uniF678 
+	\uniF679 \uniF67A \uniF67B \uniF67C \uniF67D \uniF67E \uniF67F \uniF602 \uniEBF7 
+	\uniEBF8 \uniEBF9 \uniEBF1 \uniEBD0 \uni0476 \uni0477 \uni0478 \uni0479 \uni047C 
+	\uni047D \uniE612 \uniE714 \uniE800 \uniE814 \uniE8EB \uniE8F0 \uniE8E8 \uniE8E9 
+	\uniE8EA \uniE900 \uniE901 \uniE904 \uniE906 \uniE90E \uniE920 \uniE921 \uniE922 
+	\uniE923 \uniE924 \uniE925 \uniE926 \uniE92A \uniE92B \uniE930 \uniE931 ];
 @GDEF_Mark = [\uni034F \u1CF00.ss04 \u1CF01.ss04 \u1CF02.ss04 \u1CF03.ss04 
 	\u1CF04.ss04 \u1CF05.ss04 \u1CF06.ss04 \u1CF07.ss04 \u1CF08.ss04 \u1CF09.ss04 
 	\u1CF0A.ss04 \u1CF0B.ss04 \u1CF19.ss04 \u1CF1B.ss04 \u1CF1D.ss04 \uniEE50 

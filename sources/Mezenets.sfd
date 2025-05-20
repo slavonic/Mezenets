@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1747157181
+ModificationTime: 1747736527
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,6 +44,8 @@ HheadDescent: -402
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Support for deprecated mappings (ccmp)" { "Support for deprecated mappings (ccmp)-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition for Slavonic" { "'ccmp' Glyph Composition/Decomposition for Slavonic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Secondary Ligatures for Slavonic" { "'ccmp' Secondary Ligatures for Slavonic 1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Znamenny Priznakification" { "Znamenny Priznakification-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Znamenny Priznakification Round 2" { "Znamenny Priznakification Round 2-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Precomposed forms for Znamenny Notation" { "Precomposed forms for Znamenny Notation-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -52,6 +54,7 @@ Lookup: 4 0 0 "Precomposed forms for Znamenny Round 3" { "Precomposed forms for 
 Lookup: 4 8 0 "'ccmp' Znamenny Ligatures" { "'ccmp' Znamenny Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Post-composition Priznakification" { "Post-composition Priznakification-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Medial Form of Ravno" { "'ccmp' Medial Form of Ravno-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'salt' Stylistic Alternatives for Slavonic" { "'salt' Stylistic Alternatives for Slavonic-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "Stylistic Alternatives for Znamenny (salt)" { "Stylistic Alternatives for Znamenny (salt)-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Kalashnikov Mechik Variants" { "'ss02' Kalashnikov Mechik Variants-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) 'ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 8 0 "'ss03' Contextual Demestvenny Contraction" { "'ss03' Contextual Demestvenny Contraction-1"  "'ss03' Contextual Demestvenny Contraction-3"  "'ss03' Contextual Demestvenny Contraction-2"  } ['ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -1044,12 +1047,13 @@ EndShort
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL." "http://scripts.sil.org/OFL"
 GaspTable: 3 8 10 16 9 65535 15 1
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 128250 38 13
+WinInfo: 304 38 13
 BeginPrivate: 8
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -65619,6 +65623,7 @@ SplineSet
  381 30 l 1
  377.900017119 53.7203292105 361.780787088 162.563893341 337 164 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0463.salt
 EndChar
 
 StartChar: afii10147
@@ -65838,6 +65843,7 @@ SplineSet
  219.927897828 19.7527872964 269.579294469 81.4723093743 341 108 c 0
  358 115 375 118 392 118 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10022 gravecomb
 EndChar
 
 StartChar: afii10023
@@ -65906,6 +65912,7 @@ SplineSet
  219.927897828 19.7527872964 269.579294469 81.4723093743 341 108 c 0
  358 115 375 118 392 118 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10022 dieresis
 EndChar
 
 StartChar: afii10051
@@ -66010,6 +66017,7 @@ SplineSet
  298.5 -455 l 1
  56.5 -455 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10020 acutecomb
 EndChar
 
 StartChar: afii10053
@@ -66200,6 +66208,7 @@ SplineSet
  300 -455 l 1
  58 -455 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10055 dieresis
 EndChar
 
 StartChar: afii10057
@@ -66472,6 +66481,7 @@ SplineSet
  317 -455 l 1
  75 -455 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10028 acutecomb
 EndChar
 
 StartChar: uni040D
@@ -66521,6 +66531,7 @@ SplineSet
  315 495 l 1
  259 495 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10026 gravecomb
 EndChar
 
 StartChar: afii10062
@@ -67147,6 +67158,7 @@ SplineSet
  315 495 l 1
  259 495 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10026 uni0306
 EndChar
 
 StartChar: afii10028
@@ -67694,6 +67706,7 @@ SplineSet
  315 495 l 1
  259 495 l 1xe8
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0426.salt
 EndChar
 
 StartChar: afii10041
@@ -68233,6 +68246,7 @@ SplineSet
  269 30 l 1
  267 44 l 2
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0434.salt
 EndChar
 
 StartChar: afii10070
@@ -68479,6 +68493,7 @@ SplineSet
  445 437 445 437 444 436 c 0
  432 421 423 401 418 378 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10074 uni0306
 EndChar
 
 StartChar: afii10076
@@ -68736,6 +68751,7 @@ SplineSet
  180 277 172 274 165 268 c 0
  163 265 161 261 159 254 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0440.salt
 EndChar
 
 StartChar: afii10083
@@ -68838,6 +68854,7 @@ SplineSet
  157.03946854 -434.114416244 165.544044753 -405.580383129 174.056002844 -370.000003648 c 0
  196.954215183 -274.284414386 219.905848406 -127.576103678 234 0 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0443.salt
 EndChar
 
 StartChar: afii10086
@@ -68892,6 +68909,7 @@ SplineSet
  460 33 509 71 533 121 c 0
  542 140 546 160 546 182 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0444.salt uni0444.salt2
 EndChar
 
 StartChar: afii10087
@@ -68935,6 +68953,7 @@ SplineSet
  466 429 448 410 431 392 c 0
  415.151340981 375.12884685 391.982457141 348.318714284 376 335 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0445.salt uni0445.salt2 uni0445.salt3
 EndChar
 
 StartChar: afii10088
@@ -68973,6 +68992,7 @@ SplineSet
  177 322 165 172 165 30 c 1
  308.001 30 l 1xe8
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0446.salt
 EndChar
 
 StartChar: afii10089
@@ -69083,6 +69103,7 @@ SplineSet
  616 393 610 347 602 288 c 0
  598 258 597 230 597 195 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0449.salt
 EndChar
 
 StartChar: afii10092
@@ -69306,6 +69327,7 @@ SplineSet
  -34 739 l 1
  -34 747 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10070 gravecomb
 EndChar
 
 StartChar: afii10071
@@ -69354,6 +69376,7 @@ SplineSet
  309 589 l 1
  309 580 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10070 dieresis
 EndChar
 
 StartChar: afii10099
@@ -69466,6 +69489,7 @@ SplineSet
  107 580 l 1
  299 874 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10068 acutecomb
 EndChar
 
 StartChar: afii10101
@@ -69630,6 +69654,7 @@ SplineSet
  331 589 l 1
  331 580 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10103 dieresis
 EndChar
 
 StartChar: afii10105
@@ -69890,6 +69915,7 @@ SplineSet
  184 580 l 1
  376 874 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10076 acutecomb
 EndChar
 
 StartChar: uni045D
@@ -69935,6 +69961,7 @@ SplineSet
  87 739 l 1
  87 747 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10074 gravecomb
 EndChar
 
 StartChar: afii10110
@@ -69986,6 +70013,7 @@ SplineSet
  343 797 327 784 315 768 c 0
  310 762 302 749 302 738 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10085 uni0306
 EndChar
 
 StartChar: afii10193
@@ -100297,6 +100325,7 @@ SplineSet
  474 555 506 576 519 576 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DE2 uni0487
 LCarets2: 1 0
 Ligature2: "Znamenny Priznakification-1" u1CF75 u1CF45
 Colour: 1fffa1
@@ -100365,6 +100394,7 @@ SplineSet
  474 555 506 576 519 576 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DE6 uni0487
 LCarets2: 1 0
 Ligature2: "Znamenny Priznakification-1" u1CF75 u1CF46
 Colour: 1fffa1
@@ -100444,6 +100474,7 @@ SplineSet
  474 554.999023438 506 575.999023438 519 576 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DE7 uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD0 u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4E2 u1CF3E
@@ -100516,6 +100547,7 @@ SplineSet
  474 555 506 576 519 576 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DE9 uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD0 u1CF46
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4E3 u1CF3E
@@ -100609,6 +100641,7 @@ SplineSet
  505 152 l 1xf0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DEA uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD2 u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4E2 u1CF3F
@@ -100691,6 +100724,7 @@ SplineSet
  505 152 l 1xf0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DEB uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD2 u1CF46
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4E3 u1CF3F
@@ -100780,6 +100814,7 @@ SplineSet
  474 555 506 576 519 576 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DEC uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD1 u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4E2 u1CF40
@@ -100858,6 +100893,7 @@ SplineSet
  474 555 506 576 519 576 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DED uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD1 u1CF46
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4E3 u1CF40
@@ -100947,6 +100983,7 @@ SplineSet
  -17 11 -13 0 -4 -10 c 0
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DF2 uni0487
 LCarets2: 1 0
 Ligature2: "Znamenny Priznakification-1" u1CF76 u1CF45
 Colour: 1fffa1
@@ -101025,6 +101062,7 @@ SplineSet
  437 272 l 1
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DF3 uni0487
 LCarets2: 1 0
 Ligature2: "Znamenny Priznakification-1" u1CF76 u1CF46
 Colour: 1fffa1
@@ -101114,6 +101152,7 @@ SplineSet
  237 32 l 1
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DF5 uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD8 u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4EC u1CF3E
@@ -101196,6 +101235,7 @@ SplineSet
  237 32 l 1
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DFC uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD8 u1CF46
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4ED u1CF3E
@@ -101296,6 +101336,7 @@ SplineSet
  367 151 l 1
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DFD uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD9 u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4EC u1CF40
@@ -101384,6 +101425,7 @@ SplineSet
  367 151 l 1
 EndSplineSet
 Validated: 3073
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni2DF7 uni0487
 LCarets2: 1 0
 Ligature2: "Post-composition Priznakification-1" uniEAD9 u1CF46
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4ED u1CF40
@@ -124893,6 +124935,7 @@ SplineSet
  715.627086732 331.078166282 706.726636576 310.643010549 696.001 288 c 1
  687.001 288 l 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0471.salt uni0471.salt
 EndChar
 
 StartChar: uni0476
@@ -124942,6 +124985,7 @@ SplineSet
  381 -455 l 1
  148 -455 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10148 uni030F
 EndChar
 
 StartChar: uni0477
@@ -124988,6 +125032,7 @@ SplineSet
  282.999 790.998 l 1
  369.999 839.998 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10196 uni030F
 EndChar
 
 StartChar: uni0478
@@ -125050,6 +125095,8 @@ SplineSet
  485 -376 457 -408 426 -431 c 0
  395 -454 360 -465.002 323 -465.002 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni0478.salt
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10032 afii10085
 EndChar
 
 StartChar: uni0479
@@ -125107,6 +125154,8 @@ SplineSet
  122 152 130 149 139 149 c 0
  146 149 153 150 161 154 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni1C82 afii10085
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10080 afii10085
 EndChar
 
 StartChar: uni047A
@@ -125251,6 +125300,7 @@ SplineSet
  478.766 626.239 464.469 616.036 450.004 606.001 c 1
  444.671 608.668 440.338 612.001 437.005 616.001 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniA64C uniE005
 EndChar
 
 StartChar: uni047D
@@ -125321,6 +125371,7 @@ SplineSet
  336.61 383.217 318.317 355.755 299.001 329.999 c 1
  275.823 342.747 232.792 362.052 205.001 368.999 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniA64D uniE005
 EndChar
 
 StartChar: uni047E
@@ -126333,6 +126384,7 @@ SplineSet
  188.592773438 -202.3046875 177.896484375 -206.240234375 175 -199 c 0
  147.922851562 -147.969726562 129.799804688 -87.775390625 129.799804688 -11.6796875 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uni1C88.salt
 EndChar
 
 StartChar: uni2DE0
@@ -127687,6 +127739,7 @@ SplineSet
  336 407 l 1
  336 366 l 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uniA641.salt
 EndChar
 
 StartChar: uniA64A
@@ -127788,6 +127841,7 @@ SplineSet
  289.995 145 284 171 272 193 c 0
  260 214 245 237 227 260 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives for Slavonic-1" uniA64B.salt uniA64B.salt2 uniA64B.salt3
 EndChar
 
 StartChar: uniA64C
@@ -129845,6 +129899,7 @@ SplineSet
  -97 857 l 1
  -93.3496290327 857.349629033 -90.1469261377 858.146926138 -86 858 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni0486 acutecomb
 EndChar
 
 StartChar: uniE003
@@ -129876,6 +129931,7 @@ SplineSet
  -458.666666667 646.666666667 -463.666666667 650.666666667 -467 658 c 5
  -436.498094276 697.968014397 -379.587095037 749 -316 749 c 4
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni0486 gravecomb
 EndChar
 
 StartChar: uniE005
@@ -129915,9 +129971,10 @@ SplineSet
  -373.611 868.931 -384.364 826.465 -389.11 779.029 c 1
  -417.236 767.778 -461.779 757.566 -497.11 756.029 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni0486 uni0308
 EndChar
 
-StartChar: uniE0E0
+StartChar: uniA641.salt
 Encoding: 57568 57568 2381
 Width: 600
 Flags: W
@@ -129961,7 +130018,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E1
+StartChar: uni0440.salt
 Encoding: 57569 57569 2382
 Width: 340
 Flags: W
@@ -129997,7 +130054,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E2
+StartChar: uniA64B.salt
 Encoding: 57570 57570 2383
 Width: 461
 Flags: W
@@ -130041,7 +130098,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E3
+StartChar: uniA64B.salt2
 Encoding: 57571 57571 2384
 Width: 460
 Flags: W
@@ -130082,7 +130139,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E4
+StartChar: uniA64B.salt3
 Encoding: 57572 57572 2385
 Width: 461
 Flags: W
@@ -130119,7 +130176,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E5
+StartChar: uni0444.salt
 Encoding: 57573 57573 2386
 Width: 705
 Flags: W
@@ -130169,7 +130226,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E6
+StartChar: uni0444.salt2
 Encoding: 57574 57574 2387
 Width: 705
 Flags: W
@@ -130221,7 +130278,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E7
+StartChar: uni0445.salt
 Encoding: 57575 57575 2388
 Width: 474
 Flags: W
@@ -130262,7 +130319,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E8
+StartChar: uni0445.salt2
 Encoding: 57576 57576 2389
 Width: 474
 Flags: W
@@ -130303,7 +130360,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E9
+StartChar: uni0445.salt3
 Encoding: 57577 57577 2390
 Width: 474
 Flags: W
@@ -130344,7 +130401,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EA
+StartChar: uni0446.salt
 Encoding: 57578 57578 2391
 Width: 488
 Flags: W
@@ -130383,7 +130440,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EB
+StartChar: uni0449.salt
 Encoding: 57579 57579 2392
 Width: 664
 Flags: W
@@ -130429,7 +130486,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EC
+StartChar: uni0463.salt
 Encoding: 57580 57580 2393
 Width: 590
 Flags: W
@@ -130477,7 +130534,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0ED
+StartChar: uni0471.salt
 Encoding: 57581 57581 2394
 Width: 791
 Flags: W
@@ -130528,7 +130585,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EE
+StartChar: uni0471.salt2
 Encoding: 57582 57582 2395
 Width: 791
 Flags: HW
@@ -130578,7 +130635,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EF
+StartChar: uni0443.salt
 Encoding: 57583 57583 2396
 Width: 461
 Flags: W
@@ -130612,7 +130669,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0F0
+StartChar: uni0434.salt
 Encoding: 57584 57584 2397
 Width: 462
 Flags: W
@@ -130651,7 +130708,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE381
+StartChar: uni1C88.salt
 Encoding: 58241 58241 2398
 Width: 541
 Flags: W
@@ -130707,7 +130764,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE383
+StartChar: uni0478.salt
 Encoding: 58243 58243 2399
 Width: 1271
 Flags: W
@@ -130779,7 +130836,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE405
+StartChar: uni0426.salt
 Encoding: 58373 58373 2400
 Width: 700
 Flags: W
@@ -130894,6 +130951,7 @@ SplineSet
  186.597269443 259.402730557 168.472750074 230.192375824 151 201 c 0
  141.938274168 185.86023637 130.667 163.173191817 130.667 143.444 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10065 uni200D afii10085
 EndChar
 
 StartChar: uniE714
@@ -130952,6 +131010,7 @@ SplineSet
  208.182003347 190.961435747 160.365949189 106.785518703 143 79 c 0
  138.538228819 70.0764576375 133.164419995 59.0863398785 133.164419995 48.8089217697 c 0xd8
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10077 uni200D afii10085
 EndChar
 
 StartChar: uniE800
@@ -131006,6 +131065,7 @@ SplineSet
  258.901879334 191.294362003 247.670526695 241.21964887 218 261 c 1
  215 259 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10084 uni200D afii10067
 EndChar
 
 StartChar: uniE814
@@ -131068,6 +131128,7 @@ SplineSet
  190.237468593 -8.60311378031 192.27059981 -45.9059872008 192.27059981 -95.3544237587 c 0
  192.27059981 -123.256582651 191.623254666 -155.025865931 190 -192 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10084 uni200D afii10082
 EndChar
 
 StartChar: uniE8E5
@@ -131178,6 +131239,7 @@ SplineSet
  145 771 126 745.666992188 126 695 c 1
  44 695 l 1xe5
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uniA64B uni0308
 EndChar
 
 StartChar: uniE8F0
@@ -131242,6 +131304,7 @@ SplineSet
  462 647 l 1
  397 647 l 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniA64B uniE001
 EndChar
 
 StartChar: uniE8E8
@@ -131299,6 +131362,7 @@ SplineSet
  161.666666667 166.833333333 155 140 155 110 c 4
  155 65.8098434874 174.593103417 22 219 22 c 4
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uniA64B uni0486
 EndChar
 
 StartChar: uniE8E9
@@ -131353,6 +131417,7 @@ SplineSet
  158 627 l 1
  350 921 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uniA64B acutecomb
 EndChar
 
 StartChar: uniE8EA
@@ -131407,6 +131472,7 @@ SplineSet
  -126 789 l 1
  -126 797 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uniA64B gravecomb
 EndChar
 
 StartChar: uniE8ED
@@ -131518,6 +131584,7 @@ SplineSet
  381 30 l 1
  377.900272502 53.719939317 361.780538363 162.563447051 337 164 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10194 uni0486
 EndChar
 
 StartChar: uniE901
@@ -131573,6 +131640,7 @@ SplineSet
  506 627 l 1
  698 921 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10194 acutecomb
 EndChar
 
 StartChar: uniE902
@@ -131683,6 +131751,7 @@ SplineSet
  -181 671 l 1
  -181 679 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10194 gravecomb
 EndChar
 
 StartChar: uniE906
@@ -131737,6 +131806,7 @@ SplineSet
  617.666992188 767 602 741.666992188 602 691 c 1
  520 691 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10194 uni0311
 EndChar
 
 StartChar: uniE907
@@ -131975,6 +132045,8 @@ SplineSet
  401 640 l 1
  336 640 l 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" afii10194 uniE001
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniE900 acutecomb
 EndChar
 
 StartChar: uniE920
@@ -132004,6 +132076,7 @@ SplineSet
  -74 841 l 1
  -74 849 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10103 gravecomb
 EndChar
 
 StartChar: uniE921
@@ -132033,6 +132106,7 @@ SplineSet
  104 627 l 5
  296 921 l 5
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10103 acutecomb
 EndChar
 
 StartChar: uniE922
@@ -132064,6 +132138,7 @@ SplineSet
  176 -0 138.719726562 -2 120 -2 c 24
  94.6494140625 -2 62.999 -0 62.999 -0 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10103 uni0486
 EndChar
 
 StartChar: uniE923
@@ -132104,6 +132179,8 @@ SplineSet
  37.0454469186 764 13.2857426194 737.420198068 -6 717 c 1
  -13.268665102 720.634332551 -19.0676132617 723.669033155 -22 731 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" afii10103 uniE001
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniE922 acutecomb
 EndChar
 
 StartChar: uniE924
@@ -132132,6 +132209,7 @@ SplineSet
  127.666666667 767 112 741.666666667 112 691 c 1
  30 691 l 1xf4
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10103 uni0308
 EndChar
 
 StartChar: uniE925
@@ -132169,6 +132247,7 @@ SplineSet
  93 638 l 1
  -7 638 l 1xf4
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" afii10103 uni0483
 EndChar
 
 StartChar: uniE926
@@ -132208,6 +132287,8 @@ SplineSet
  176 -0 138.719726562 -2 120 -2 c 24
  94.6494140625 -2 62.999 -0 62.999 -0 c 1xf0
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" afii10103 uniE003
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniE922 gravecomb
 EndChar
 
 StartChar: uniE92A
@@ -132285,6 +132366,7 @@ SplineSet
  1243.66666667 840 1248.66666667 837.666666667 1252 835 c 1
  1252 824 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni047E acutecomb
 EndChar
 
 StartChar: uniE92B
@@ -132355,6 +132437,7 @@ SplineSet
  686 645 l 1
  878 939 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition for Slavonic-1" uni047F acutecomb
 EndChar
 
 StartChar: uniE930
@@ -132422,6 +132505,7 @@ SplineSet
  412.0078125 859 l 1
  773.0078125 752 l 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniA64C uniE003
 EndChar
 
 StartChar: uniE931
@@ -132485,6 +132569,7 @@ SplineSet
  462.008 849 l 1
  823.008 742 l 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures for Slavonic 1" uniA64D uniE003
 EndChar
 
 StartChar: uniE9F0
