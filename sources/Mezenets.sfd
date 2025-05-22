@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1747897475
+ModificationTime: 1747916904
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,8 @@ Lookup: 6 0 0 "'ccmp' Medial Form of Ravno" { "'ccmp' Medial Form of Ravno-1"  }
 Lookup: 3 0 0 "'salt' Stylistic Alternatives for Slavonic" { "'salt' Stylistic Alternatives for Slavonic-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "Stylistic Alternatives for Znamenny (salt)" { "Stylistic Alternatives for Znamenny (salt)-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Kalashnikov Mechik Variants" { "'ss02' Kalashnikov Mechik Variants-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) 'ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 8 0 "'ss03' Contextual Demestvenny Contraction" { "'ss03' Contextual Demestvenny Contraction-1"  "'ss03' Contextual Demestvenny Contraction-3"  "'ss03' Contextual Demestvenny Contraction-2"  } ['ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "Contextual Pre-Contraction" { "Contextual Pre-Contraction-1"  } ['ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 8 0 "'ss03' Contextual Demestvenny Contraction" { "'ss03' Contextual Demestvenny Contraction-1"  } ['ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss04' Style Set 4 Black Marks" { "'ss04' Style Set 4 Black Marks-1" ("ss04") } ['ss04' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Demestvenny Contracted Variants" { "Demestvenny Contracted Variants-1"  } []
 Lookup: 1 0 0 "Ravno Lookup" { "Ravno Lookup-1"  } []
@@ -87,9 +88,12 @@ KernClass2: 2 2 "'kern' Demestvenny kerning - Oldstyle"
  312 uniEA76 uniEB26 uniEB2D uniEB30 uniEB3C uniF400 uniF401 uniF40A uniF41A uniF41B uniF4D6 uniEFA1 uniF4FC uniF504 uniF544 uniF545 uniF564 uniF565 uniF56A uniF56B uniF570 uniF571 uniF57C uniF57D uniF59C uniF5B6 u1CF50 u1CF53 u1CF54 u1CF55 u1CF72 u1CF75 u1CF76 u1CF79 u1CF7A u1CF96 u1CF98 u1CF9B u1CF9D u1CFA9 u1CFAA
  263 uniEA60 uniEA61 uniEA62 uniEA6C uniEA6D uniEA6E uniEA6F uniEA7D uniEA7E uniEA7F uniEA81 uniEA82 uniEA83 uniEA85 uniEA86 uniEB33 uniEB34 uniEB38 uniEB39 uniEB3A uniEB3C uniEB3D uniEB3E uniEB3F uniEC12 uniEC17 u1CF50 u1CF54 u1CF56 u1CF59 u1CFA7 u1CFA9 u1CFAA u1CFAB
  0 {} 0 {} 0 {} -140 {}
-ChainSub2: class "'ss03' Contextual Demestvenny Contraction-3" 0 0 0 0
-EndFPST
-ChainSub2: class "'ss03' Contextual Demestvenny Contraction-2" 0 0 0 0
+ChainSub2: glyph "Contextual Pre-Contraction-1" 0 0 0 1
+ String: 7 uniEAD0
+ BString: 0
+ FString: 6 u1CF7B
+ 1
+  SeqLookup: 0 "Omet Removal"
 EndFPST
 ChainSub2: glyph "'ss03' Contextual Demestvenny Contraction-1" 0 0 0 9
  String: 6 u1CFA9
@@ -112,12 +116,11 @@ ChainSub2: glyph "'ss03' Contextual Demestvenny Contraction-1" 0 0 0 9
  FString: 0 
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
- String: 14 uniEAD0 u1CF7B
- BString: 0 
+ String: 6 u1CF7B
+ BString: 6 u1CF75
  FString: 0 
- 2
-  SeqLookup: 0 "Omet Removal"
-  SeqLookup: 1 "Demestvenny Contracted Variants"
+ 1
+  SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEF69
  BString: 6 u1CF54
  FString: 0 
@@ -1055,7 +1058,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 190 38 13
+WinInfo: 532 38 13
 BeginPrivate: 8
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]

@@ -25,6 +25,7 @@ customize: venv
 
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
+	rm -rf test-result.pdf
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
 venv/touchfile: requirements.txt
@@ -77,7 +78,7 @@ test-result.pdf:
 	(cd regtests/; i=0; while read -r in; do i=$$(($$i+1)); sed -e s/foo/"$$in"/ regtest.tex > output/"$$i".tex; lualatex --interaction=nonstopmode --output-directory=output/ output/"$$i".tex; done < foo.lst)
 	(cd regtests/output; rm -fr *.aux *.log *.tex)
 	mkdir regtests/results
-	(cd regtests/; i=0; j=0; while read in; do i=$$(($$i+1)); compare -metric phash baseline/"$$i".pdf output/"$$i".pdf results/"$$i".pdf || j=$$(($$j+$$?)); echo ""; done < foo.lst; gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -sOutputFile=test-result.pdf results/*.pdf; cp test-result.pdf ../test-result.pdf; rm -fr results/; rm -fr output/; exit "$$j")
+	(cd regtests/; i=0; j=0; while read in; do i=$$(($$i+1)); compare -metric phash baseline/"$$i".pdf output/"$$i".pdf results/"$$i".pdf || j=$$(($$j+$$?)); echo ""; done < foo.lst; gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -dPDFSETTINGS=/screen -sOutputFile=test-result.pdf results/*.pdf; mv test-result.pdf ../test-result.pdf; rm -fr results/; rm -fr output/; exit "$$j")
 
 baseline:
 	rm -fr regtests/baseline

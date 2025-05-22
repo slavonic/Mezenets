@@ -1621,6 +1621,11 @@ lookup ss02KalashnikovMechikVariants {
     sub \uniF67F by \uniEFDF ;
 } ss02KalashnikovMechikVariants;
 
+lookup ContextualPreContraction {
+  lookupflag IgnoreMarks;
+    sub  \uniEAD0' \u1CF7B   by \u1CF75;
+} ContextualPreContraction;
+
 lookup DemestvennyContractedVariants {
   lookupflag 0;
     sub \uniEB38 by \uniEB5B ;
@@ -1636,43 +1641,13 @@ lookup DemestvennyContractedVariants {
     sub \uniEF79 by \uniEB5D ;
 } DemestvennyContractedVariants;
 
-lookup OmetRemoval {
-  lookupflag 0;
-    sub \uniEB33 by \u1CFA7 ;
-    sub \uniEA60 by \u1CF50 ;
-    sub \uniEA6C by \u1CF54 ;
-    sub \uniEA7A by \u1CF55 ;
-    sub \uniEA8D by \uniEA8C ;
-    sub \uniEAB3 by \u1CF66 ;
-    sub \uniEAAD by \u1CF63 ;
-    sub \uniEB38 by \u1CFA9 ;
-    sub \uniEAAF by \u1CF64 ;
-    sub \uniEB1D by \u1CF97 ;
-    sub \uniEB11 by \u1CF92 ;
-    sub \uniEAD0 by \u1CF75 ;
-    sub \uniEA64 by \u1CF52 ;
-    sub \uniEB17 by \u1CF96 ;
-    sub \uniEAC9 by \u1CF72 ;
-    sub \uniEA67 by \u1CF53 ;
-    sub \uniEAB6 by \u1CF67 ;
-    sub \uniEAC6 by \uniEA57 ;
-    sub \uniEB24 by \u1CF9B ;
-    sub \uniEAB1 by \u1CF65 ;
-    sub \uniEAB8 by \u1CF68 ;
-    sub \uniEABA by \u1CF69 ;
-    sub \uniEF72 by \uniEF71 ;
-    sub \uniEADA by \u1CF79 ;
-    sub \uniEF6A by \uniEF69 ;
-    sub \uniEF61 by \uniEF60 ;
-} OmetRemoval;
-
 lookup ss03ContextualDemestvennyContraction {
   lookupflag IgnoreMarks;
     sub \u1CF54  \u1CFA9'lookup DemestvennyContractedVariants   ;
     sub \u1CF54  \uniEB38'lookup DemestvennyContractedVariants   ;
     sub \u1CF54  \uniEB39'lookup DemestvennyContractedVariants   ;
     sub \u1CFA9  \u1CFAB'lookup DemestvennyContractedVariants   ;
-    sub  \uniEAD0'lookup OmetRemoval  \u1CF7B'  ;
+    sub \u1CF75  \u1CF7B'lookup DemestvennyContractedVariants   ;
     sub \u1CF54  \uniEF69'lookup DemestvennyContractedVariants   ;
     sub \u1CF54  \uniEF6C'lookup DemestvennyContractedVariants   ;
     sub \u1CF54  \uniEF6A'lookup DemestvennyContractedVariants   ;
@@ -1813,16 +1788,19 @@ feature ss03 {
  script DFLT;
      language dflt ;
       lookup ss02KalashnikovMechikVariants;
+      lookup ContextualPreContraction;
       lookup ss03ContextualDemestvennyContraction;
 
  script cyrl;
      language dflt ;
       lookup ss02KalashnikovMechikVariants;
+      lookup ContextualPreContraction;
       lookup ss03ContextualDemestvennyContraction;
 
  script latn;
      language dflt ;
       lookup ss02KalashnikovMechikVariants;
+      lookup ContextualPreContraction;
       lookup ss03ContextualDemestvennyContraction;
 } ss03;
 
@@ -1846,48 +1824,48 @@ feature ss04 {
 
 lookup DemestvennySpecificKerning {
   lookupflag IgnoreMarks;
-    @kc21_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
+    @kc20_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
 	\uniEAD0 \uniEAD8 \uniEADA \uniEADC \uniEB17 \uniEB1D \uniEB24 \uniEB27 
 	\uniEB33 \uniEB38 \uniEB3D \uniEB41 \uniEF72 \uniF4D8 \uniEF61 \uniEF6A 
 	\uniEF6E ];
-    @kc21_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
+    @kc20_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
 	\uniEAAD \uniEAAE \uniEAAF \uniEAB0 \uniEAB1 \uniEAB2 \uniEAB3 \uniEAB4 
 	\uniEAB6 \uniEAB7 \uniEAB8 \uniEAB9 \uniEABA \uniEABB \uniEABC \uniEABD 
 	\u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 
 	\u1CF69 \u1CF6A ];
-    @kc21_second_2 = [\u1CF5D ];
-    pos @kc21_first_1 @kc21_second_1 -140;
-    pos @kc21_first_1 @kc21_second_2 -125;
+    @kc20_second_2 = [\u1CF5D ];
+    pos @kc20_first_1 @kc20_second_1 -140;
+    pos @kc20_first_1 @kc20_second_2 -125;
 } DemestvennySpecificKerning;
 
 lookup kernss01OldstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc22_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
+    @kc21_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
 	\uniF41B \uniF4D6 \uniEFA1 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 
 	\uniF565 \uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniF59C 
 	\uniF5B6 \u1CF50 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
 	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D \u1CFA9 \u1CFAA ];
-    @kc22_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
+    @kc21_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEB33 \uniEB34 
 	\uniEB38 \uniEB39 \uniEB3A \uniEB3C \uniEB3D \uniEB3E \uniEB3F \uniEC12 
 	\uniEC17 \u1CF50 \u1CF54 \u1CF56 \u1CF59 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB ];
-    pos @kc22_first_1 @kc22_second_1 -140;
+    pos @kc21_first_1 @kc21_second_1 -140;
 } kernss01OldstyleDemestvennykerning;
 
 lookup kernss02NewstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc23_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
+    @kc22_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
 	\uniF41B \uniF4D6 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 \uniF565 
 	\uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniEF69 \uniEF98 
 	\uniEF99 \uniEF9A \uniEF9B \uniEF9C \uniF5D0 \uniEF6D \uniEF77 \uniF5EA 
 	\u1CF50 \u1CF52 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
 	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D ];
-    @kc23_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
+    @kc22_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEC12 \uniEC17 
 	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6C \uniEF6B \uniEF6D 
 	\uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \u1CF50 \u1CF54 \u1CF56 
 	\u1CF59 ];
-    pos @kc23_first_1 @kc23_second_1 -140;
+    pos @kc22_first_1 @kc22_second_1 -140;
 } kernss02NewstyleDemestvennykerning;
 
 lookup ss10EqualBaselineLookup {
