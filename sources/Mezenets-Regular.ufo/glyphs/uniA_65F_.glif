@@ -2,6 +2,9 @@
 <glyph name="uniA65F" format="2">
   <advance width="642"/>
   <unicode hex="A65F"/>
+  <anchor x="303.924" y="643.122" name="Diacritic"/>
+  <anchor x="486" y="643" name="Yerok"/>
+  <anchor x="298" y="240" name="Numeral"/>
   <outline>
     <contour>
       <point x="254" y="250" type="line"/>

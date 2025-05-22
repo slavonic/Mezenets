@@ -2,6 +2,7 @@
 <glyph name="uniA66F" format="2">
   <advance width="0"/>
   <unicode hex="A66F"/>
+  <anchor x="-357" y="627" name="_Diacritic"/>
   <anchor x="-361" y="905" name="Stacking"/>
   <anchor x="-357" y="625" name="_Stacking"/>
   <outline>

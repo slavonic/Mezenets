@@ -2,6 +2,9 @@
 <glyph name="uni25CC" format="2">
   <advance width="525"/>
   <unicode hex="25CC"/>
+  <anchor x="265" y="492" name="Diacritic"/>
+  <anchor x="391" y="491" name="Yerok"/>
+  <anchor x="263" y="217" name="Numeral"/>
   <anchor x="454" y="175" name="Omet"/>
   <anchor x="573" y="583" name="FinalPitch"/>
   <anchor x="-265" y="150" name="Lomka"/>

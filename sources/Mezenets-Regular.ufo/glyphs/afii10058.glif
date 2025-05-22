@@ -2,6 +2,9 @@
 <glyph name="afii10058" format="2">
   <advance width="906"/>
   <unicode hex="0409"/>
+  <anchor x="481" y="645" name="Diacritic"/>
+  <anchor x="667" y="643" name="Yerok"/>
+  <anchor x="479" y="48" name="Numeral"/>
   <outline>
     <contour>
       <point x="543" y="94" type="curve"/>

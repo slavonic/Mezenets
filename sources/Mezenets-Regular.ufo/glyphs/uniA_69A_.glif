@@ -2,6 +2,8 @@
 <glyph name="uniA69A" format="2">
   <advance width="1233"/>
   <unicode hex="A69A"/>
+  <anchor x="611" y="645" name="Diacritic"/>
+  <anchor x="1047" y="643" name="Yerok"/>
   <outline>
     <contour>
       <point x="1158.84" y="49.7549" type="curve" smooth="yes"/>

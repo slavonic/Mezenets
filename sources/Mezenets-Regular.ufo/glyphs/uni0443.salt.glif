@@ -2,6 +2,9 @@
 <glyph name="uni0443.salt" format="2">
   <advance width="461"/>
   <unicode hex="E0EF"/>
+  <anchor x="265" y="642.998" name="Diacritic"/>
+  <anchor x="385" y="644" name="Yerok"/>
+  <anchor x="238" y="240" name="Numeral"/>
   <outline>
     <contour>
       <point x="234" y="0" type="curve"/>

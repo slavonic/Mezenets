@@ -1,5 +1,6 @@
 languagesystem DFLT dflt;
 languagesystem cyrl dflt;
+languagesystem grek dflt;
 languagesystem latn dflt;
 
 
@@ -45,20 +46,6 @@ lookup ccmpGlyphCompositionDecompositionforSlavonic {
     sub \afii10076 \acutecomb  by \afii10109;
     sub \afii10074 \gravecomb  by \uni045D;
     sub \afii10085 \uni0306  by \afii10110;
-    sub \uni2DE2 \uni0487  by \uniF4E2;
-    sub \uni2DE6 \uni0487  by \uniF4E3;
-    sub \uni2DE7 \uni0487  by \uniF4E4;
-    sub \uni2DE9 \uni0487  by \uniF4E5;
-    sub \uni2DEA \uni0487  by \uniF4E6;
-    sub \uni2DEB \uni0487  by \uniF4E7;
-    sub \uni2DEC \uni0487  by \uniF4E8;
-    sub \uni2DED \uni0487  by \uniF4E9;
-    sub \uni2DF2 \uni0487  by \uniF4EC;
-    sub \uni2DF3 \uni0487  by \uniF4ED;
-    sub \uni2DF5 \uni0487  by \uniF4EE;
-    sub \uni2DFC \uni0487  by \uniF4EF;
-    sub \uni2DFD \uni0487  by \uniF4F0;
-    sub \uni2DF7 \uni0487  by \uniF4F1;
     sub \afii10148 \uni030F  by \uni0476;
     sub \afii10196 \uni030F  by \uni0477;
     sub \afii10032 \afii10085  by \uni0478;
@@ -86,6 +73,25 @@ lookup ccmpGlyphCompositionDecompositionforSlavonic {
     sub \afii10103 \uni0483  by \uniE925;
     sub \uni047E \acutecomb  by \uniE92A;
     sub \uni047F \acutecomb  by \uniE92B;
+    sub \uni2DFD \uni0487  by \uniE9F0;
+    sub \uni2DF7 \uni0487  by \uniE9F1;
+    sub \uniA67B \uni0487  by \uniE9F2;
+    sub \uni2DE0 \uni0487  by \uniE9E0;
+    sub \uni2DE1 \uni0487  by \uniE9E1;
+    sub \uni2DE2 \uni0487  by \uniE9E2;
+    sub \uni2DE6 \uni0487  by \uniE9E3;
+    sub \uni2DE7 \uni0487  by \uniE9E4;
+    sub \uni2DE9 \uni0487  by \uniE9E5;
+    sub \uni2DEA \uni0487  by \uniE9E6;
+    sub \uni2DEB \uni0487  by \uniE9E7;
+    sub \uni2DEC \uni0487  by \uniE9E8;
+    sub \uni2DED \uni0487  by \uniE9E9;
+    sub \uni2DF0 \uni0487  by \uniE9EA;
+    sub \uni2DF1 \uni0487  by \uniE9EB;
+    sub \uni2DF2 \uni0487  by \uniE9EC;
+    sub \uni2DF3 \uni0487  by \uniE9ED;
+    sub \uni2DF5 \uni0487  by \uniE9EE;
+    sub \uni2DFC \uni0487  by \uniE9EF;
 } ccmpGlyphCompositionDecompositionforSlavonic;
 
 lookup ccmpSecondaryLigaturesforSlavonic {
@@ -1883,6 +1889,93 @@ lookup kernss02NewstyleDemestvennykerning {
 	\u1CF59 ];
     pos @kc23_first_1 @kc23_second_1 -140;
 } kernss02NewstyleDemestvennykerning;
+
+lookup ss10EqualBaselineLookup {
+  lookupflag 0;
+    pos \afii10047 <0 455 0 0>;
+    pos \afii10146 <0 455 0 0>;
+    pos \afii10147 <0 455 0 0>;
+    pos \afii10148 <0 455 0 0>;
+    pos \uni0400 <0 455 0 0>;
+    pos \afii10023 <0 455 0 0>;
+    pos \afii10052 <0 455 0 0>;
+    pos \afii10053 <0 455 0 0>;
+    pos \afii10054 <0 455 0 0>;
+    pos \afii10055 <0 455 0 0>;
+    pos \afii10056 <0 455 0 0>;
+    pos \afii10058 <0 455 0 0>;
+    pos \afii10059 <0 455 0 0>;
+    pos \afii10061 <0 455 0 0>;
+    pos \uni040D <0 455 0 0>;
+    pos \afii10062 <0 455 0 0>;
+    pos \afii10017 <0 455 0 0>;
+    pos \afii10018 <0 455 0 0>;
+    pos \afii10019 <0 455 0 0>;
+    pos \afii10020 <0 455 0 0>;
+    pos \afii10021 <0 455 0 0>;
+    pos \afii10022 <0 455 0 0>;
+    pos \afii10024 <0 455 0 0>;
+    pos \afii10025 <0 455 0 0>;
+    pos \afii10026 <0 455 0 0>;
+    pos \afii10027 <0 455 0 0>;
+    pos \afii10028 <0 455 0 0>;
+    pos \afii10029 <0 455 0 0>;
+    pos \afii10030 <0 455 0 0>;
+    pos \afii10031 <0 455 0 0>;
+    pos \afii10032 <0 455 0 0>;
+    pos \afii10033 <0 455 0 0>;
+    pos \afii10034 <0 455 0 0>;
+    pos \afii10035 <0 455 0 0>;
+    pos \afii10036 <0 455 0 0>;
+    pos \afii10037 <0 455 0 0>;
+    pos \afii10038 <0 455 0 0>;
+    pos \afii10039 <0 455 0 0>;
+    pos \afii10040 <0 455 0 0>;
+    pos \afii10041 <0 455 0 0>;
+    pos \afii10042 <0 455 0 0>;
+    pos \afii10043 <0 455 0 0>;
+    pos \afii10044 <0 455 0 0>;
+    pos \afii10045 <0 455 0 0>;
+    pos \afii10046 <0 455 0 0>;
+    pos \afii10048 <0 455 0 0>;
+    pos \afii10049 <0 455 0 0>;
+    pos \uni0460 <0 455 0 0>;
+    pos \uni0464 <0 455 0 0>;
+    pos \uni0466 <0 455 0 0>;
+    pos \uni0468 <0 455 0 0>;
+    pos \uni046A <0 455 0 0>;
+    pos \uni046C <0 455 0 0>;
+    pos \uni046E <0 455 0 0>;
+    pos \uni0470 <0 455 0 0>;
+    pos \uni0476 <0 455 0 0>;
+    pos \uni0478 <0 455 0 0>;
+    pos \uni047A <0 455 0 0>;
+    pos \uni047C <0 455 0 0>;
+    pos \uni047E <0 455 0 0>;
+    pos \uniA640 <0 455 0 0>;
+    pos \uniA64A <0 455 0 0>;
+    pos \uniA64C <0 455 0 0>;
+    pos \uniA650 <0 455 0 0>;
+    pos \uniA652 <0 455 0 0>;
+    pos \uniA656 <0 455 0 0>;
+    pos \uniA65E <0 455 0 0>;
+    pos \uniA668 <0 455 0 0>;
+    pos \uniA66A <0 455 0 0>;
+    pos \uniA66C <0 455 0 0>;
+    pos \uniA66E <0 455 0 0>;
+    pos \uniA698 <0 455 0 0>;
+    pos \uniA69A <0 455 0 0>;
+    pos \uni0478.salt <0 455 0 0>;
+    pos \uni0426.salt <0 455 0 0>;
+    pos \uniE92A <0 455 0 0>;
+    pos \uniE930 <0 455 0 0>;
+    pos \u1F540 <0 455 0 0>;
+    pos \u1F541 <0 455 0 0>;
+    pos \u1F542 <0 455 0 0>;
+    pos \u1F543 <0 455 0 0>;
+    pos \u1F544 <0 455 0 0>;
+    pos \u1F545 <0 455 0 0>;
+} ss10EqualBaselineLookup;
 
 lookup markBlackMarkPositioning {
   lookupflag 0;
@@ -6443,6 +6536,509 @@ lookup markCinnabarMarkPositioning {
 	<anchor 265 660> mark @Auxiliary;
 } markCinnabarMarkPositioning;
 
+lookup markMarkPositioningforSlavonic {
+  lookupflag 0;
+  markClass [\gravecomb ] <anchor -240 687> @Diacritic;
+  markClass [\acutecomb ] <anchor -206 622> @Diacritic;
+  markClass [\uni0302 ] <anchor -213 678> @Diacritic;
+  markClass [\tildecomb ] <anchor -178 694> @Diacritic;
+  markClass [\uni0304 \uni0305 ] <anchor -174 711> @Diacritic;
+  markClass [\uni0306 ] <anchor -286 782> @Diacritic;
+  markClass [\uni0307 ] <anchor -91 606> @Diacritic;
+  markClass [\uni0308 ] <anchor 196 578> @Diacritic;
+  markClass [\uni030B ] <anchor -420 601> @Diacritic;
+  markClass [\uni030F ] <anchor -130 612> @Diacritic;
+  markClass [\uni0311 \uniE001 ] <anchor -358 630> @Diacritic;
+  markClass [\uni0483 ] <anchor -181 636> @Diacritic;
+  markClass [\uni0484 ] <anchor -159 603> @Diacritic;
+  markClass [\uni0485 ] <anchor -341 626> @Diacritic;
+  markClass [\uni0486 ] <anchor -298 626> @Diacritic;
+  markClass [\uni0487 ] <anchor -178 698> @Diacritic;
+  markClass [\uni2DE0 ] <anchor -210 585> @Diacritic;
+  markClass [\uni2DE1 ] <anchor -190 562> @Diacritic;
+  markClass [\uni2DE2 \uni2DF0 ] <anchor -210 602> @Diacritic;
+  markClass [\uni2DE3 ] <anchor -130 593> @Diacritic;
+  markClass [\uni2DE4 ] <anchor -147 652> @Diacritic;
+  markClass [\uni2DE5 ] <anchor -193 630> @Diacritic;
+  markClass [\uni2DE6 ] <anchor -210 532> @Diacritic;
+  markClass [\uni2DE7 ] <anchor -190 582> @Diacritic;
+  markClass [\uni2DE8 ] <anchor -224 727> @Diacritic;
+  markClass [\uni2DE9 ] <anchor -210 622> @Diacritic;
+  markClass [\uni2DEA ] <anchor -150 612> @Diacritic;
+  markClass [\uni2DEB ] <anchor -200 622> @Diacritic;
+  markClass [\uni2DEC ] <anchor -210 562> @Diacritic;
+  markClass [\uni2DED ] <anchor -210 638> @Diacritic;
+  markClass [\uni2DEE ] <anchor -192 668> @Diacritic;
+  markClass [\uni2DEF ] <anchor -208 676> @Diacritic;
+  markClass [\uni2DF1 ] <anchor -210 624> @Diacritic;
+  markClass [\uni2DF2 ] <anchor -210 705> @Diacritic;
+  markClass [\uni2DF3 ] <anchor -210 605> @Diacritic;
+  markClass [\uni2DF4 ] <anchor -148 653> @Diacritic;
+  markClass [\uni2DF5 ] <anchor -8 690> @Diacritic;
+  markClass [\uni2DF6 ] <anchor -8 675> @Diacritic;
+  markClass [\uni2DF7 ] <anchor -198 650> @Diacritic;
+  markClass [\uni2DF9 ] <anchor -196 599> @Diacritic;
+  markClass [\uni2DFA ] <anchor -188 622> @Diacritic;
+  markClass [\uni2DFB ] <anchor -188 655> @Diacritic;
+  markClass [\uni2DFC ] <anchor -210 640> @Diacritic;
+  markClass [\uni2DFD ] <anchor -180 642> @Diacritic;
+  markClass [\uniA66F ] <anchor -357 627> @Diacritic;
+  markClass [\uniA674 ] <anchor -270 606> @Diacritic;
+  markClass [\uniA675 ] <anchor -208 690> @Diacritic;
+  markClass [\uniA676 ] <anchor -170 499> @Diacritic;
+  markClass [\uniA677 ] <anchor -150 454> @Diacritic;
+  markClass [\uniA678 ] <anchor -90 677> @Diacritic;
+  markClass [\uniA679 ] <anchor -150 683> @Diacritic;
+  markClass [\uniA67A ] <anchor -110 683> @Diacritic;
+  markClass [\uniA67B ] <anchor -190 583> @Diacritic;
+  markClass [\uniA67C ] <anchor -198 576> @Diacritic;
+  markClass [\uniA69E ] <anchor -180 609> @Diacritic;
+  markClass [\uniA69F ] <anchor -190 640> @Diacritic;
+  markClass [\uniE003 ] <anchor -358 596> @Diacritic;
+  markClass [\uniE005 ] <anchor -217 595> @Diacritic;
+  markClass [\uni033E ] <anchor -108 521> @Yerok;
+  markClass [\uniA67D ] <anchor -60 627> @Yerok;
+  markClass [\uni0488 \uniA672 ] <anchor -202 191> @Numeral;
+  markClass [\uni0489 ] <anchor -317 162> @Numeral;
+  markClass [\uniA670 ] <anchor -202 234> @Numeral;
+  markClass [\uniA671 ] <anchor -222 191> @Numeral;
+  pos base [\uni25CC ] <anchor 265 492> mark @Diacritic
+	<anchor 391 491> mark @Yerok
+	<anchor 263 217> mark @Numeral;
+  pos base [\afii10095 \uniA657 ] <anchor 304 643> mark @Diacritic
+	<anchor 416 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10047 ] <anchor 517 645> mark @Diacritic
+	<anchor 773 643> mark @Yerok;
+  pos base [\afii10146 ] <anchor 361 645> mark @Diacritic
+	<anchor 597 643> mark @Yerok;
+  pos base [\afii10194 ] <anchor 524 643> mark @Diacritic
+	<anchor 525 643> mark @Yerok
+	<anchor 298 240> mark @Numeral;
+  pos base [\afii10147 ] <anchor 329 645> mark @Diacritic
+	<anchor 515 643> mark @Yerok;
+  pos base [\afii10195 ] <anchor 325 643> mark @Diacritic
+	<anchor 437 643> mark @Yerok
+	<anchor 318 240> mark @Numeral;
+  pos base [\afii10148 \uniA64A ] <anchor 341 645> mark @Diacritic
+	<anchor 527 643> mark @Yerok;
+  pos base [\afii10196 ] <anchor 274 643> mark @Diacritic
+	<anchor 386 643> mark @Yerok
+	<anchor 248 240> mark @Numeral;
+  pos base [\uni0400 ] <anchor 321 841> mark @Diacritic
+	<anchor 323 839> mark @Yerok
+	<anchor 336 48> mark @Numeral;
+  pos base [\afii10023 ] <anchor 309 877> mark @Diacritic
+	<anchor 309 875> mark @Yerok
+	<anchor 336 48> mark @Numeral;
+  pos base [\afii10052 ] <anchor 342 1093> mark @Diacritic
+	<anchor 340 1093> mark @Yerok
+	<anchor 303 48> mark @Numeral;
+  pos base [\afii10053 ] <anchor 321 645> mark @Diacritic
+	<anchor 507 643> mark @Yerok
+	<anchor 303 48> mark @Numeral;
+  pos base [\afii10054 ] <anchor 381 645> mark @Diacritic
+	<anchor 567 643> mark @Yerok
+	<anchor 393 48> mark @Numeral;
+  pos base [\afii10055 ] <anchor 191 645> mark @Diacritic
+	<anchor 277 643> mark @Yerok
+	<anchor 193 48> mark @Numeral;
+  pos base [\afii10056 ] <anchor 174 883> mark @Diacritic
+	<anchor 172 883> mark @Yerok
+	<anchor 193 48> mark @Numeral;
+  pos base [\afii10058 ] <anchor 481 645> mark @Diacritic
+	<anchor 667 643> mark @Yerok
+	<anchor 479 48> mark @Numeral;
+  pos base [\afii10059 ] <anchor 361 645> mark @Diacritic
+	<anchor 547 643> mark @Yerok
+	<anchor 363 48> mark @Numeral;
+  pos base [\afii10061 ] <anchor 335 1029> mark @Diacritic
+	<anchor 335 1029> mark @Yerok
+	<anchor 336 48> mark @Numeral;
+  pos base [\uni040D ] <anchor 327 879> mark @Diacritic
+	<anchor 330 879> mark @Yerok
+	<anchor 366 48> mark @Numeral;
+  pos base [\afii10062 ] <anchor 359 893> mark @Diacritic
+	<anchor 360 893> mark @Yerok
+	<anchor 363 894> mark @Numeral;
+  pos base [\afii10017 ] <anchor 411 645> mark @Diacritic
+	<anchor 497 643> mark @Yerok
+	<anchor 324 0> mark @Numeral;
+  pos base [\afii10018 ] <anchor 321 645> mark @Diacritic
+	<anchor 507 643> mark @Yerok
+	<anchor 294 0> mark @Numeral;
+  pos base [\afii10019 ] <anchor 371 645> mark @Diacritic
+	<anchor 487 643> mark @Yerok
+	<anchor 324 0> mark @Numeral;
+  pos base [\afii10020 \afii10041 ] <anchor 331 645> mark @Diacritic
+	<anchor 517 643> mark @Yerok;
+  pos base [\afii10021 ] <anchor 442 645> mark @Diacritic
+	<anchor 508 643> mark @Yerok;
+  pos base [\afii10022 \afii10035 ] <anchor 323 645> mark @Diacritic
+	<anchor 509 643> mark @Yerok;
+  pos base [\afii10024 ] <anchor 471 645> mark @Diacritic
+	<anchor 717 643> mark @Yerok;
+  pos base [\afii10025 ] <anchor 501 645> mark @Diacritic
+	<anchor 707 643> mark @Yerok;
+  pos base [\afii10026 ] <anchor 365 645> mark @Diacritic
+	<anchor 531 643> mark @Yerok;
+  pos base [\afii10027 ] <anchor 420 915> mark @Diacritic
+	<anchor 419 914> mark @Yerok;
+  pos base [\afii10028 ] <anchor 353 645> mark @Diacritic
+	<anchor 539 643> mark @Yerok;
+  pos base [\afii10029 ] <anchor 441 645> mark @Diacritic
+	<anchor 507 643> mark @Yerok;
+  pos base [\afii10030 ] <anchor 571 645> mark @Diacritic
+	<anchor 757 643> mark @Yerok;
+  pos base [\afii10031 ] <anchor 361 645> mark @Diacritic
+	<anchor 587 643> mark @Yerok;
+  pos base [\afii10032 ] <anchor 325 645> mark @Diacritic
+	<anchor 511 643> mark @Yerok;
+  pos base [\afii10033 ] <anchor 360 645> mark @Diacritic
+	<anchor 546 643> mark @Yerok;
+  pos base [\afii10034 ] <anchor 401 645> mark @Diacritic
+	<anchor 550 643> mark @Yerok;
+  pos base [\afii10036 ] <anchor 365 645> mark @Diacritic
+	<anchor 621 643> mark @Yerok;
+  pos base [\afii10037 ] <anchor 361 645> mark @Diacritic
+	<anchor 547 643> mark @Yerok
+	<anchor 324 0> mark @Numeral;
+  pos base [\afii10038 ] <anchor 411 645> mark @Diacritic
+	<anchor 697 643> mark @Yerok;
+  pos base [\afii10039 ] <anchor 501 645> mark @Diacritic
+	<anchor 687 643> mark @Yerok;
+  pos base [\afii10040 ] <anchor 371 645> mark @Diacritic
+	<anchor 557 643> mark @Yerok;
+  pos base [\afii10042 ] <anchor 471 645> mark @Diacritic
+	<anchor 747 643> mark @Yerok;
+  pos base [\afii10043 \uniA65E ] <anchor 461 645> mark @Diacritic
+	<anchor 747 643> mark @Yerok;
+  pos base [\afii10044 ] <anchor 387 645> mark @Diacritic
+	<anchor 473 643> mark @Yerok;
+  pos base [\afii10045 ] <anchor 441 645> mark @Diacritic
+	<anchor 677 643> mark @Yerok;
+  pos base [\afii10046 ] <anchor 331 645> mark @Diacritic
+	<anchor 417 643> mark @Yerok;
+  pos base [\afii10048 ] <anchor 531 645> mark @Diacritic
+	<anchor 857 643> mark @Yerok;
+  pos base [\afii10049 ] <anchor 301 645> mark @Diacritic
+	<anchor 437 643> mark @Yerok;
+  pos base [\afii10065 ] <anchor 246 643> mark @Diacritic
+	<anchor 288 643> mark @Yerok
+	<anchor 193 240> mark @Numeral;
+  pos base [\afii10066 ] <anchor 244 643> mark @Diacritic
+	<anchor 356 643> mark @Yerok
+	<anchor 208 240> mark @Numeral;
+  pos base [\afii10067 ] <anchor 224 643> mark @Diacritic
+	<anchor 336 643> mark @Yerok
+	<anchor 194 240> mark @Numeral;
+  pos base [\afii10068 ] <anchor 214 643> mark @Diacritic
+	<anchor 326 643> mark @Yerok
+	<anchor 206 240> mark @Numeral;
+  pos base [\afii10069 \afii10074 \afii10076 \afii10088 \afii10092 \afii10096 \uni1C81 \uni1C83 ] <anchor 284 643> mark @Diacritic
+	<anchor 396 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10070 ] <anchor 154 643> mark @Diacritic
+	<anchor 196 643> mark @Yerok
+	<anchor 151 240> mark @Numeral;
+  pos base [\afii10072 ] <anchor 394 643> mark @Diacritic
+	<anchor 596 643> mark @Yerok
+	<anchor 358 240> mark @Numeral;
+  pos base [\afii10073 ] <anchor 324 643> mark @Diacritic
+	<anchor 476 643> mark @Yerok
+	<anchor 278 240> mark @Numeral;
+  pos base [\afii10075 ] <anchor 291 928> mark @Diacritic
+	<anchor 291 928> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10077 ] <anchor 284 643> mark @Diacritic
+	<anchor 326 643> mark @Yerok
+	<anchor 224 240> mark @Numeral;
+  pos base [\afii10078 ] <anchor 424 643> mark @Diacritic
+	<anchor 536 643> mark @Yerok
+	<anchor 388 240> mark @Numeral;
+  pos base [\afii10079 \afii10085 ] <anchor 264 643> mark @Diacritic
+	<anchor 376 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10080 ] <anchor 274 643> mark @Diacritic
+	<anchor 386 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10081 ] <anchor 254 643> mark @Diacritic
+	<anchor 366 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10082 ] <anchor 214 643> mark @Diacritic
+	<anchor 213 643> mark @Yerok
+	<anchor 188 240> mark @Numeral;
+  pos base [\afii10083 ] <anchor 204 613> mark @Diacritic
+	<anchor 224 643> mark @Yerok
+	<anchor 128 240> mark @Numeral;
+  pos base [\afii10084 ] <anchor 314 643> mark @Diacritic
+	<anchor 506 643> mark @Yerok
+	<anchor 308 240> mark @Numeral;
+  pos base [\afii10086 ] <anchor 534 643> mark @Diacritic
+	<anchor 606 643> mark @Yerok
+	<anchor 358 240> mark @Numeral;
+  pos base [\afii10087 ] <anchor 264 643> mark @Diacritic
+	<anchor 376 643> mark @Yerok
+	<anchor 218 240> mark @Numeral;
+  pos base [\afii10089 ] <anchor 204 643> mark @Diacritic
+	<anchor 316 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10090 ] <anchor 384 643> mark @Diacritic
+	<anchor 606 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\afii10091 ] <anchor 374 643> mark @Diacritic
+	<anchor 576 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\afii10093 ] <anchor 314 643> mark @Diacritic
+	<anchor 436 643> mark @Yerok
+	<anchor 278 240> mark @Numeral;
+  pos base [\afii10094 ] <anchor 204 643> mark @Diacritic
+	<anchor 266 643> mark @Yerok
+	<anchor 178 240> mark @Numeral;
+  pos base [\afii10097 ] <anchor 254 643> mark @Diacritic
+	<anchor 316 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni0450 ] <anchor 149 843> mark @Diacritic
+	<anchor 149 843> mark @Yerok
+	<anchor 158 240> mark @Numeral;
+  pos base [\afii10071 ] <anchor 151 799> mark @Diacritic
+	<anchor 150 799> mark @Yerok
+	<anchor 148 240> mark @Numeral;
+  pos base [\afii10100 ] <anchor 214 980> mark @Diacritic
+	<anchor 214 980> mark @Yerok
+	<anchor 188 240> mark @Numeral;
+  pos base [\afii10101 \uni0434.salt ] <anchor 284 643> mark @Diacritic
+	<anchor 396 643> mark @Yerok
+	<anchor 258 240> mark @Numeral;
+  pos base [\afii10102 ] <anchor 284 643> mark @Diacritic
+	<anchor 456 643> mark @Yerok
+	<anchor 288 240> mark @Numeral;
+  pos base [\afii10103 ] <anchor 174 643> mark @Diacritic
+	<anchor 176 643> mark @Yerok
+	<anchor 128 240> mark @Numeral;
+  pos base [\afii10104 ] <anchor 161 803> mark @Diacritic
+	<anchor 160 803> mark @Yerok
+	<anchor 138 240> mark @Numeral;
+  pos base [\afii10106 ] <anchor 334 643> mark @Diacritic
+	<anchor 446 643> mark @Yerok
+	<anchor 318 240> mark @Numeral;
+  pos base [\afii10107 ] <anchor 344 643> mark @Diacritic
+	<anchor 456 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10109 ] <anchor 284 983> mark @Diacritic
+	<anchor 284 983> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni045D ] <anchor 284 843> mark @Diacritic
+	<anchor 284 843> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\afii10110 ] <anchor 284 943> mark @Diacritic
+	<anchor 286 943> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni0460 ] <anchor 571 645> mark @Diacritic
+	<anchor 847 643> mark @Yerok;
+  pos base [\uni0461 ] <anchor 334 643> mark @Diacritic
+	<anchor 556 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uni0464 ] <anchor 631 645> mark @Diacritic
+	<anchor 817 643> mark @Yerok;
+  pos base [\uni0465 ] <anchor 284 643> mark @Diacritic
+	<anchor 396 643> mark @Yerok
+	<anchor 218 240> mark @Numeral;
+  pos base [\uni0466 ] <anchor 461 645> mark @Diacritic
+	<anchor 647 643> mark @Yerok;
+  pos base [\uni0467 ] <anchor 304 643> mark @Diacritic
+	<anchor 486 643> mark @Yerok
+	<anchor 302 240> mark @Numeral;
+  pos base [\uni0468 ] <anchor 760 645> mark @Diacritic
+	<anchor 946 643> mark @Yerok;
+  pos base [\uni0469 ] <anchor 454 643> mark @Diacritic
+	<anchor 636 643> mark @Yerok
+	<anchor 348 240> mark @Numeral;
+  pos base [\uni046A ] <anchor 451 645> mark @Diacritic
+	<anchor 657 643> mark @Yerok;
+  pos base [\uni046B ] <anchor 324 643> mark @Diacritic
+	<anchor 436 643> mark @Yerok
+	<anchor 324 240> mark @Numeral;
+  pos base [\uni046C ] <anchor 711 645> mark @Diacritic
+	<anchor 912 643> mark @Yerok;
+  pos base [\uni046D ] <anchor 483 643> mark @Diacritic
+	<anchor 595 643> mark @Yerok
+	<anchor 478 240> mark @Numeral;
+  pos base [\uni046E ] <anchor 401 645> mark @Diacritic
+	<anchor 537 643> mark @Yerok;
+  pos base [\uni046F ] <anchor 284 643> mark @Diacritic
+	<anchor 376 643> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni0470 ] <anchor 601 645> mark @Diacritic
+	<anchor 717 643> mark @Yerok;
+  pos base [\uni0471 ] <anchor 634 643> mark @Diacritic
+	<anchor 696 643> mark @Yerok
+	<anchor 408 240> mark @Numeral;
+  pos base [\uni0476 ] <anchor 331 945> mark @Diacritic
+	<anchor 330 944> mark @Yerok;
+  pos base [\uni0477 ] <anchor 284 943> mark @Diacritic
+	<anchor 285 943> mark @Yerok
+	<anchor 248 240> mark @Numeral;
+  pos base [\uni0478 ] <anchor 864 643> mark @Diacritic
+	<anchor 976 643> mark @Yerok;
+  pos base [\uni0479 ] <anchor 514 643> mark @Diacritic
+	<anchor 626 643> mark @Yerok
+	<anchor 498 240> mark @Numeral;
+  pos base [\uni047A ] <anchor 621 645> mark @Diacritic
+	<anchor 1077 643> mark @Yerok;
+  pos base [\uni047B ] <anchor 344 643> mark @Diacritic
+	<anchor 526 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uni047C ] <anchor 531 985> mark @Diacritic
+	<anchor 529 983> mark @Yerok;
+  pos base [\uni047D ] <anchor 494 953> mark @Diacritic
+	<anchor 495 954> mark @Yerok
+	<anchor 448 240> mark @Numeral;
+  pos base [\uni047E ] <anchor 511 905> mark @Diacritic
+	<anchor 509 905> mark @Yerok;
+  pos base [\uni047F ] <anchor 373 823> mark @Diacritic
+	<anchor 373 823> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uni1C80 ] <anchor 425 963> mark @Diacritic
+	<anchor 545 964> mark @Yerok
+	<anchor 358 240> mark @Numeral;
+  pos base [\uni1C82 ] <anchor 184 643> mark @Diacritic
+	<anchor 226 643> mark @Yerok
+	<anchor 148 240> mark @Numeral;
+  pos base [\uni1C84 ] <anchor 174 1073> mark @Diacritic
+	<anchor 176 1074> mark @Yerok
+	<anchor 138 240> mark @Numeral;
+  pos base [\uni1C85 ] <anchor 304 643> mark @Diacritic
+	<anchor 486 643> mark @Yerok
+	<anchor 278 240> mark @Numeral;
+  pos base [\uni1C86 ] <anchor 284 1033> mark @Diacritic
+	<anchor 396 1033> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni1C87 ] <anchor 404 933> mark @Diacritic
+	<anchor 406 933> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni1C88 \uni1C88.salt ] <anchor 275 643> mark @Diacritic
+	<anchor 395 644> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uniA640 ] <anchor 401 645> mark @Diacritic
+	<anchor 547 643> mark @Yerok;
+  pos base [\uniA641 ] <anchor 364 643> mark @Diacritic
+	<anchor 476 643> mark @Yerok
+	<anchor 278 240> mark @Numeral;
+  pos base [\uniA64B ] <anchor 314 743> mark @Diacritic
+	<anchor 316 743> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uniA64C ] <anchor 509 645> mark @Diacritic
+	<anchor 855 643> mark @Yerok;
+  pos base [\uniA64D ] <anchor 434 643> mark @Diacritic
+	<anchor 716 643> mark @Yerok
+	<anchor 418 240> mark @Numeral;
+  pos base [\uniA650 ] <anchor 561 645> mark @Diacritic
+	<anchor 747 643> mark @Yerok;
+  pos base [\uniA651 ] <anchor 474 643> mark @Diacritic
+	<anchor 616 643> mark @Yerok
+	<anchor 428 240> mark @Numeral;
+  pos base [\uniA652 ] <anchor 481 699> mark @Diacritic
+	<anchor 673 699> mark @Yerok
+	<anchor 456 48> mark @Numeral;
+  pos base [\uniA653 ] <anchor 534 643> mark @Diacritic
+	<anchor 534 643> mark @Yerok
+	<anchor 298 240> mark @Numeral;
+  pos base [\uniA656 ] <anchor 401 645> mark @Diacritic
+	<anchor 627 643> mark @Yerok;
+  pos base [\uniA65F ] <anchor 304 643> mark @Diacritic
+	<anchor 486 643> mark @Yerok
+	<anchor 298 240> mark @Numeral;
+  pos base [\uniA668 ] <anchor 621 645> mark @Diacritic
+	<anchor 1067 643> mark @Yerok;
+  pos base [\uniA669 ] <anchor 354 643> mark @Diacritic
+	<anchor 546 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uniA66A ] <anchor 611 645> mark @Diacritic
+	<anchor 1057 643> mark @Yerok;
+  pos base [\uniA66B ] <anchor 394 643> mark @Diacritic
+	<anchor 636 643> mark @Yerok
+	<anchor 398 240> mark @Numeral;
+  pos base [\uniA66C ] <anchor 569 645> mark @Diacritic
+	<anchor 965 643> mark @Yerok;
+  pos base [\uniA66D ] <anchor 444 643> mark @Diacritic
+	<anchor 726 643> mark @Yerok
+	<anchor 428 240> mark @Numeral;
+  pos base [\uniA66E ] <anchor 761 895> mark @Diacritic
+	<anchor 947 893> mark @Yerok
+	<anchor 698 240> mark @Numeral;
+  pos base [\uniA698 ] <anchor 571 645> mark @Diacritic
+	<anchor 947 643> mark @Yerok;
+  pos base [\uniA699 ] <anchor 404 643> mark @Diacritic
+	<anchor 686 643> mark @Yerok
+	<anchor 398 240> mark @Numeral;
+  pos base [\uniA69A ] <anchor 611 645> mark @Diacritic
+	<anchor 1047 643> mark @Yerok;
+  pos base [\uniA69B ] <anchor 344 643> mark @Diacritic
+	<anchor 536 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uniA641.salt ] <anchor 385 643> mark @Diacritic
+	<anchor 505 644> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uni0440.salt \uniA64B.salt ] <anchor 194 643> mark @Diacritic
+	<anchor 256 643> mark @Yerok;
+  pos base [\uniA64B.salt2 ] <anchor 294 643> mark @Diacritic
+	<anchor 356 643> mark @Yerok;
+  pos base [\uniA64B.salt3 ] <anchor 264 643> mark @Diacritic
+	<anchor 326 643> mark @Yerok;
+  pos base [\uni0444.salt ] <anchor 534 643> mark @Diacritic
+	<anchor 596 643> mark @Yerok;
+  pos base [\uni0444.salt2 ] <anchor 365 803> mark @Diacritic
+	<anchor 605 644> mark @Yerok
+	<anchor 358 240> mark @Numeral;
+  pos base [\uni0445.salt ] <anchor 284 643> mark @Diacritic
+	<anchor 396 643> mark @Yerok;
+  pos base [\uni0445.salt2 \uni0445.salt3 ] <anchor 254 643> mark @Diacritic
+	<anchor 376 643> mark @Yerok;
+  pos base [\uni0446.salt ] <anchor 244 643> mark @Diacritic
+	<anchor 356 643> mark @Yerok;
+  pos base [\uni0449.salt ] <anchor 374 643> mark @Diacritic
+	<anchor 556 643> mark @Yerok;
+  pos base [\uni0463.salt ] <anchor 364 643> mark @Diacritic
+	<anchor 496 643> mark @Yerok;
+  pos base [\uni0471.salt ] <anchor 445 743> mark @Diacritic
+	<anchor 665 644> mark @Yerok
+	<anchor 408 240> mark @Numeral;
+  pos base [\uni0471.salt2 ] <anchor 195 643> mark @Diacritic
+	<anchor 685 644> mark @Yerok
+	<anchor 408 240> mark @Numeral;
+  pos base [\uni0443.salt ] <anchor 265 643> mark @Diacritic
+	<anchor 385 644> mark @Yerok
+	<anchor 238 240> mark @Numeral;
+  pos base [\uni0478.salt ] <anchor 941 645> mark @Diacritic
+	<anchor 1127 643> mark @Yerok
+	<anchor 954 0> mark @Numeral;
+  pos base [\uni0426.salt ] <anchor 354 645> mark @Diacritic
+	<anchor 540 643> mark @Yerok;
+  pos base [\uniE612 ] <anchor 404 643> mark @Diacritic
+	<anchor 466 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uniE714 ] <anchor 394 643> mark @Diacritic
+	<anchor 456 643> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uniE800 ] <anchor 334 643> mark @Diacritic
+	<anchor 336 643> mark @Yerok
+	<anchor 216 240> mark @Numeral;
+  pos base [\uniE814 ] <anchor 374 643> mark @Diacritic
+	<anchor 376 643> mark @Yerok
+	<anchor 258 240> mark @Numeral;
+  pos base [\uniE92A ] <anchor 510 905> mark @Diacritic
+	<anchor 507 906> mark @Yerok;
+  pos base [\uniE92B ] <anchor 372 853> mark @Diacritic
+	<anchor 374 854> mark @Yerok
+	<anchor 338 240> mark @Numeral;
+  pos base [\uniE930 ] <anchor 540 925> mark @Diacritic
+	<anchor 539 924> mark @Yerok;
+  pos base [\uniE931 ] <anchor 634 943> mark @Diacritic
+	<anchor 634 944> mark @Yerok
+	<anchor 568 240> mark @Numeral;
+} markMarkPositioningforSlavonic;
+
 lookup mkmkStackingofCinnabarMarks {
   lookupflag 0;
   markClass [\u1CF00.ss04 ] <anchor -14 458> @Stacking;
@@ -6467,6 +7063,18 @@ lookup mkmkStackingofCinnabarMarks {
   markClass [\u1CF09 ] <anchor -71 463> @Stacking;
   markClass [\u1CF0B ] <anchor -110 455> @Stacking;
   markClass [\u1CF22 ] <anchor -117 457> @Stacking;
+  markClass [\gravecomb ] <anchor -240 687> @Stacking;
+  markClass [\acutecomb ] <anchor -208 621> @Stacking;
+  markClass [\uni0302 ] <anchor -210 678> @Stacking;
+  markClass [\tildecomb ] <anchor -180 693> @Stacking;
+  markClass [\uni0304 ] <anchor -176 714> @Stacking;
+  markClass [\uni0305 ] <anchor -174 713> @Stacking;
+  markClass [\uni0306 ] <anchor -285 782> @Stacking;
+  markClass [\uni0307 ] <anchor -91 605> @Stacking;
+  markClass [\uni0308 ] <anchor 195 578> @Stacking;
+  markClass [\uni030B ] <anchor -420 603> @Stacking;
+  markClass [\uni030F ] <anchor -130 613> @Stacking;
+  markClass [\uni0311 \uniE001 ] <anchor -359 630> @Stacking;
   markClass [\uniEA08 ] <anchor -152 463> @Stacking;
   markClass [\uni0483 \uniE9F0 ] <anchor -180 636> @Stacking;
   markClass [\uni0484 ] <anchor -161 603> @Stacking;
@@ -6513,7 +7121,6 @@ lookup mkmkStackingofCinnabarMarks {
   markClass [\uniA67C ] <anchor -199 576> @Stacking;
   markClass [\uniA69E ] <anchor -180 611> @Stacking;
   markClass [\uniA69F ] <anchor -190 639> @Stacking;
-  markClass [\uniE001 ] <anchor -359 630> @Stacking;
   markClass [\uniE003 ] <anchor -359 596> @Stacking;
   markClass [\uniE005 ] <anchor -215 593> @Stacking;
   markClass [\uniE9F1 ] <anchor -190 594> @Stacking;
@@ -6562,6 +7169,18 @@ lookup mkmkStackingofCinnabarMarks {
   pos mark [\u1CF09 ] <anchor 189 568> mark @Stacking;
   pos mark [\u1CF0B ] <anchor 130 560> mark @Stacking;
   pos mark [\u1CF22 ] <anchor 123 562> mark @Stacking;
+  pos mark [\gravecomb ] <anchor -254 874> mark @Stacking;
+  pos mark [\acutecomb ] <anchor -162 983> mark @Stacking;
+  pos mark [\uni0302 ] <anchor -224 870> mark @Stacking;
+  pos mark [\tildecomb ] <anchor -194 874> mark @Stacking;
+  pos mark [\uni0304 ] <anchor -170 874> mark @Stacking;
+  pos mark [\uni0305 ] <anchor -168 873> mark @Stacking;
+  pos mark [\uni0306 ] <anchor -279 1076> mark @Stacking;
+  pos mark [\uni0307 ] <anchor -105 811> mark @Stacking;
+  pos mark [\uni0308 ] <anchor 152 800> mark @Stacking;
+  pos mark [\uni030B ] <anchor -394 834> mark @Stacking;
+  pos mark [\uni030F ] <anchor -154 901> mark @Stacking;
+  pos mark [\uni0311 \uniE001 ] <anchor -355 854> mark @Stacking;
   pos mark [\uniEA18 ] <anchor 74 344> mark @Stacking;
   pos mark [\uniEA08 ] <anchor 108 568> mark @Stacking;
   pos mark [\uni0483 ] <anchor -194 870> mark @Stacking;
@@ -6610,7 +7229,6 @@ lookup mkmkStackingofCinnabarMarks {
   pos mark [\uniA67C ] <anchor -195 800> mark @Stacking;
   pos mark [\uniA69E ] <anchor -174 1242> mark @Stacking;
   pos mark [\uniA69F ] <anchor -183 1043> mark @Stacking;
-  pos mark [\uniE001 ] <anchor -355 854> mark @Stacking;
   pos mark [\uniE003 ] <anchor -325 920> mark @Stacking;
   pos mark [\uniE005 ] <anchor -209 1038> mark @Stacking;
   pos mark [\uniE9F0 ] <anchor -174 1220> mark @Stacking;
@@ -6681,22 +7299,44 @@ feature ss03 {
       lookup kernss02NewstyleDemestvennykerning;
 } ss03;
 
+feature ss10 {
+
+ script DFLT;
+     language dflt ;
+      lookup ss10EqualBaselineLookup;
+
+ script cyrl;
+     language dflt ;
+      lookup ss10EqualBaselineLookup;
+
+ script grek;
+     language dflt ;
+      lookup ss10EqualBaselineLookup;
+
+ script latn;
+     language dflt ;
+      lookup ss10EqualBaselineLookup;
+} ss10;
+
 feature mark {
 
  script DFLT;
      language dflt ;
       lookup markBlackMarkPositioning;
       lookup markCinnabarMarkPositioning;
+      lookup markMarkPositioningforSlavonic;
 
  script cyrl;
      language dflt ;
       lookup markBlackMarkPositioning;
       lookup markCinnabarMarkPositioning;
+      lookup markMarkPositioningforSlavonic;
 
  script latn;
      language dflt ;
       lookup markBlackMarkPositioning;
       lookup markCinnabarMarkPositioning;
+      lookup markMarkPositioningforSlavonic;
 } mark;
 
 feature mkmk {
@@ -6780,51 +7420,50 @@ feature mkmk {
 	\afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 \afii10085 
 	\afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 \afii10092 
 	\afii10093 \afii10094 \afii10096 \afii10097 \afii10099 \afii10101 \afii10102 
-	\afii10103 \afii10105 \afii10106 \afii10107 \afii10108 \afii10193 \uni033E 
-	\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 
-	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E \uni030F 
-	\uni0310 \uni0311 \exclamdown \cent \sterling \yen \dieresis \copyright 
-	\ordfeminine \guillemotleft \registered \plusminus \uni00B2 \uni00B3 \acute 
-	\uni00B5 \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright 
-	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
-	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
-	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
-	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
-	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
-	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
-	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
-	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
-	\yacute \thorn \ydieresis \exclam \quotedbl \numbersign \dollar \percent 
-	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
-	\period \slash \zero \one \two \three \four \five \six \seven \eight \nine \colon 
-	\semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O 
-	\P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum 
-	\underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z 
-	\braceleft \braceright \asciitilde \uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 
-	\uniEF74 \uniEF73 \uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 \uniEB5E \uniEF8C 
-	\uniEF8D \uniEFA1 \uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB \uniEFCC \uniEFCD 
-	\uniEFCE \uniEFCF \uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 \uniEFD7 \uniEFD8 
-	\uniEFD9 \uniEFDA \uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF \uniEF91 \uniEF92 
-	\uniEF93 \uniEF94 \uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 \uniEF89 \uniEF8A 
-	\uniEF8B \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 \uniEFA8 \uniEFAA 
-	\uniEFAB \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 \uniEFB3 \uniEFB4 
-	\uniEFB5 \uniEFB6 \uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD \uniEFBE \uniEFBF 
-	\uniEFC0 \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 
-	\uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B 
-	\dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro 
-	\minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 
-	\uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A 
-	\uni047B \uni047E \uni047F \uni0482 \uni0488 \uni0489 \uni1C80 \uni1C81 \uni1C82 
-	\uni1C83 \uni1C84 \uni1C85 \uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 
-	\uniA640 \uniA641 \uniA64A \uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 
-	\uniA653 \uniA656 \uniA657 \uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B 
-	\uniA66C \uniA66D \uniA66E \uniA670 \uniA671 \uniA672 \uniA673 \uniA67D \uniA67E 
-	\uniA67F \uniA698 \uniA699 \uniA69A \uniA69B \uniA641.salt \uni0440.salt 
-	\uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 \uni0444.salt \uni0444.salt2 
-	\uni0445.salt \uni0445.salt2 \uni0445.salt3 \uni0446.salt \uni0449.salt 
-	\uni0463.salt \uni0471.salt \uni0471.salt2 \uni0443.salt \uni0434.salt 
-	\uni1C88.salt \uni0478.salt \uni0426.salt \uniE8E5 \uniE8ED \uniE902 \uniE907 
-	\uniE90C \uniE90D \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 \u1F545 ];
+	\afii10103 \afii10105 \afii10106 \afii10107 \afii10108 \afii10193 
+	\hookabovecomb \uni030A \uni030C \uni030D \uni030E \uni0310 \exclamdown \cent 
+	\sterling \yen \dieresis \copyright \ordfeminine \guillemotleft \registered 
+	\plusminus \uni00B2 \uni00B3 \acute \uni00B5 \periodcentered \cedilla \uni00B9 
+	\ordmasculine \guillemotright \onequarter \onehalf \threequarters 
+	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE 
+	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
+	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
+	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn 
+	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla 
+	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis 
+	\eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash 
+	\ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis \exclam 
+	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
+	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
+	\four \five \six \seven \eight \nine \colon \semicolon \less \equal \greater 
+	\question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \grave \a \b \c \d 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \braceright 
+	\asciitilde \uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \uniEF74 \uniEF73 
+	\uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 \uniEB5E \uniEF8C \uniEF8D \uniEFA1 
+	\uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB \uniEFCC \uniEFCD \uniEFCE \uniEFCF 
+	\uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 \uniEFD7 \uniEFD8 \uniEFD9 \uniEFDA 
+	\uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF \uniEF91 \uniEF92 \uniEF93 \uniEF94 
+	\uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 \uniEF89 \uniEF8A \uniEF8B \uniEF9D 
+	\uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 \uniEFA8 \uniEFAA \uniEFAB \uniEFAD 
+	\uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 \uniEFB3 \uniEFB4 \uniEFB5 \uniEFB6 
+	\uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD \uniEFBE \uniEFBF \uniEFC0 \uniEFC1 
+	\uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 \uniEFC9 \uniEF7C 
+	\uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B \dotlessi \OE \oe 
+	\circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro \minus \uni0460 
+	\uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 \uni046A \uni046B 
+	\uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A \uni047B \uni047E 
+	\uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 \uni1C85 \uni1C86 
+	\uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 \uniA64A \uniA64B 
+	\uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 \uniA657 \uniA65E 
+	\uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D \uniA66E \uniA673 
+	\uniA67E \uniA67F \uniA698 \uniA699 \uniA69A \uniA69B \uniA641.salt 
+	\uni0440.salt \uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 \uni0444.salt 
+	\uni0444.salt2 \uni0445.salt \uni0445.salt2 \uni0445.salt3 \uni0446.salt 
+	\uni0449.salt \uni0463.salt \uni0471.salt \uni0471.salt2 \uni0443.salt 
+	\uni0434.salt \uni1C88.salt \uni0478.salt \uni0426.salt \uniE8E5 \uniE8ED 
+	\uniE902 \uniE907 \uniE90C \uniE90D \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 
+	\u1F545 ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
@@ -6944,15 +7583,17 @@ feature mkmk {
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C \u1CF41 \u1CF42 
 	\u1CF43 \u1CF44 \u1CF45 \u1CF46 \u1CF30 \u1CF31 \u1CF32 \u1CF33 \u1CF35 \u1CF36 
 	\u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B \u1CF3C \u1CF3D \u1CF3F \u1CF40 \uniEA14 
-	\uniEA18 \u1CF0C \u1CF0D \u1CF0E \uniEA08 \uni0483 \uni0484 \uni0485 \uni0486 
-	\uni0487 \uni2DE0 \uni2DE1 \uni2DE2 \uni2DE3 \uni2DE4 \uni2DE5 \uni2DE6 \uni2DE7 
-	\uni2DE8 \uni2DE9 \uni2DEA \uni2DEB \uni2DEC \uni2DED \uni2DEE \uni2DEF \uni2DF0 
-	\uni2DF1 \uni2DF2 \uni2DF3 \uni2DF4 \uni2DF5 \uni2DF6 \uni2DF7 \uni2DF9 \uni2DFA 
-	\uni2DFB \uni2DFC \uni2DFD \uniA66F \uniA674 \uniA675 \uniA676 \uniA677 \uniA678 
-	\uniA679 \uniA67A \uniA67B \uniA67C \uniA69E \uniA69F \uniE001 \uniE003 \uniE005 
-	\uniE9F0 \uniE9F1 \uniE9F2 \uniE9E0 \uniE9E1 \uniE9E2 \uniE9E3 \uniE9E4 \uniE9E5 
-	\uniE9E6 \uniE9E7 \uniE9E8 \uniE9E9 \uniE9EA \uniE9EB \uniE9EC \uniE9ED \uniE9EE 
-	\uniE9EF ];
+	\uni033E \gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
+	\uni0307 \uni0308 \uni030B \uni030F \uni0311 \uniEA18 \u1CF0C \u1CF0D \u1CF0E 
+	\uniEA08 \uni0483 \uni0484 \uni0485 \uni0486 \uni0487 \uni0488 \uni0489 \uni2DE0 
+	\uni2DE1 \uni2DE2 \uni2DE3 \uni2DE4 \uni2DE5 \uni2DE6 \uni2DE7 \uni2DE8 \uni2DE9 
+	\uni2DEA \uni2DEB \uni2DEC \uni2DED \uni2DEE \uni2DEF \uni2DF0 \uni2DF1 \uni2DF2 
+	\uni2DF3 \uni2DF4 \uni2DF5 \uni2DF6 \uni2DF7 \uni2DF9 \uni2DFA \uni2DFB \uni2DFC 
+	\uni2DFD \uniA66F \uniA670 \uniA671 \uniA672 \uniA674 \uniA675 \uniA676 \uniA677 
+	\uniA678 \uniA679 \uniA67A \uniA67B \uniA67C \uniA67D \uniA69E \uniA69F \uniE001 
+	\uniE003 \uniE005 \uniE9F0 \uniE9F1 \uniE9F2 \uniE9E0 \uniE9E1 \uniE9E2 \uniE9E3 
+	\uniE9E4 \uniE9E5 \uniE9E6 \uniE9E7 \uniE9E8 \uniE9E9 \uniE9EA \uniE9EB \uniE9EC 
+	\uniE9ED \uniE9EE \uniE9EF ];
 @GDEF_Component = [\uniEA50 \uniEA51 \uniEA52 ];
 
 table GDEF {

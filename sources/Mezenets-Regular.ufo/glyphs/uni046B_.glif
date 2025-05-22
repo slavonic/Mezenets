@@ -2,6 +2,9 @@
 <glyph name="uni046B" format="2">
   <advance width="674"/>
   <unicode hex="046B"/>
+  <anchor x="323.924" y="643.122" name="Diacritic"/>
+  <anchor x="436" y="643" name="Yerok"/>
+  <anchor x="324" y="240" name="Numeral"/>
   <outline>
     <contour>
       <point x="582" y="-4.00098" type="curve" smooth="yes"/>

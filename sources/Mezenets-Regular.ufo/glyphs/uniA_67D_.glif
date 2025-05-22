@@ -2,6 +2,7 @@
 <glyph name="uniA67D" format="2">
   <advance width="0"/>
   <unicode hex="A67D"/>
+  <anchor x="-59.9167" y="627.45" name="_Yerok"/>
   <outline>
     <contour>
       <point x="-55" y="764" type="curve"/>
