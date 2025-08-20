@@ -63,7 +63,7 @@ cffi==1.17.1
     #   pynacl
 cffsubr==0.3.0
     # via ufo2ft
-charset-normalizer==3.4.2
+charset-normalizer==3.4.3
     # via requests
 cmarkgfm==2024.11.20
     # via fontbakery
@@ -89,7 +89,7 @@ diffenator2==0.4.9
     # via gftools
 ffmpeg-python==0.2.0
     # via gftools
-filelock==3.18.0
+filelock==3.19.1
     # via youseedee
 font-v==2.1.0
     # via gftools
@@ -109,11 +109,11 @@ fontmath==0.9.4
     #   mutatormath
     #   ufo2ft
     #   ufoprocessor
-fontparts==0.13.2
+fontparts==0.13.3
     # via ufoprocessor
 fontpens==0.2.4
     # via defcon
-fonttools[lxml,ufo,unicode,woff]==4.59.0
+fonttools[lxml,ufo,unicode,woff]==4.59.1
     # via
     #   afdko
     #   axisregistry
@@ -177,7 +177,7 @@ glyphsets==1.1.0
     #   diffenator2
     #   fontbakery
     #   gftools
-glyphslib==6.11.4
+glyphslib==6.11.6
     # via
     #   bumpfontversion
     #   fontmake
@@ -205,7 +205,7 @@ lxml==6.0.0
     #   fonttools
     #   nanoemoji
     #   picosvg
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.2
     # via jinja2
@@ -219,7 +219,7 @@ nanoemoji==0.15.8
     # via gftools
 networkx==3.5
     # via gftools
-ninja==1.11.1.4
+ninja==1.13.0
     # via
     #   diffenator2
     #   gftools
@@ -241,7 +241,7 @@ opentypespec==1.9.2
     # via fontbakery
 opentypesvg==1.1.5
     # via -r requirements-test.in
-orjson==3.11.1
+orjson==3.11.2
     # via
     #   babelfont
     #   ufolib2
@@ -308,7 +308,7 @@ pyyaml==6.0.2
     #   glyphsets
 regex==2025.7.34
     # via nanoemoji
-requests==2.32.4
+requests==2.32.5
     # via
     #   fontbakery
     #   gftools
@@ -323,13 +323,13 @@ rich==14.1.0
     #   gftools
 rstr==3.2.2
     # via stringbrewer
-ruamel-yaml==0.18.14
+ruamel-yaml==0.18.15
     # via gftools
 ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
-selenium==4.34.2
+selenium==4.35.0
     # via diffenator2
-shaperglot==1.0.2
+shaperglot==1.1.0
     # via fontbakery
 six==1.17.0
     # via
@@ -401,7 +401,7 @@ ufolib2[json]==0.18.1
     #   vttlib
 ufolint==1.2.0
     # via fontbakery
-ufomerge==1.9.5
+ufomerge==1.9.6
     # via
     #   babelfont
     #   gftools
@@ -409,7 +409,7 @@ ufonormalizer==0.6.2
     # via afdko
 ufoprocessor==1.13.3
     # via afdko
-uharfbuzz==0.51.1
+uharfbuzz==0.51.2
     # via
     #   blackrenderer
     #   collidoscope
