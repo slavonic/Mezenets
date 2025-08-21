@@ -2,19 +2,19 @@
 <glyph name="uni0484" format="2">
   <advance width="0"/>
   <unicode hex="0484"/>
-  <anchor x="-159" y="603.45" name="_Diacritic"/>
-  <anchor x="-161" y="603" name="_Stacking"/>
-  <anchor x="-175" y="825" name="Stacking"/>
+  <anchor x="-80" y="502" name="_Diacritic"/>
+  <anchor x="-80" y="502" name="_Stacking"/>
+  <anchor x="-88" y="612" name="Stacking"/>
   <outline>
     <contour>
-      <point x="-1" y="765.5" type="curve"/>
-      <point x="-1" y="741.5" type="line"/>
-      <point x="-54" y="741.5"/>
-      <point x="-77" y="695.5"/>
-      <point x="-77" y="640.5" type="curve"/>
-      <point x="-156" y="640.5" type="line"/>
-      <point x="-156" y="738.5"/>
-      <point x="-105" y="765.5"/>
+      <point x="0" y="583" type="curve"/>
+      <point x="0" y="571" type="line"/>
+      <point x="-26" y="571"/>
+      <point x="-38" y="548"/>
+      <point x="-38" y="520" type="curve"/>
+      <point x="-78" y="520" type="line"/>
+      <point x="-78" y="569"/>
+      <point x="-52" y="583"/>
     </contour>
   </outline>
   <lib>
@@ -25,18 +25,18 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>742</integer>
+            <integer>571</integer>
             <key>width</key>
-            <integer>24</integer>
+            <integer>12</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>-156</integer>
+            <integer>-78</integer>
             <key>width</key>
-            <integer>79</integer>
+            <integer>40</integer>
           </dict>
         </array>
       </dict>
