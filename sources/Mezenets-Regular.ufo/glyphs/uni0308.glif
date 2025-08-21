@@ -2,25 +2,25 @@
 <glyph name="uni0308" format="2">
   <advance width="0"/>
   <unicode hex="0308"/>
-  <anchor x="195" y="578" name="_Stacking"/>
-  <anchor x="152" y="800" name="Stacking"/>
-  <anchor x="196" y="578" name="_Diacritic"/>
+  <anchor x="98" y="489" name="_Stacking"/>
+  <anchor x="76" y="600" name="Stacking"/>
+  <anchor x="98" y="489" name="_Diacritic"/>
   <outline>
     <contour>
-      <point x="161" y="580" type="line"/>
-      <point x="61" y="580" type="line"/>
-      <point x="8" y="701" type="line"/>
-      <point x="8" y="710" type="line"/>
-      <point x="108" y="710" type="line"/>
-      <point x="161" y="589" type="line"/>
+      <point x="80" y="490" type="line"/>
+      <point x="30" y="490" type="line"/>
+      <point x="4" y="550" type="line"/>
+      <point x="4" y="555" type="line"/>
+      <point x="54" y="555" type="line"/>
+      <point x="80" y="494" type="line"/>
     </contour>
     <contour>
-      <point x="331" y="580" type="line"/>
-      <point x="231" y="580" type="line"/>
-      <point x="178" y="701" type="line"/>
-      <point x="178" y="710" type="line"/>
-      <point x="278" y="710" type="line"/>
-      <point x="331" y="589" type="line"/>
+      <point x="166" y="490" type="line"/>
+      <point x="116" y="490" type="line"/>
+      <point x="89" y="550" type="line"/>
+      <point x="89" y="555" type="line"/>
+      <point x="139" y="555" type="line"/>
+      <point x="166" y="494" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -31,18 +31,18 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>580</integer>
+            <integer>490</integer>
             <key>width</key>
-            <integer>130</integer>
+            <integer>65</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>8</integer>
+            <integer>4</integer>
             <key>width</key>
-            <integer>323</integer>
+            <integer>162</integer>
           </dict>
         </array>
       </dict>

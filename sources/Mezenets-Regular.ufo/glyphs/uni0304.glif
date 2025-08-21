@@ -2,15 +2,15 @@
 <glyph name="uni0304" format="2">
   <advance width="0"/>
   <unicode hex="0304"/>
-  <anchor x="-176" y="714" name="_Stacking"/>
-  <anchor x="-170" y="874" name="Stacking"/>
-  <anchor x="-174" y="711" name="_Diacritic"/>
+  <anchor x="-88" y="557" name="_Stacking"/>
+  <anchor x="-85" y="637" name="Stacking"/>
+  <anchor x="-87" y="556" name="_Diacritic"/>
   <outline>
     <contour>
-      <point x="-56" y="716" type="line"/>
-      <point x="-283" y="716" type="line"/>
-      <point x="-283" y="771" type="line"/>
-      <point x="-56" y="771" type="line"/>
+      <point x="-28" y="558" type="line"/>
+      <point x="-142" y="558" type="line"/>
+      <point x="-142" y="586" type="line"/>
+      <point x="-28" y="586" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -21,18 +21,18 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>716</integer>
+            <integer>558</integer>
             <key>width</key>
-            <integer>55</integer>
+            <integer>28</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>-283</integer>
+            <integer>-142</integer>
             <key>width</key>
-            <integer>227</integer>
+            <integer>114</integer>
           </dict>
         </array>
       </dict>

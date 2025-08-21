@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni030B" format="2">
-  <advance width="1"/>
+  <advance width="0"/>
   <unicode hex="030B"/>
-  <anchor x="-420" y="603" name="_Stacking"/>
-  <anchor x="-394" y="834" name="Stacking"/>
-  <anchor x="-420" y="601" name="_Diacritic"/>
+  <anchor x="-210" y="502" name="_Stacking"/>
+  <anchor x="-197" y="617" name="Stacking"/>
+  <anchor x="-210" y="500" name="_Diacritic"/>
   <outline>
     <contour>
-      <point x="-218" y="770" type="line"/>
-      <point x="-211" y="760" type="line"/>
-      <point x="-278" y="627" type="line"/>
-      <point x="-377" y="617" type="line"/>
-      <point x="-384" y="627" type="line"/>
-      <point x="-317" y="760" type="line"/>
+      <point x="-109" y="585" type="line"/>
+      <point x="-106" y="580" type="line"/>
+      <point x="-139" y="514" type="line"/>
+      <point x="-188" y="508" type="line"/>
+      <point x="-192" y="514" type="line"/>
+      <point x="-158" y="580" type="line"/>
     </contour>
     <contour>
-      <point x="-402" y="758" type="line"/>
-      <point x="-395" y="748" type="line"/>
-      <point x="-462" y="615" type="line"/>
-      <point x="-562" y="605" type="line"/>
-      <point x="-569" y="615" type="line"/>
-      <point x="-501" y="748" type="line"/>
+      <point x="-201" y="579" type="line"/>
+      <point x="-198" y="574" type="line"/>
+      <point x="-231" y="508" type="line"/>
+      <point x="-281" y="502" type="line"/>
+      <point x="-284" y="508" type="line"/>
+      <point x="-250" y="574" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -31,9 +31,18 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>605</integer>
+            <integer>502</integer>
             <key>width</key>
-            <integer>165</integer>
+            <integer>83</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-281</integer>
+            <key>width</key>
+            <integer>172</integer>
           </dict>
         </array>
       </dict>
