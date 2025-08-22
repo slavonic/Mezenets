@@ -90,7 +90,7 @@ KernClass2: 2 2 "'kern' Demestvenny kerning - Oldstyle"
  0 {} 0 {} 0 {} -140 {}
 ChainSub2: glyph "Contextual Pre-Contraction-1" 0 0 0 1
  String: 7 uniEAD0
- BString: 0
+ BString: 0 
  FString: 6 u1CF7B
  1
   SeqLookup: 0 "Omet Removal"
@@ -1055,10 +1055,10 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -48
+DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 532 38 13
+WinInfo: 1500 25 9
 BeginPrivate: 8
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -51284,9 +51284,8 @@ SplineSet
  28 271 l 2
 EndSplineSet
 Validated: 3073
-LCarets2: 2 0 0
-Ligature2: "Znamenny Priznakification-1" u1CF81 u1CF41 u1CF43
 Ligature2: "Znamenny Priznakification-1" u1CF81 u1CF43
+LCarets2: 2 0 0
 Colour: ffff00
 EndChar
 
@@ -91565,9 +91564,9 @@ SplineSet
  468 550 506 576 519 576 c 0
 EndSplineSet
 Validated: 3073
-LCarets2: 1 0
+Ligature2: "Znamenny Priznakification Round 2-1" uniEA64 u1CF45
 Ligature2: "Znamenny Priznakification Round 2-1" uniF40A u1CF3E
-Ligature2: "Znamenny Priznakification Round 2-1" uniEA65 u1CF45
+LCarets2: 1 0
 Colour: 1fffa1
 EndChar
 
@@ -98981,9 +98980,9 @@ SplineSet
  393 351 l 1
 EndSplineSet
 Validated: 3073
-LCarets2: 1 0
-Ligature2: "Post-composition Priznakification-1" uniEABA u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4B7 u1CF40
+Ligature2: "Post-composition Priznakification-1" uniEABB u1CF45
+LCarets2: 1 0
 Colour: 1fffa1
 EndChar
 
@@ -99402,9 +99401,9 @@ SplineSet
  257 268 l 1
 EndSplineSet
 Validated: 3073
-LCarets2: 1 0
-Ligature2: "Post-composition Priznakification-1" uniEABC u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF4BF u1CF40
+Ligature2: "Post-composition Priznakification-1" uniEABD u1CF45
+LCarets2: 1 0
 Colour: 1fffa1
 EndChar
 
@@ -102546,9 +102545,9 @@ SplineSet
  367 241 l 1
 EndSplineSet
 Validated: 3073
-LCarets2: 1 0
-Ligature2: "Post-composition Priznakification-1" uniEADD u1CF46
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF505 u1CF3E
+Ligature2: "Post-composition Priznakification-1" uniEADC u1CF46
+LCarets2: 1 0
 Colour: 1fffa1
 EndChar
 
@@ -106499,8 +106498,8 @@ SplineSet
  707 576 751 523 753 496 c 1
 EndSplineSet
 Validated: 3073
+Ligature2: "Post-composition Priznakification-1" uniEB25 u1CF45
 Ligature2: "Precomposed forms for Znamenny Notation-1" uniF564 u1CF40
-Ligature2: "Post-composition Priznakification-1" uniEB25 u1CF46
 LCarets2: 1 0
 Colour: 1fffa1
 EndChar
@@ -121872,10 +121871,10 @@ SplineSet
  733 232 733 221 733 208 c 0xce80
 EndSplineSet
 Validated: 3073
-Ligature2: "Post-composition Priznakification-1" uniEB43 u1CF43
-Ligature2: "Precomposed forms for Znamenny Round 2-1" uniF662 u1CF3F
 Ligature2: "Precomposed forms for Znamenny Round 2-1" uniF644 u1CF31
+Ligature2: "Precomposed forms for Znamenny Round 2-1" uniF662 u1CF3F
 Substitution2: "'ss02' Kalashnikov Mechik Variants-1" uniEFCC
+LCarets2: 1 0
 Colour: 47c2ff
 EndChar
 

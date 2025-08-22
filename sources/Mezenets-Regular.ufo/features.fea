@@ -222,7 +222,6 @@ lookup ZnamennyPriznakification {
     sub \u1CF5B \u1CF42  by \uniEB80;
     sub \u1CF81 \u1CF42  by \uniEBA7;
     sub \u1CF81 \u1CF41 \u1CF42  by \uniEBA8;
-    sub \u1CF81 \u1CF41 \u1CF43  by \uniEBA9;
     sub \u1CF81 \u1CF43  by \uniEBA9;
     sub \u1CF81 \u1CF41 \u1CF43  by \uniEBAA;
     sub \u1CF82 \u1CF42  by \uniEBAB;
@@ -454,8 +453,8 @@ lookup ZnamennyPriznakificationRound2 {
     sub \uniF401 \u1CF3F  by \uniF405;
     sub \uniEA62 \u1CF45  by \uniF406;
     sub \uniF400 \u1CF40  by \uniF406;
+    sub \uniEA64 \u1CF45  by \uniF40C;
     sub \uniF40A \u1CF3E  by \uniF40C;
-    sub \uniEA65 \u1CF45  by \uniF40C;
     sub \uniEA64 \u1CF46  by \uniF40D;
     sub \uniF40B \u1CF3E  by \uniF40D;
     sub \uniEA65 \u1CF45  by \uniF40E;
@@ -1031,8 +1030,8 @@ lookup PrecomposedformsforZnamennyRound2 {
     sub \uniF660 \u1CF3F  by \uniF66A;
     sub \uniF661 \u1CF3F  by \uniF66B;
     sub \uniF643 \u1CF31  by \uniF66B;
-    sub \uniF662 \u1CF3F  by \uniF66C;
     sub \uniF644 \u1CF31  by \uniF66C;
+    sub \uniF662 \u1CF3F  by \uniF66C;
     sub \uniF663 \u1CF3F  by \uniF66D;
     sub \uniF645 \u1CF31  by \uniF66D;
     sub \uniF664 \u1CF3F  by \uniF66E;
@@ -1179,11 +1178,11 @@ lookup PostcompositionPriznakification {
     sub \uniEAB9 \u1CF46  by \uniF4B4;
     sub \uniEABA \u1CF45  by \uniF4B9;
     sub \uniEABA \u1CF46  by \uniF4BA;
-    sub \uniEABA \u1CF45  by \uniF4BB;
+    sub \uniEABB \u1CF45  by \uniF4BB;
     sub \uniEABB \u1CF46  by \uniF4BC;
     sub \uniEABC \u1CF45  by \uniF4C1;
     sub \uniEABC \u1CF46  by \uniF4C2;
-    sub \uniEABC \u1CF45  by \uniF4C3;
+    sub \uniEABD \u1CF45  by \uniF4C3;
     sub \uniEABD \u1CF46  by \uniF4C4;
     sub \uniEAC6 \u1CF45  by \uniF4CA;
     sub \uniEAC6 \u1CF46  by \uniF4CB;
@@ -1208,7 +1207,7 @@ lookup PostcompositionPriznakification {
     sub \uniEADB \u1CF45  by \uniF500;
     sub \uniEADB \u1CF46  by \uniF501;
     sub \uniEADC \u1CF45  by \uniF506;
-    sub \uniEADD \u1CF46  by \uniF507;
+    sub \uniEADC \u1CF46  by \uniF507;
     sub \uniEADD \u1CF45  by \uniF508;
     sub \uniEADD \u1CF46  by \uniF509;
     sub \uniEAFD \u1CF45  by \uniF520;
@@ -1239,7 +1238,7 @@ lookup PostcompositionPriznakification {
     sub \uniEB1E \u1CF46  by \uniF551;
     sub \uniEB24 \u1CF45  by \uniF566;
     sub \uniEB24 \u1CF46  by \uniF567;
-    sub \uniEB25 \u1CF46  by \uniF568;
+    sub \uniEB25 \u1CF45  by \uniF568;
     sub \uniEB25 \u1CF46  by \uniF569;
     sub \uniEB2F \u1CF45  by \uniF576;
     sub \uniEB2F \u1CF46  by \uniF577;
@@ -1344,7 +1343,6 @@ lookup PostcompositionPriznakification {
     sub \uniEB41 \u1CF44  by \uniF667;
     sub \uniEB43 \u1CF42  by \uniF66A;
     sub \uniEB43 \u1CF43  by \uniF66B;
-    sub \uniEB43 \u1CF43  by \uniF66C;
     sub \uniEB42 \u1CF42  by \uniF66F;
     sub \uniEB42 \u1CF43  by \uniF670;
     sub \uniEB42 \u1CF44  by \uniF671;
