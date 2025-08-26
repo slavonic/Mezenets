@@ -2,6 +2,7 @@
 <glyph name="uniA66A" format="2">
   <advance width="631"/>
   <unicode hex="A66A"/>
+  <anchor x="302" y="200" name="Numeral"/>
   <anchor x="306" y="522" name="Diacritic"/>
   <anchor x="528" y="522" name="Yerok"/>
   <outline>

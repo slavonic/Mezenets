@@ -6583,19 +6583,23 @@ lookup markMarkPositioningforSlavonic {
   pos base [\afii10095 \uniA657 ] <anchor 152 522> mark @Diacritic
 	<anchor 208 522> mark @Yerok
 	<anchor 119 320> mark @Numeral;
-  pos base [\afii10047 ] <anchor 258 522> mark @Diacritic
+  pos base [\afii10047 ] <anchor 232 200> mark @Numeral
+	<anchor 258 522> mark @Diacritic
 	<anchor 386 522> mark @Yerok;
-  pos base [\afii10146 ] <anchor 180 522> mark @Diacritic
+  pos base [\afii10146 ] <anchor 162 200> mark @Numeral
+	<anchor 180 522> mark @Diacritic
 	<anchor 298 522> mark @Yerok;
   pos base [\afii10194 ] <anchor 262 522> mark @Diacritic
 	<anchor 262 522> mark @Yerok
 	<anchor 149 320> mark @Numeral;
-  pos base [\afii10147 ] <anchor 164 522> mark @Diacritic
+  pos base [\afii10147 ] <anchor 162 200> mark @Numeral
+	<anchor 164 522> mark @Diacritic
 	<anchor 258 522> mark @Yerok;
   pos base [\afii10195 ] <anchor 162 522> mark @Diacritic
 	<anchor 218 522> mark @Yerok
 	<anchor 159 320> mark @Numeral;
-  pos base [\afii10148 \uniA64A ] <anchor 170 522> mark @Diacritic
+  pos base [\afii10148 \uniA64A ] <anchor 162 200> mark @Numeral
+	<anchor 170 522> mark @Diacritic
 	<anchor 264 522> mark @Yerok;
   pos base [\afii10196 ] <anchor 137 522> mark @Diacritic
 	<anchor 193 522> mark @Yerok
@@ -6645,58 +6649,83 @@ lookup markMarkPositioningforSlavonic {
   pos base [\afii10019 ] <anchor 186 522> mark @Diacritic
 	<anchor 244 522> mark @Yerok
 	<anchor 162 200> mark @Numeral;
-  pos base [\afii10020 \afii10041 ] <anchor 166 522> mark @Diacritic
+  pos base [\afii10020 \afii10041 ] <anchor 162 200> mark @Numeral
+	<anchor 166 522> mark @Diacritic
 	<anchor 258 522> mark @Yerok;
-  pos base [\afii10021 ] <anchor 221 522> mark @Diacritic
+  pos base [\afii10021 ] <anchor 162 200> mark @Numeral
+	<anchor 221 522> mark @Diacritic
 	<anchor 254 522> mark @Yerok;
-  pos base [\afii10022 \afii10035 ] <anchor 162 522> mark @Diacritic
+  pos base [\afii10022 \afii10035 ] <anchor 162 200> mark @Numeral
+	<anchor 162 522> mark @Diacritic
 	<anchor 254 522> mark @Yerok;
-  pos base [\afii10024 ] <anchor 236 522> mark @Diacritic
+  pos base [\afii10024 ] <anchor 229 200> mark @Numeral
+	<anchor 236 522> mark @Diacritic
 	<anchor 358 522> mark @Yerok;
-  pos base [\afii10025 ] <anchor 250 522> mark @Diacritic
+  pos base [\afii10025 ] <anchor 162 200> mark @Numeral
+	<anchor 250 522> mark @Diacritic
 	<anchor 354 522> mark @Yerok;
-  pos base [\afii10026 ] <anchor 182 522> mark @Diacritic
+  pos base [\afii10026 ] <anchor 172 200> mark @Numeral
+	<anchor 182 522> mark @Diacritic
 	<anchor 266 522> mark @Yerok;
-  pos base [\afii10027 ] <anchor 210 658> mark @Diacritic
+  pos base [\afii10027 ] <anchor 177 200> mark @Numeral
+	<anchor 210 658> mark @Diacritic
 	<anchor 210 657> mark @Yerok;
-  pos base [\afii10028 ] <anchor 176 522> mark @Diacritic
+  pos base [\afii10028 ] <anchor 153 200> mark @Numeral
+	<anchor 176 522> mark @Diacritic
 	<anchor 270 522> mark @Yerok;
-  pos base [\afii10029 ] <anchor 220 522> mark @Diacritic
+  pos base [\afii10029 ] <anchor 169 200> mark @Numeral
+	<anchor 220 522> mark @Diacritic
 	<anchor 254 522> mark @Yerok;
-  pos base [\afii10030 ] <anchor 286 522> mark @Diacritic
+  pos base [\afii10030 ] <anchor 280 200> mark @Numeral
+	<anchor 286 522> mark @Diacritic
 	<anchor 378 522> mark @Yerok;
-  pos base [\afii10031 ] <anchor 180 522> mark @Diacritic
+  pos base [\afii10031 ] <anchor 179 200> mark @Numeral
+	<anchor 180 522> mark @Diacritic
 	<anchor 294 522> mark @Yerok;
-  pos base [\afii10032 ] <anchor 162 522> mark @Diacritic
+  pos base [\afii10032 ] <anchor 162 200> mark @Numeral
+	<anchor 162 522> mark @Diacritic
 	<anchor 256 522> mark @Yerok;
-  pos base [\afii10033 ] <anchor 180 522> mark @Diacritic
+  pos base [\afii10033 ] <anchor 182 200> mark @Numeral
+	<anchor 180 522> mark @Diacritic
 	<anchor 273 522> mark @Yerok;
-  pos base [\afii10034 ] <anchor 200 522> mark @Diacritic
+  pos base [\afii10034 ] <anchor 162 200> mark @Numeral
+	<anchor 200 522> mark @Diacritic
 	<anchor 275 522> mark @Yerok;
-  pos base [\afii10036 ] <anchor 182 522> mark @Diacritic
+  pos base [\afii10036 ] <anchor 173 200> mark @Numeral
+	<anchor 182 522> mark @Diacritic
 	<anchor 310 522> mark @Yerok;
   pos base [\afii10037 ] <anchor 180 522> mark @Diacritic
 	<anchor 274 522> mark @Yerok
 	<anchor 162 200> mark @Numeral;
-  pos base [\afii10038 ] <anchor 206 522> mark @Diacritic
+  pos base [\afii10038 ] <anchor 202 200> mark @Numeral
+	<anchor 206 522> mark @Diacritic
 	<anchor 348 522> mark @Yerok;
-  pos base [\afii10039 ] <anchor 250 522> mark @Diacritic
+  pos base [\afii10039 ] <anchor 184 200> mark @Numeral
+	<anchor 250 522> mark @Diacritic
 	<anchor 344 522> mark @Yerok;
-  pos base [\afii10040 ] <anchor 186 522> mark @Diacritic
+  pos base [\afii10040 ] <anchor 180 200> mark @Numeral
+	<anchor 186 522> mark @Diacritic
 	<anchor 278 522> mark @Yerok;
-  pos base [\afii10042 ] <anchor 236 522> mark @Diacritic
+  pos base [\afii10042 ] <anchor 232 200> mark @Numeral
+	<anchor 236 522> mark @Diacritic
 	<anchor 374 522> mark @Yerok;
-  pos base [\afii10043 \uniA65E ] <anchor 230 522> mark @Diacritic
+  pos base [\afii10043 ] <anchor 231 200> mark @Numeral
+	<anchor 230 522> mark @Diacritic
 	<anchor 374 522> mark @Yerok;
-  pos base [\afii10044 ] <anchor 194 522> mark @Diacritic
+  pos base [\afii10044 ] <anchor 162 200> mark @Numeral
+	<anchor 194 522> mark @Diacritic
 	<anchor 236 522> mark @Yerok;
-  pos base [\afii10045 ] <anchor 220 522> mark @Diacritic
+  pos base [\afii10045 ] <anchor 212 200> mark @Numeral
+	<anchor 220 522> mark @Diacritic
 	<anchor 338 522> mark @Yerok;
-  pos base [\afii10046 ] <anchor 166 522> mark @Diacritic
+  pos base [\afii10046 ] <anchor 162 200> mark @Numeral
+	<anchor 166 522> mark @Diacritic
 	<anchor 208 522> mark @Yerok;
-  pos base [\afii10048 ] <anchor 266 522> mark @Diacritic
+  pos base [\afii10048 ] <anchor 259 200> mark @Numeral
+	<anchor 266 522> mark @Diacritic
 	<anchor 428 522> mark @Yerok;
-  pos base [\afii10049 ] <anchor 150 522> mark @Diacritic
+  pos base [\afii10049 ] <anchor 142 200> mark @Numeral
+	<anchor 150 522> mark @Diacritic
 	<anchor 218 522> mark @Yerok;
   pos base [\afii10065 ] <anchor 123 522> mark @Diacritic
 	<anchor 144 522> mark @Yerok
@@ -6809,67 +6838,80 @@ lookup markMarkPositioningforSlavonic {
   pos base [\afii10110 ] <anchor 142 672> mark @Diacritic
 	<anchor 143 672> mark @Yerok
 	<anchor 119 320> mark @Numeral;
-  pos base [\uni0460 ] <anchor 286 522> mark @Diacritic
+  pos base [\uni0460 ] <anchor 252 200> mark @Numeral
+	<anchor 286 522> mark @Diacritic
 	<anchor 424 522> mark @Yerok;
   pos base [\uni0461 ] <anchor 167 522> mark @Diacritic
 	<anchor 278 522> mark @Yerok
 	<anchor 169 320> mark @Numeral;
-  pos base [\uni0464 ] <anchor 316 522> mark @Diacritic
+  pos base [\uni0464 ] <anchor 162 200> mark @Numeral
+	<anchor 316 522> mark @Diacritic
 	<anchor 408 522> mark @Yerok;
   pos base [\uni0465 ] <anchor 142 522> mark @Diacritic
 	<anchor 198 522> mark @Yerok
 	<anchor 109 320> mark @Numeral;
-  pos base [\uni0466 ] <anchor 230 522> mark @Diacritic
+  pos base [\uni0466 ] <anchor 232 200> mark @Numeral
+	<anchor 230 522> mark @Diacritic
 	<anchor 324 522> mark @Yerok;
   pos base [\uni0467 ] <anchor 152 522> mark @Diacritic
 	<anchor 243 522> mark @Yerok
 	<anchor 151 320> mark @Numeral;
-  pos base [\uni0468 ] <anchor 380 522> mark @Diacritic
+  pos base [\uni0468 ] <anchor 202 200> mark @Numeral
+	<anchor 380 522> mark @Diacritic
 	<anchor 473 522> mark @Yerok;
   pos base [\uni0469 ] <anchor 227 522> mark @Diacritic
 	<anchor 318 522> mark @Yerok
 	<anchor 174 320> mark @Numeral;
-  pos base [\uni046A ] <anchor 226 522> mark @Diacritic
+  pos base [\uni046A ] <anchor 230 200> mark @Numeral
+	<anchor 226 522> mark @Diacritic
 	<anchor 328 522> mark @Yerok;
   pos base [\uni046B ] <anchor 162 522> mark @Diacritic
 	<anchor 218 522> mark @Yerok
 	<anchor 162 320> mark @Numeral;
-  pos base [\uni046C ] <anchor 356 522> mark @Diacritic
+  pos base [\uni046C ] <anchor 182 200> mark @Numeral
+	<anchor 356 522> mark @Diacritic
 	<anchor 456 522> mark @Yerok;
   pos base [\uni046D ] <anchor 241 522> mark @Diacritic
 	<anchor 298 522> mark @Yerok
 	<anchor 239 320> mark @Numeral;
-  pos base [\uni046E ] <anchor 200 522> mark @Diacritic
+  pos base [\uni046E ] <anchor 162 200> mark @Numeral
+	<anchor 200 522> mark @Diacritic
 	<anchor 268 522> mark @Yerok;
   pos base [\uni046F ] <anchor 142 522> mark @Diacritic
 	<anchor 188 522> mark @Yerok
 	<anchor 119 320> mark @Numeral;
-  pos base [\uni0470 ] <anchor 300 522> mark @Diacritic
+  pos base [\uni0470 ] <anchor 202 200> mark @Numeral
+	<anchor 300 522> mark @Diacritic
 	<anchor 358 522> mark @Yerok;
   pos base [\uni0471 ] <anchor 317 522> mark @Diacritic
 	<anchor 348 522> mark @Yerok
 	<anchor 204 320> mark @Numeral;
-  pos base [\uni0476 ] <anchor 166 672> mark @Diacritic
+  pos base [\uni0476 ] <anchor 152 200> mark @Numeral
+	<anchor 166 672> mark @Diacritic
 	<anchor 165 672> mark @Yerok;
   pos base [\uni0477 ] <anchor 142 672> mark @Diacritic
 	<anchor 142 672> mark @Yerok
 	<anchor 124 320> mark @Numeral;
-  pos base [\uni0478 ] <anchor 432 522> mark @Diacritic
+  pos base [\uni0478 ] <anchor 162 200> mark @Numeral
+	<anchor 432 522> mark @Diacritic
 	<anchor 488 522> mark @Yerok;
   pos base [\uni0479 ] <anchor 257 522> mark @Diacritic
 	<anchor 313 522> mark @Yerok
 	<anchor 249 320> mark @Numeral;
-  pos base [\uni047A ] <anchor 310 522> mark @Diacritic
+  pos base [\uni047A ] <anchor 302 200> mark @Numeral
+	<anchor 310 522> mark @Diacritic
 	<anchor 538 522> mark @Yerok;
   pos base [\uni047B ] <anchor 172 522> mark @Diacritic
 	<anchor 263 522> mark @Yerok
 	<anchor 169 320> mark @Numeral;
-  pos base [\uni047C ] <anchor 266 692> mark @Diacritic
+  pos base [\uni047C ] <anchor 252 200> mark @Numeral
+	<anchor 266 692> mark @Diacritic
 	<anchor 264 692> mark @Yerok;
   pos base [\uni047D ] <anchor 247 677> mark @Diacritic
 	<anchor 248 677> mark @Yerok
 	<anchor 224 320> mark @Numeral;
-  pos base [\uni047E ] <anchor 256 652> mark @Diacritic
+  pos base [\uni047E ] <anchor 252 200> mark @Numeral
+	<anchor 256 652> mark @Diacritic
 	<anchor 254 652> mark @Yerok;
   pos base [\uni047F ] <anchor 186 612> mark @Diacritic
 	<anchor 186 612> mark @Yerok
@@ -6895,7 +6937,8 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uni1C88 \uni1C88.salt ] <anchor 138 521> mark @Diacritic
 	<anchor 198 522> mark @Yerok
 	<anchor 119 320> mark @Numeral;
-  pos base [\uniA640 ] <anchor 200 522> mark @Diacritic
+  pos base [\uniA640 ] <anchor 162 200> mark @Numeral
+	<anchor 200 522> mark @Diacritic
 	<anchor 274 522> mark @Yerok;
   pos base [\uniA641 ] <anchor 182 522> mark @Diacritic
 	<anchor 238 522> mark @Yerok
@@ -6903,12 +6946,14 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uniA64B ] <anchor 157 572> mark @Diacritic
 	<anchor 158 572> mark @Yerok
 	<anchor 119 320> mark @Numeral;
-  pos base [\uniA64C ] <anchor 254 522> mark @Diacritic
+  pos base [\uniA64C ] <anchor 252 200> mark @Numeral
+	<anchor 254 522> mark @Diacritic
 	<anchor 428 522> mark @Yerok;
   pos base [\uniA64D ] <anchor 217 522> mark @Diacritic
 	<anchor 358 522> mark @Yerok
 	<anchor 209 320> mark @Numeral;
-  pos base [\uniA650 ] <anchor 280 522> mark @Diacritic
+  pos base [\uniA650 ] <anchor 272 200> mark @Numeral
+	<anchor 280 522> mark @Diacritic
 	<anchor 374 522> mark @Yerok;
   pos base [\uniA651 ] <anchor 237 522> mark @Diacritic
 	<anchor 308 522> mark @Yerok
@@ -6919,22 +6964,29 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uniA653 ] <anchor 267 522> mark @Diacritic
 	<anchor 267 522> mark @Yerok
 	<anchor 149 320> mark @Numeral;
-  pos base [\uniA656 ] <anchor 200 522> mark @Diacritic
+  pos base [\uniA656 ] <anchor 162 200> mark @Numeral
+	<anchor 200 522> mark @Diacritic
 	<anchor 314 522> mark @Yerok;
+  pos base [\uniA65E ] <anchor 232 200> mark @Numeral
+	<anchor 230 522> mark @Diacritic
+	<anchor 374 522> mark @Yerok;
   pos base [\uniA65F ] <anchor 152 522> mark @Diacritic
 	<anchor 243 522> mark @Yerok
 	<anchor 149 320> mark @Numeral;
-  pos base [\uniA668 ] <anchor 310 522> mark @Diacritic
+  pos base [\uniA668 ] <anchor 302 200> mark @Numeral
+	<anchor 310 522> mark @Diacritic
 	<anchor 534 522> mark @Yerok;
   pos base [\uniA669 ] <anchor 177 522> mark @Diacritic
 	<anchor 273 522> mark @Yerok
 	<anchor 169 320> mark @Numeral;
-  pos base [\uniA66A ] <anchor 306 522> mark @Diacritic
+  pos base [\uniA66A ] <anchor 302 200> mark @Numeral
+	<anchor 306 522> mark @Diacritic
 	<anchor 528 522> mark @Yerok;
   pos base [\uniA66B ] <anchor 197 522> mark @Diacritic
 	<anchor 318 522> mark @Yerok
 	<anchor 199 320> mark @Numeral;
-  pos base [\uniA66C ] <anchor 284 522> mark @Diacritic
+  pos base [\uniA66C ] <anchor 282 200> mark @Numeral
+	<anchor 284 522> mark @Diacritic
 	<anchor 482 522> mark @Yerok;
   pos base [\uniA66D ] <anchor 222 522> mark @Diacritic
 	<anchor 363 522> mark @Yerok
@@ -6942,12 +6994,14 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uniA66E ] <anchor 380 648> mark @Diacritic
 	<anchor 474 646> mark @Yerok
 	<anchor 349 320> mark @Numeral;
-  pos base [\uniA698 ] <anchor 286 522> mark @Diacritic
+  pos base [\uniA698 ] <anchor 278 200> mark @Numeral
+	<anchor 286 522> mark @Diacritic
 	<anchor 474 522> mark @Yerok;
   pos base [\uniA699 ] <anchor 202 522> mark @Diacritic
 	<anchor 343 522> mark @Yerok
 	<anchor 199 320> mark @Numeral;
-  pos base [\uniA69A ] <anchor 306 522> mark @Diacritic
+  pos base [\uniA69A ] <anchor 306 200> mark @Numeral
+	<anchor 306 522> mark @Diacritic
 	<anchor 524 522> mark @Yerok;
   pos base [\uniA69B ] <anchor 172 522> mark @Diacritic
 	<anchor 268 522> mark @Yerok
@@ -6955,26 +7009,38 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uniA641.salt ] <anchor 192 521> mark @Diacritic
 	<anchor 252 522> mark @Yerok
 	<anchor 169 320> mark @Numeral;
-  pos base [\uni0440.salt \uniA64B.salt ] <anchor 97 522> mark @Diacritic
+  pos base [\uni0440.salt ] <anchor 82 200> mark @Numeral
+	<anchor 97 522> mark @Diacritic
 	<anchor 128 522> mark @Yerok;
-  pos base [\uniA64B.salt2 ] <anchor 147 522> mark @Diacritic
+  pos base [\uniA64B.salt ] <anchor 119 320> mark @Numeral
+	<anchor 97 522> mark @Diacritic
+	<anchor 128 522> mark @Yerok;
+  pos base [\uniA64B.salt2 ] <anchor 119 320> mark @Numeral
+	<anchor 147 522> mark @Diacritic
 	<anchor 178 522> mark @Yerok;
-  pos base [\uniA64B.salt3 ] <anchor 132 522> mark @Diacritic
+  pos base [\uniA64B.salt3 ] <anchor 119 320> mark @Numeral
+	<anchor 132 522> mark @Diacritic
 	<anchor 163 522> mark @Yerok;
-  pos base [\uni0444.salt ] <anchor 267 522> mark @Diacritic
+  pos base [\uni0444.salt ] <anchor 179 320> mark @Numeral
+	<anchor 267 522> mark @Diacritic
 	<anchor 298 522> mark @Yerok;
   pos base [\uni0444.salt2 ] <anchor 182 601> mark @Diacritic
 	<anchor 302 522> mark @Yerok
 	<anchor 179 320> mark @Numeral;
-  pos base [\uni0445.salt ] <anchor 142 522> mark @Diacritic
+  pos base [\uni0445.salt ] <anchor 99 320> mark @Numeral
+	<anchor 142 522> mark @Diacritic
 	<anchor 198 522> mark @Yerok;
-  pos base [\uni0445.salt2 \uni0445.salt3 ] <anchor 127 522> mark @Diacritic
+  pos base [\uni0445.salt2 \uni0445.salt3 ] <anchor 99 320> mark @Numeral
+	<anchor 127 522> mark @Diacritic
 	<anchor 188 522> mark @Yerok;
-  pos base [\uni0446.salt ] <anchor 122 522> mark @Diacritic
+  pos base [\uni0446.salt ] <anchor 119 320> mark @Numeral
+	<anchor 122 522> mark @Diacritic
 	<anchor 178 522> mark @Yerok;
-  pos base [\uni0449.salt ] <anchor 187 522> mark @Diacritic
+  pos base [\uni0449.salt ] <anchor 169 320> mark @Numeral
+	<anchor 187 522> mark @Diacritic
 	<anchor 278 522> mark @Yerok;
-  pos base [\uni0463.salt ] <anchor 182 522> mark @Diacritic
+  pos base [\uni0463.salt ] <anchor 149 320> mark @Numeral
+	<anchor 182 522> mark @Diacritic
 	<anchor 248 522> mark @Yerok;
   pos base [\uni0471.salt ] <anchor 222 571> mark @Diacritic
 	<anchor 332 522> mark @Yerok
@@ -6988,7 +7054,8 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uni0478.salt ] <anchor 470 522> mark @Diacritic
 	<anchor 564 522> mark @Yerok
 	<anchor 477 200> mark @Numeral;
-  pos base [\uni0426.salt ] <anchor 177 522> mark @Diacritic
+  pos base [\uni0426.salt ] <anchor 172 200> mark @Numeral
+	<anchor 177 522> mark @Diacritic
 	<anchor 270 522> mark @Yerok;
   pos base [\uniE612 ] <anchor 202 522> mark @Diacritic
 	<anchor 233 522> mark @Yerok
@@ -7002,12 +7069,14 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uniE814 ] <anchor 187 522> mark @Diacritic
 	<anchor 188 522> mark @Yerok
 	<anchor 129 320> mark @Numeral;
-  pos base [\uniE92A ] <anchor 255 652> mark @Diacritic
+  pos base [\uniE92A ] <anchor 251 200> mark @Numeral
+	<anchor 255 652> mark @Diacritic
 	<anchor 254 653> mark @Yerok;
   pos base [\uniE92B ] <anchor 186 627> mark @Diacritic
 	<anchor 187 627> mark @Yerok
 	<anchor 169 320> mark @Numeral;
-  pos base [\uniE930 ] <anchor 270 662> mark @Diacritic
+  pos base [\uniE930 ] <anchor 252 200> mark @Numeral
+	<anchor 270 662> mark @Diacritic
 	<anchor 270 662> mark @Yerok;
   pos base [\uniE931 ] <anchor 317 672> mark @Diacritic
 	<anchor 317 672> mark @Yerok
