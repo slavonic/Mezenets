@@ -5772,7 +5772,7 @@ lookup markCinnabarMarkPositioning {
   markClass [\u1CF1B.ss04 ] <anchor 320 543> @PitchMark;
   markClass [\u1CF1D.ss04 ] <anchor 345 540> @PitchMark;
   markClass [\u1CF1F.ss04 ] <anchor 399 541> @PitchMark;
-  markClass [\u1CF18.ss04 ] <anchor 382 542> @PitchMark;
+  markClass [\u1CF18.ss04 ] <anchor 383 542> @PitchMark;
   markClass [\u1CF1A.ss04 \u1CF1A ] <anchor 450 543> @PitchMark;
   markClass [\u1CF1C.ss04 ] <anchor 364 543> @PitchMark;
   markClass [\u1CF1E.ss04 ] <anchor 444 543> @PitchMark;
@@ -7397,115 +7397,112 @@ feature mkmk {
 } mkmk;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\uni0002 \uni0000 \uni0001 \uni0003 \uni0004 \uni0005 \uni0006 
-	\uni0007 \uni0008 \uni0009 \uni000A \uni000B \uni000C \uni000D \uni000E \uni000F 
-	\uni0010 \uni0011 \uni0012 \uni0013 \uni0014 \uni0015 \uni0016 \uni0017 \uni0018 
-	\uni0019 \uni001A \uni001B \uni001C \uni001D \uni001E \uni001F \space \uni00A0 
-	\uni25CC \uni2000 \uni2001 \uni2002 \uni2003 \uni2004 \uni2005 \uni2006 \uni2007 
-	\uni2008 \uni2009 \uni200A \uni200B \afii61664 \uni200D \afii299 \afii300 
-	\uni2010 \uni2011 \figuredash \endash \emdash \afii00208 \bar \currency \section 
-	\brokenbar \logicalnot \uni00AD \macron \paragraph \degree \uniEE90 \uniEE76 
-	\uniEE77 \uniEE7C \uniEE70 \uniEE85 \uniEE80 \uniEEAC \uniEEAD \uniEE87 \uniEE89 
-	\uniEE71 \uniEE72 \uniEE84 \uniEE8C \uniEE8E \uniEE8F \uniEE8D \uniEE8A \uniEE8B 
-	\uniEE73 \uniEE9B \uniEE9C \uniEE91 \uniEE9A \uniEE93 \uniEE92 \uniEE9E \uniEE9F 
-	\uniEEA0 \uniEE7E \uniEA9A \uniEEAB \uniEE82 \uniEE83 \uniEEAA \uniEE75 \uniEE7D 
-	\uniEE7F \uniEE7A \uniEE86 \uniEEAF \uniEE78 \uniEEAE \uniEE81 \uniEA9C \uniEE9D 
-	\u1CF18.ss04 \uniEE88 \uniEA57 \afii10095 \uniEEA1 \uniEEA2 \uniEEA3 \uniEEA4 
-	\uniEEA5 \uniEA55 \uniEA1F \afii10047 \uniEE7B \uniEAE3 \uniEBA1 \uniEBA2 
-	\uniEBA4 \uniEBA5 \uniEBAE \uniEBB0 \uniEA20 \uniEA21 \uniEA22 \uniEA23 \uniEA24 
-	\uniEA25 \uniEA26 \uniEA27 \uniEA28 \uniEA29 \uniEA2A \uniEA2B \uniEA2C \uniEA30 
-	\uniEA31 \uniEA32 \uniEA33 \uniEE79 \uniEBA3 \uniEA1D \uniEAE4 \uniEAE5 \uniEAE7 
-	\uniEAE8 \uniEAE9 \uniEAEE \uniEAF1 \uniEAF8 \uniEC14 \uniEC15 \uniEC16 \uniEAF6 
-	\uniEA3D \uniEA3E \uniEA3F \uniEA40 \uniEA34 \uniEA35 \uniEA36 \uniEA37 \uniEA38 
-	\uniEA39 \uniEA3A \uniEA3B \uniEA3C \uniEA41 \uniEA2D \uniEA42 \uniEA43 \uniEA45 
-	\uniEA46 \uniEA47 \uniEA48 \uniEA49 \uniEA4A \uniEA4B \uniEA4C \uniEA4D \uniEA4E 
-	\uniEA4F \uniEA56 \uniEA54 \uniEA58 \uniEB0B \uniEA9B \uniEA8C \uniEA91 \uniEA98 
-	\uniEAEF \uniEAF2 \uniEAF4 \uniEA8D \uniEF8E \uniEF7D \uniEE99 \uniEEA6 \uniEEA7 
-	\uniEEA8 \uniEE94 \uniEE95 \uniEE96 \uniEE98 \uniEE97 \uniEEB0 \uniEEB2 \uniEEB3 
-	\uniEEB4 \uniEEB5 \uniEEB6 \uniEEB7 \uniEEB9 \uniEEBA \uniEEBD \uniEEBE \uniEEBF 
-	\uniEEC0 \uniEEC1 \uniEEC2 \uniEEC3 \uniEEC4 \uniEEC5 \uniEEC6 \uniEEC8 \uniEEC9 
-	\uniEECA \uniEECD \uniEECE \uniEECF \uniEED0 \uniEED2 \uniEED3 \uniEED4 \uniEED6 
-	\uniEEE2 \uniEEE3 \uniEEE4 \uniEECB \uniEEE6 \uniEEEC \uniEEF3 \uniEEF4 \uniEEF5 
-	\uniEEF8 \uniEEF9 \uniEEB1 \uniEC46 \uniEC45 \uniEC47 \uni2423 \uniEC48 \uniEC49 
-	\uniEC4A \uniEC4B \uniEC50 \uniEEB8 \uniEEC7 \uniEEBB \uniEEBC \uniEEE7 \uniEEE8 
-	\uniEEE9 \uniEEEA \uniEEED \uniEEEE \uniEEF0 \uniEEF1 \uniEED1 \uniEAC9 \u1CF50 
-	\u1CF51 \u1CF52 \u1CF53 \u1CF54 \u1CF55 \u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 
-	\u1CF65 \u1CF66 \u1CF67 \u1CF68 \u1CF69 \u1CF6A \u1CF6B \u1CF6C \u1CF6D \u1CF6E 
-	\u1CF6F \u1CF70 \u1CF71 \u1CF72 \u1CF73 \u1CF74 \u1CF75 \u1CF76 \u1CF77 \u1CF78 
-	\u1CF79 \u1CF7A \u1CF7B \u1CF7C \u1CF7D \u1CF7E \u1CF7F \u1CF80 \u1CF81 \u1CF82 
-	\u1CF83 \u1CF84 \u1CF85 \u1CF86 \u1CF87 \u1CF88 \u1CF89 \u1CF8A \u1CF8B \u1CF8C 
-	\u1CF8D \u1CF8E \u1CF8F \u1CF90 \u1CF91 \u1CF92 \u1CF93 \u1CF94 \u1CF95 \u1CF96 
-	\u1CF97 \u1CF98 \u1CF99 \u1CF9A \u1CF9B \u1CF9C \u1CF9D \u1CF9E \u1CF9F \u1CFA0 
-	\u1CFA1 \u1CFA2 \u1CFA3 \u1CFA4 \u1CFA5 \u1CFA6 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB 
-	\u1CFAC \u1CFAD \u1CFAE \u1CFAF \u1CFB0 \u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 
-	\u1CFB6 \u1CFB7 \u1CFB8 \u1CFB9 \u1CFBA \u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CFBF 
-	\u1CFC1 \u1CFC2 \u1CFC3 \u1CFC0 \u1CF3E \u1CF56 \u1CF58 \u1CF59 \u1CF5A \u1CF5B 
-	\u1CF5C \u1CF5D \u1CF5E \u1CF5F \uniEA53 \uniEB57 \uniEA8E \uniEA90 \uniEF71 
-	\uniEB0A \uniEF72 \u1CFA8 \uniEB22 \uniEB5D \uniF61C \uniEF7B \uniEF9F \uniEFA6 
-	\uniEFAC \uniEFBC \uniEF60 \uniEF84 \uniEA1C \uniEF66 \uniEF69 \uniEF9C \uniEF6D 
-	\uniEF9B \uniEB20 \uniEF62 \uniEF98 \uniEF99 \uniEF9A \uniEF6A \uniEF6C \uniEF6B 
-	\uniEFB7 \uniEF61 \uniEC10 \uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1B \uniEC1F 
-	\uniEC20 \uniEC21 \uniEC25 \uniEC30 \uniEC31 \uniEC32 \uniEC33 \uniEC34 \uniEC35 
-	\uniEC36 \uniEC37 \uniEC38 \uniEC39 \uniEC3A \uniEC3B \uniEC3C \uniEC3D \uniEC3E 
-	\uniEA8F \uniEAA1 \uni2713 \uniEAC8 \u1CF34 \afii61352 \quoteleft \quoteright 
-	\quotesinglbase \quotereversed \quotedblleft \quotedblright \quotedblbase 
-	\uni201F \dagger \daggerdbl \bullet \uni2023 \onedotenleader \twodotenleader 
-	\ellipsis \uni2027 \guilsinglleft \guilsinglright \afii10146 \afii10194 
-	\afii10147 \afii10195 \afii10148 \afii10196 \afii10051 \afii10053 \afii10054 
-	\afii10055 \afii10057 \afii10058 \afii10059 \afii10060 \afii10062 \afii10145 
-	\afii10017 \afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 
-	\afii10025 \afii10026 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 
-	\afii10033 \afii10034 \afii10035 \afii10036 \afii10037 \afii10038 \afii10039 
-	\afii10040 \afii10041 \afii10042 \afii10043 \afii10044 \afii10045 \afii10046 
-	\afii10048 \afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 
-	\afii10070 \afii10072 \afii10073 \afii10074 \afii10076 \afii10077 \afii10078 
-	\afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 \afii10085 
-	\afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 \afii10092 
-	\afii10093 \afii10094 \afii10096 \afii10097 \afii10099 \afii10101 \afii10102 
-	\afii10103 \afii10105 \afii10106 \afii10107 \afii10108 \afii10193 
-	\hookabovecomb \uni030A \uni030C \uni030D \uni030E \uni0310 \exclamdown \cent 
-	\sterling \yen \dieresis \copyright \ordfeminine \guillemotleft \registered 
-	\plusminus \uni00B2 \uni00B3 \acute \uni00B5 \periodcentered \cedilla \uni00B9 
-	\ordmasculine \guillemotright \onequarter \onehalf \threequarters 
-	\questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \AE 
-	\Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex 
-	\Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde \Odieresis 
-	\multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute \Thorn 
-	\germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae \ccedilla 
-	\egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis 
-	\eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash 
-	\ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis \exclam 
-	\quotedbl \numbersign \dollar \percent \ampersand \quotesingle \parenleft 
-	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
-	\four \five \six \seven \eight \nine \colon \semicolon \less \equal \greater 
-	\question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z 
-	\bracketleft \backslash \bracketright \asciicircum \underscore \grave \a \b \c \d 
-	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \braceright 
-	\asciitilde \uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \uniEF74 \uniEF73 
-	\uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 \uniEB5E \uniEF8C \uniEF8D \uniEFA1 
-	\uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB \uniEFCC \uniEFCD \uniEFCE \uniEFCF 
-	\uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 \uniEFD7 \uniEFD8 \uniEFD9 \uniEFDA 
-	\uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF \uniEF91 \uniEF92 \uniEF93 \uniEF94 
-	\uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 \uniEF89 \uniEF8A \uniEF8B \uniEF9D 
-	\uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 \uniEFA8 \uniEFAA \uniEFAB \uniEFAD 
-	\uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 \uniEFB3 \uniEFB4 \uniEFB5 \uniEFB6 
-	\uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD \uniEFBE \uniEFBF \uniEFC0 \uniEFC1 
-	\uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 \uniEFC9 \uniEF7C 
-	\uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B \dotlessi \OE \oe 
-	\circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro \minus \uni0460 
-	\uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 \uni046A \uni046B 
-	\uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A \uni047B \uni047E 
-	\uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 \uni1C85 \uni1C86 
-	\uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 \uniA64A \uniA64B 
-	\uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 \uniA657 \uniA65E 
-	\uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D \uniA66E \uniA673 
-	\uniA67E \uniA67F \uniA698 \uniA699 \uniA69A \uniA69B \uniA641.salt 
-	\uni0440.salt \uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 \uni0444.salt 
-	\uni0444.salt2 \uni0445.salt \uni0445.salt2 \uni0445.salt3 \uni0446.salt 
-	\uni0449.salt \uni0463.salt \uni0471.salt \uni0471.salt2 \uni0443.salt 
-	\uni0434.salt \uni1C88.salt \uni0478.salt \uni0426.salt \uniE8E5 \uniE8ED 
-	\uniE902 \uniE907 \uniE90C \uniE90D \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 
-	\u1F545 \uni205C \uF0124 \uF0125 \uF0126 \uF0120 \uF0121 \uF0122 \uF0123 ];
+@GDEF_Simple = [\uni000D \space \uni00A0 \uni25CC \uni2000 \uni2001 \uni2002 
+	\uni2003 \uni2004 \uni2005 \uni2006 \uni2007 \uni2008 \uni2009 \uni200A \uni200B 
+	\afii61664 \uni200D \afii299 \afii300 \uni2010 \uni2011 \figuredash \endash 
+	\emdash \afii00208 \bar \currency \section \brokenbar \logicalnot \uni00AD 
+	\macron \paragraph \degree \uniEE90 \uniEE76 \uniEE77 \uniEE7C \uniEE70 \uniEE85 
+	\uniEE80 \uniEEAC \uniEEAD \uniEE87 \uniEE89 \uniEE71 \uniEE72 \uniEE84 \uniEE8C 
+	\uniEE8E \uniEE8F \uniEE8D \uniEE8A \uniEE8B \uniEE73 \uniEE9B \uniEE9C \uniEE91 
+	\uniEE9A \uniEE93 \uniEE92 \uniEE9E \uniEE9F \uniEEA0 \uniEE7E \uniEA9A \uniEEAB 
+	\uniEE82 \uniEE83 \uniEEAA \uniEE75 \uniEE7D \uniEE7F \uniEE7A \uniEE86 \uniEEAF 
+	\uniEE78 \uniEEAE \uniEE81 \uniEA9C \uniEE9D \u1CF18.ss04 \uniEE88 \uniEA57 
+	\afii10095 \uniEEA1 \uniEEA2 \uniEEA3 \uniEEA4 \uniEEA5 \uniEA55 \uniEA1F 
+	\afii10047 \uniEE7B \uniEAE3 \uniEBA1 \uniEBA2 \uniEBA4 \uniEBA5 \uniEBAE 
+	\uniEBB0 \uniEA20 \uniEA21 \uniEA22 \uniEA23 \uniEA24 \uniEA25 \uniEA26 \uniEA27 
+	\uniEA28 \uniEA29 \uniEA2A \uniEA2B \uniEA2C \uniEA30 \uniEA31 \uniEA32 \uniEA33 
+	\uniEE79 \uniEBA3 \uniEA1D \uniEAE4 \uniEAE5 \uniEAE7 \uniEAE8 \uniEAE9 \uniEAEE 
+	\uniEAF1 \uniEAF8 \uniEC14 \uniEC15 \uniEC16 \uniEAF6 \uniEA3D \uniEA3E \uniEA3F 
+	\uniEA40 \uniEA34 \uniEA35 \uniEA36 \uniEA37 \uniEA38 \uniEA39 \uniEA3A \uniEA3B 
+	\uniEA3C \uniEA41 \uniEA2D \uniEA42 \uniEA43 \uniEA45 \uniEA46 \uniEA47 \uniEA48 
+	\uniEA49 \uniEA4A \uniEA4B \uniEA4C \uniEA4D \uniEA4E \uniEA4F \uniEA56 \uniEA54 
+	\uniEA58 \uniEB0B \uniEA9B \uniEA8C \uniEA91 \uniEA98 \uniEAEF \uniEAF2 \uniEAF4 
+	\uniEA8D \uniEF8E \uniEF7D \uniEE99 \uniEEA6 \uniEEA7 \uniEEA8 \uniEE94 \uniEE95 
+	\uniEE96 \uniEE98 \uniEE97 \uniEEB0 \uniEEB2 \uniEEB3 \uniEEB4 \uniEEB5 \uniEEB6 
+	\uniEEB7 \uniEEB9 \uniEEBA \uniEEBD \uniEEBE \uniEEBF \uniEEC0 \uniEEC1 \uniEEC2 
+	\uniEEC3 \uniEEC4 \uniEEC5 \uniEEC6 \uniEEC8 \uniEEC9 \uniEECA \uniEECD \uniEECE 
+	\uniEECF \uniEED0 \uniEED2 \uniEED3 \uniEED4 \uniEED6 \uniEEE2 \uniEEE3 \uniEEE4 
+	\uniEECB \uniEEE6 \uniEEEC \uniEEF3 \uniEEF4 \uniEEF5 \uniEEF8 \uniEEF9 \uniEEB1 
+	\uniEC46 \uniEC45 \uniEC47 \uni2423 \uniEC48 \uniEC49 \uniEC4A \uniEC4B \uniEC50 
+	\uniEEB8 \uniEEC7 \uniEEBB \uniEEBC \uniEEE7 \uniEEE8 \uniEEE9 \uniEEEA \uniEEED 
+	\uniEEEE \uniEEF0 \uniEEF1 \uniEED1 \uniEAC9 \u1CF50 \u1CF51 \u1CF52 \u1CF53 
+	\u1CF54 \u1CF55 \u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 
+	\u1CF68 \u1CF69 \u1CF6A \u1CF6B \u1CF6C \u1CF6D \u1CF6E \u1CF6F \u1CF70 \u1CF71 
+	\u1CF72 \u1CF73 \u1CF74 \u1CF75 \u1CF76 \u1CF77 \u1CF78 \u1CF79 \u1CF7A \u1CF7B 
+	\u1CF7C \u1CF7D \u1CF7E \u1CF7F \u1CF80 \u1CF81 \u1CF82 \u1CF83 \u1CF84 \u1CF85 
+	\u1CF86 \u1CF87 \u1CF88 \u1CF89 \u1CF8A \u1CF8B \u1CF8C \u1CF8D \u1CF8E \u1CF8F 
+	\u1CF90 \u1CF91 \u1CF92 \u1CF93 \u1CF94 \u1CF95 \u1CF96 \u1CF97 \u1CF98 \u1CF99 
+	\u1CF9A \u1CF9B \u1CF9C \u1CF9D \u1CF9E \u1CF9F \u1CFA0 \u1CFA1 \u1CFA2 \u1CFA3 
+	\u1CFA4 \u1CFA5 \u1CFA6 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB \u1CFAC \u1CFAD \u1CFAE 
+	\u1CFAF \u1CFB0 \u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 \u1CFB6 \u1CFB7 \u1CFB8 
+	\u1CFB9 \u1CFBA \u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CFBF \u1CFC1 \u1CFC2 \u1CFC3 
+	\u1CFC0 \u1CF3E \u1CF56 \u1CF58 \u1CF59 \u1CF5A \u1CF5B \u1CF5C \u1CF5D \u1CF5E 
+	\u1CF5F \uniEA53 \uniEB57 \uniEA8E \uniEA90 \uniEF71 \uniEB0A \uniEF72 \u1CFA8 
+	\uniEB22 \uniEB5D \uniF61C \uniEF7B \uniEF9F \uniEFA6 \uniEFAC \uniEFBC \uniEF60 
+	\uniEF84 \uniEA1C \uniEF66 \uniEF69 \uniEF9C \uniEF6D \uniEF9B \uniEB20 \uniEF62 
+	\uniEF98 \uniEF99 \uniEF9A \uniEF6A \uniEF6C \uniEF6B \uniEFB7 \uniEF61 \uniEC10 
+	\uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1B \uniEC1F \uniEC20 \uniEC21 \uniEC25 
+	\uniEC30 \uniEC31 \uniEC32 \uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 
+	\uniEC39 \uniEC3A \uniEC3B \uniEC3C \uniEC3D \uniEC3E \uniEA8F \uniEAA1 \uni2713 
+	\uniEAC8 \u1CF34 \afii61352 \quoteleft \quoteright \quotesinglbase 
+	\quotereversed \quotedblleft \quotedblright \quotedblbase \uni201F \dagger 
+	\daggerdbl \bullet \uni2023 \onedotenleader \twodotenleader \ellipsis \uni2027 
+	\guilsinglleft \guilsinglright \afii10146 \afii10194 \afii10147 \afii10195 
+	\afii10148 \afii10196 \afii10051 \afii10053 \afii10054 \afii10055 \afii10057 
+	\afii10058 \afii10059 \afii10060 \afii10062 \afii10145 \afii10017 \afii10018 
+	\afii10019 \afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 
+	\afii10028 \afii10029 \afii10030 \afii10031 \afii10032 \afii10033 \afii10034 
+	\afii10035 \afii10036 \afii10037 \afii10038 \afii10039 \afii10040 \afii10041 
+	\afii10042 \afii10043 \afii10044 \afii10045 \afii10046 \afii10048 \afii10049 
+	\afii10065 \afii10066 \afii10067 \afii10068 \afii10069 \afii10070 \afii10072 
+	\afii10073 \afii10074 \afii10076 \afii10077 \afii10078 \afii10079 \afii10080 
+	\afii10081 \afii10082 \afii10083 \afii10084 \afii10085 \afii10086 \afii10087 
+	\afii10088 \afii10089 \afii10090 \afii10091 \afii10092 \afii10093 \afii10094 
+	\afii10096 \afii10097 \afii10099 \afii10101 \afii10102 \afii10103 \afii10105 
+	\afii10106 \afii10107 \afii10108 \afii10193 \hookabovecomb \uni030A \uni030C 
+	\uni030D \uni030E \uni0310 \exclamdown \cent \sterling \yen \dieresis \copyright 
+	\ordfeminine \guillemotleft \registered \plusminus \uni00B2 \uni00B3 \acute 
+	\uni00B5 \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright 
+	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
+	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
+	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
+	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
+	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
+	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
+	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
+	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
+	\yacute \thorn \ydieresis \exclam \quotedbl \numbersign \dollar \percent 
+	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
+	\period \slash \zero \one \two \three \four \five \six \seven \eight \nine \colon 
+	\semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O 
+	\P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum 
+	\underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z 
+	\braceleft \braceright \asciitilde \uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 
+	\uniEF74 \uniEF73 \uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 \uniEB5E \uniEF8C 
+	\uniEF8D \uniEFA1 \uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB \uniEFCC \uniEFCD 
+	\uniEFCE \uniEFCF \uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 \uniEFD7 \uniEFD8 
+	\uniEFD9 \uniEFDA \uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF \uniEF91 \uniEF92 
+	\uniEF93 \uniEF94 \uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 \uniEF89 \uniEF8A 
+	\uniEF8B \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 \uniEFA8 \uniEFAA 
+	\uniEFAB \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 \uniEFB3 \uniEFB4 
+	\uniEFB5 \uniEFB6 \uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD \uniEFBE \uniEFBF 
+	\uniEFC0 \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 
+	\uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B 
+	\dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro 
+	\minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 
+	\uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A 
+	\uni047B \uni047E \uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 
+	\uni1C85 \uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 
+	\uniA64A \uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 
+	\uniA657 \uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D 
+	\uniA66E \uniA673 \uniA67E \uniA67F \uniA698 \uniA699 \uniA69A \uniA69B 
+	\uniA641.salt \uni0440.salt \uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 
+	\uni0444.salt \uni0444.salt2 \uni0445.salt \uni0445.salt2 \uni0445.salt3 
+	\uni0446.salt \uni0449.salt \uni0463.salt \uni0471.salt \uni0471.salt2 
+	\uni0443.salt \uni0434.salt \uni1C88.salt \uni0478.salt \uni0426.salt 
+	\uniE8E5 \uniE8ED \uniE902 \uniE907 \uniE90C \uniE90D \u1F540 \u1F541 \u1F542 
+	\u1F543 \u1F544 \u1F545 \uni205C \uF0124 \uF0125 \uF0126 \uF0120 \uF0121 \uF0122 
+	\uF0123 \uni0000 ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
