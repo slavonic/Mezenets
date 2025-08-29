@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright" format="2">
-  <advance width="326"/>
+  <advance width="163"/>
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="259" y="-468" type="line"/>
-      <point x="23" y="-468" type="line"/>
-      <point x="23" y="-440" type="line"/>
-      <point x="143" y="-440" type="line"/>
-      <point x="143" y="508" type="line"/>
-      <point x="23" y="508" type="line"/>
-      <point x="23" y="537" type="line"/>
-      <point x="259" y="537" type="line"/>
+      <point x="130" y="-34" type="line"/>
+      <point x="12" y="-34" type="line"/>
+      <point x="12" y="-20" type="line"/>
+      <point x="72" y="-20" type="line"/>
+      <point x="72" y="454" type="line"/>
+      <point x="12" y="454" type="line"/>
+      <point x="12" y="468" type="line"/>
+      <point x="130" y="468" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -22,24 +22,24 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-468</integer>
+            <integer>-34</integer>
             <key>width</key>
-            <integer>28</integer>
+            <integer>14</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>508</integer>
+            <integer>454</integer>
             <key>width</key>
-            <integer>29</integer>
+            <integer>14</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>143</integer>
+            <integer>72</integer>
             <key>width</key>
-            <integer>116</integer>
+            <integer>58</integer>
           </dict>
         </array>
       </dict>
