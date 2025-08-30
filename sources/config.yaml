@@ -17,14 +17,10 @@ recipe:
   - source: Mezenets-Regular.ufo
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
     operation: buildOTF
-  - args: ''
-    operation: fix
-  - args: -m ../fonts/otf/Mezenets-Regular.otf colordata.ttx -o ../fonts/otf/Mezenets-Regular.otf
-    exe: ttx
-    postprocess: exec
-  - args: -m SVGs/ ../fonts/otf/Mezenets-Regular.otf
-    exe: addsvg
-    postprocess: exec
+# google fonts is stupid and does not correctly run the fix script for COLR/CPALized OTFs
+  - args: "fix-nonhinting $in $out"
+    exe: "gftools"
+    operation: exec
   ../fonts/ttf/Mezenets-Regular.ttf:
   - source: Mezenets-Regular.ufo
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
@@ -33,9 +29,6 @@ recipe:
     operation: autohint
   - args: ''
     operation: fix
-  - args: -m ../fonts/ttf/Mezenets-Regular.ttf colordata.ttx -o ../fonts/ttf/Mezenets-Regular.ttf
-    exe: ttx
-    postprocess: exec
   ../fonts/webfonts/Mezenets-Regular.woff2:
   - source: Mezenets-Regular.ufo
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
@@ -44,13 +37,12 @@ recipe:
     operation: autohint
   - args: ''
     operation: fix
-  - args: -m ../fonts/webfonts/Mezenets-Regular.woff2 colordata.ttx -o ../fonts/webfonts/Mezenets-Regular.woff2
-    exe: ttx
-    postprocess: exec
+  - args: ''
+    operation: compress
 # hack because we cannot use Google Font's compress script
-  - args: ttLib.woff2 compress ../fonts/webfonts/Mezenets-Regular.woff2 -o ../fonts/webfonts/Mezenets-Regular.woff2
-    exe: fonttools
-    postprocess: exec
+#  - args: ttLib.woff2 compress ../fonts/webfonts/Mezenets-Regular.woff2 -o ../fonts/webfonts/Mezenets-Regular.woff2
+#    exe: fonttools
+#    postprocess: exec
 
 # Next you can supply alternative paths for where you want the
 # binaries to live. But we'd recommend you stick to the defaults

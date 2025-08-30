@@ -6,5 +6,9 @@
       <string>public.default</string>
       <string>glyphs</string>
     </array>
+    <array>
+      <string>color0</string>
+      <string>glyphs.color0</string>
+    </array>
   </array>
 </plist>
