@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>u1CF00</key>
+    <string>u1C_F_00.glif</string>
+    <key>u1CF01</key>
+    <string>u1C_F_01.glif</string>
+    <key>u1CF02</key>
+    <string>u1C_F_02.glif</string>
+    <key>u1CF03</key>
+    <string>u1C_F_03.glif</string>
+    <key>u1CF04</key>
+    <string>u1C_F_04.glif</string>
+    <key>u1CF05</key>
+    <string>u1C_F_05.glif</string>
+    <key>u1CF06</key>
+    <string>u1C_F_06.glif</string>
+    <key>u1CF07</key>
+    <string>u1C_F_07.glif</string>
+    <key>u1CF08</key>
+    <string>u1C_F_08.glif</string>
+    <key>u1CF09</key>
+    <string>u1C_F_09.glif</string>
+    <key>u1CF0A</key>
+    <string>u1C_F_0A_.glif</string>
+    <key>u1CF0B</key>
+    <string>u1C_F_0B_.glif</string>
+    <key>u1CF0C</key>
+    <string>u1C_F_0C_.glif</string>
+    <key>u1CF0D</key>
+    <string>u1C_F_0D_.glif</string>
+    <key>u1CF0E</key>
+    <string>u1C_F_0E_.glif</string>
+    <key>u1CF0F</key>
+    <string>u1C_F_0F_.glif</string>
+</dict>
+</plist>
