@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>com.github.googlei18n.ufo2ft.colorPalettes</key>
+  <array>
+    <array>
+      <!-- CPAL palette #0: black -->
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+      <!-- CPAL palette #1: #CC0803 -->
+      <array>
+        <real>0.8</real>   <!-- 204/255 -->
+        <real>0.031</real> <!-- 8/255 -->
+        <real>0.012</real> <!-- 3/255 -->
+        <real>1.0</real>   <!-- alpha -->
+      </array>
+    </array>
+  </array>
+
+  <!-- Tell ufo2ft how to map UFO layers -> palette indices -->
+  <key>com.github.googlei18n.ufo2ft.colorLayerMapping</key>
+  <array>
+    <!-- default laeyr should paint using palette index 0 -->
+    <array>
+      <string>public.default</string>
+      <integer>0</integer>
+    </array>
+    <!-- layer "color0" should paint using palette index 1 -->
+    <array>
+      <string>color0</string>
+      <integer>1</integer>
+    </array>
+  </array>
+</dict>
+</plist>
