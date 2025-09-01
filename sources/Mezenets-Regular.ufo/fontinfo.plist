@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>100</integer>
+    <integer>200</integer>
     <key>copyright</key>
     <string>Copyright 2025 The Mezenets Project Authors (https://github.com/slavonic/Mezenets)</string>
     <key>unitsPerEm</key>
@@ -40,7 +40,7 @@ See README for more information.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.100</string>
+    <string>Version 1.200</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>

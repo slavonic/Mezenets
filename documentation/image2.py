@@ -23,7 +23,7 @@ AUXILIARY_FONT_SIZE = 48
 
 LINE_ONE = ""
 LINE_TWO = "𜽰𜽂𜼅   𜽐𜼱𜼆   𜽐𜽂𜼰𜼅   𜽝𜽂𜼄   𜽐𜽂𜼰𜼅  𜽖𜽂𜼢   𜽗𜽂𜼢   𜽲𜼆"
-LINE_THREE = "Тво	я   по бѣ ди тел на	я"
+LINE_THREE = "Тво  ѧ    по   бѣ   ди  тел  на   ѧ"
 LINE_FOUR = " "
 BIG_TEXT_FONT_SIZE = 160
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
@@ -79,7 +79,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0)
+    fill(1)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
@@ -89,7 +89,7 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(1)
+    fill(0)
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
