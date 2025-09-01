@@ -4130,5 +4130,19 @@
     <string>uF_0123.glif</string>
     <key>uni0000</key>
     <string>uni0000.glif</string>
+    <key>uni0480</key>
+    <string>uni0480.glif</string>
+    <key>uni0481</key>
+    <string>uni0481.glif</string>
+    <key>uniA642</key>
+    <string>uniA_642.glif</string>
+    <key>uniA643</key>
+    <string>uniA_643.glif</string>
+    <key>uni202F</key>
+    <string>uni202F_.glif</string>
+    <key>uni2028</key>
+    <string>uni2028.glif</string>
+    <key>uni2029</key>
+    <string>uni2029.glif</string>
   </dict>
 </plist>

@@ -1767,6 +1767,9 @@ feature salt {
 } salt;
 
 feature ss02 {
+  featureNames {
+    name 3 1 0x409 "Render Mechiki in the style used in the Demestvenny Azbuka of Kalashnikov";
+  };
 
  script DFLT;
      language dflt ;
@@ -1782,6 +1785,9 @@ feature ss02 {
 } ss02;
 
 feature ss03 {
+  featureNames {
+    name 3 1 0x409 "Contract Demestvenny ligatures";
+  };
 
  script DFLT;
      language dflt ;
@@ -1803,6 +1809,9 @@ feature ss03 {
 } ss03;
 
 feature ss04 {
+  featureNames {
+    name 3 1 0x409 "Turn off coloring of cinnabar marks";
+  };
 
  script DFLT;
      language dflt ;
@@ -6519,11 +6528,12 @@ lookup markMarkPositioningforSlavonic {
   markClass [\uni0302 ] <anchor -106 539> @Diacritic;
   markClass [\tildecomb ] <anchor -89 547> @Diacritic;
   markClass [\uni0304 \uni0305 ] <anchor -87 556> @Diacritic;
-  markClass [\uni0306 ] <anchor -143 591> @Diacritic;
+  markClass [\uni0306 \uni030A ] <anchor -143 591> @Diacritic;
   markClass [\uni0307 ] <anchor -46 503> @Diacritic;
   markClass [\uni0308 ] <anchor 98 489> @Diacritic;
-  markClass [\uni030B ] <anchor -210 500> @Diacritic;
+  markClass [\uni030B \uni030C \uni030D \uni030E ] <anchor -210 500> @Diacritic;
   markClass [\uni030F ] <anchor -65 506> @Diacritic;
+  markClass [\uni0310 ] <anchor -210 490> @Diacritic;
   markClass [\uni0311 \uniE001 ] <anchor -179 515> @Diacritic;
   markClass [\uni0483 ] <anchor -90 518> @Diacritic;
   markClass [\uni0484 ] <anchor -80 502> @Diacritic;
@@ -6649,7 +6659,7 @@ lookup markMarkPositioningforSlavonic {
   pos base [\afii10019 ] <anchor 186 522> mark @Diacritic
 	<anchor 244 522> mark @Yerok
 	<anchor 162 200> mark @Numeral;
-  pos base [\afii10020 \afii10041 ] <anchor 162 200> mark @Numeral
+  pos base [\afii10020 \afii10041 \uni0480 ] <anchor 162 200> mark @Numeral
 	<anchor 166 522> mark @Diacritic
 	<anchor 258 522> mark @Yerok;
   pos base [\afii10021 ] <anchor 162 200> mark @Numeral
@@ -6784,7 +6794,7 @@ lookup markMarkPositioningforSlavonic {
   pos base [\afii10087 ] <anchor 132 522> mark @Diacritic
 	<anchor 188 522> mark @Yerok
 	<anchor 109 320> mark @Numeral;
-  pos base [\afii10089 ] <anchor 102 522> mark @Diacritic
+  pos base [\afii10089 \uni0481 ] <anchor 102 522> mark @Diacritic
 	<anchor 158 522> mark @Yerok
 	<anchor 119 320> mark @Numeral;
   pos base [\afii10090 ] <anchor 192 522> mark @Diacritic
@@ -6937,10 +6947,10 @@ lookup markMarkPositioningforSlavonic {
   pos base [\uni1C88 \uni1C88.salt ] <anchor 138 521> mark @Diacritic
 	<anchor 198 522> mark @Yerok
 	<anchor 119 320> mark @Numeral;
-  pos base [\uniA640 ] <anchor 162 200> mark @Numeral
+  pos base [\uniA640 \uniA642 ] <anchor 162 200> mark @Numeral
 	<anchor 200 522> mark @Diacritic
 	<anchor 274 522> mark @Yerok;
-  pos base [\uniA641 ] <anchor 182 522> mark @Diacritic
+  pos base [\uniA641 \uniA643 ] <anchor 182 522> mark @Diacritic
 	<anchor 238 522> mark @Yerok
 	<anchor 139 320> mark @Numeral;
   pos base [\uniA64B ] <anchor 157 572> mark @Diacritic
@@ -7113,11 +7123,12 @@ lookup mkmkStackingofCinnabarMarks {
   markClass [\tildecomb ] <anchor -90 546> @Stacking;
   markClass [\uni0304 ] <anchor -88 557> @Stacking;
   markClass [\uni0305 ] <anchor -87 556> @Stacking;
-  markClass [\uni0306 ] <anchor -142 591> @Stacking;
+  markClass [\uni0306 \uni030A ] <anchor -142 591> @Stacking;
   markClass [\uni0307 ] <anchor -46 502> @Stacking;
   markClass [\uni0308 ] <anchor 98 489> @Stacking;
-  markClass [\uni030B ] <anchor -210 502> @Stacking;
+  markClass [\uni030B \uni030C \uni030D \uni030E ] <anchor -210 502> @Stacking;
   markClass [\uni030F ] <anchor -65 506> @Stacking;
+  markClass [\uni0310 ] <anchor -210 492> @Stacking;
   markClass [\uni0311 \uniE001 ] <anchor -180 515> @Stacking;
   markClass [\uniEA08 ] <anchor -152 463> @Stacking;
   markClass [\uni0483 \uniE9F0 ] <anchor -90 518> @Stacking;
@@ -7217,11 +7228,12 @@ lookup mkmkStackingofCinnabarMarks {
   pos mark [\tildecomb ] <anchor -97 637> mark @Stacking;
   pos mark [\uni0304 ] <anchor -85 637> mark @Stacking;
   pos mark [\uni0305 ] <anchor -84 636> mark @Stacking;
-  pos mark [\uni0306 ] <anchor -140 738> mark @Stacking;
+  pos mark [\uni0306 \uni030A ] <anchor -140 738> mark @Stacking;
   pos mark [\uni0307 ] <anchor -52 606> mark @Stacking;
   pos mark [\uni0308 ] <anchor 76 600> mark @Stacking;
-  pos mark [\uni030B ] <anchor -197 617> mark @Stacking;
+  pos mark [\uni030B \uni030C \uni030D \uni030E ] <anchor -197 617> mark @Stacking;
   pos mark [\uni030F ] <anchor -77 650> mark @Stacking;
+  pos mark [\uni0310 ] <anchor -197 607> mark @Stacking;
   pos mark [\uni0311 \uniE001 ] <anchor -178 627> mark @Stacking;
   pos mark [\uniEA18 ] <anchor 74 344> mark @Stacking;
   pos mark [\uniEA08 ] <anchor 108 568> mark @Stacking;
@@ -7309,6 +7321,9 @@ feature ss01 {
 } ss01;
 
 feature ss02 {
+  featureNames {
+    name 3 1 0x409 "Render Mechiki in the style used in the Demestvenny Azbuka of Kalashnikov";
+  };
 
  script DFLT;
      language dflt ;
@@ -7327,6 +7342,9 @@ feature ss02 {
 } ss02;
 
 feature ss03 {
+  featureNames {
+    name 3 1 0x409 "Contract Demestvenny ligatures";
+  };
 
  script DFLT;
      language dflt ;
@@ -7436,73 +7454,73 @@ feature mkmk {
 	\u1CFA4 \u1CFA5 \u1CFA6 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB \u1CFAC \u1CFAD \u1CFAE 
 	\u1CFAF \u1CFB0 \u1CFB1 \u1CFB2 \u1CFB3 \u1CFB4 \u1CFB5 \u1CFB6 \u1CFB7 \u1CFB8 
 	\u1CFB9 \u1CFBA \u1CFBB \u1CFBC \u1CFBD \u1CFBE \u1CFBF \u1CFC1 \u1CFC2 \u1CFC3 
-	\u1CFC0 \u1CF3E \u1CF56 \u1CF58 \u1CF59 \u1CF5A \u1CF5B \u1CF5C \u1CF5D \u1CF5E 
-	\u1CF5F \uniEA53 \uniEB57 \uniEA8E \uniEA90 \uniEF71 \uniEB0A \uniEF72 \u1CFA8 
-	\uniEB22 \uniEB5D \uniF61C \uniEF7B \uniEF9F \uniEFA6 \uniEFAC \uniEFBC \uniEF60 
-	\uniEF84 \uniEA1C \uniEF66 \uniEF69 \uniEF9C \uniEF6D \uniEF9B \uniEB20 \uniEF62 
-	\uniEF98 \uniEF99 \uniEF9A \uniEF6A \uniEF6C \uniEF6B \uniEFB7 \uniEF61 \uniEC10 
-	\uniEC17 \uniEC18 \uniEC19 \uniEC1A \uniEC1B \uniEC1F \uniEC20 \uniEC21 \uniEC25 
-	\uniEC30 \uniEC31 \uniEC32 \uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 
-	\uniEC39 \uniEC3A \uniEC3B \uniEC3C \uniEC3D \uniEC3E \uniEA8F \uniEAA1 \uni2713 
-	\uniEAC8 \u1CF34 \afii61352 \quoteleft \quoteright \quotesinglbase 
-	\quotereversed \quotedblleft \quotedblright \quotedblbase \uni201F \dagger 
-	\daggerdbl \bullet \uni2023 \onedotenleader \twodotenleader \ellipsis \uni2027 
-	\guilsinglleft \guilsinglright \afii10146 \afii10194 \afii10147 \afii10195 
-	\afii10148 \afii10196 \afii10051 \afii10053 \afii10054 \afii10055 \afii10057 
-	\afii10058 \afii10059 \afii10060 \afii10062 \afii10145 \afii10017 \afii10018 
-	\afii10019 \afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 
-	\afii10028 \afii10029 \afii10030 \afii10031 \afii10032 \afii10033 \afii10034 
-	\afii10035 \afii10036 \afii10037 \afii10038 \afii10039 \afii10040 \afii10041 
-	\afii10042 \afii10043 \afii10044 \afii10045 \afii10046 \afii10048 \afii10049 
-	\afii10065 \afii10066 \afii10067 \afii10068 \afii10069 \afii10070 \afii10072 
-	\afii10073 \afii10074 \afii10076 \afii10077 \afii10078 \afii10079 \afii10080 
-	\afii10081 \afii10082 \afii10083 \afii10084 \afii10085 \afii10086 \afii10087 
-	\afii10088 \afii10089 \afii10090 \afii10091 \afii10092 \afii10093 \afii10094 
-	\afii10096 \afii10097 \afii10099 \afii10101 \afii10102 \afii10103 \afii10105 
-	\afii10106 \afii10107 \afii10108 \afii10193 \hookabovecomb \uni030A \uni030C 
-	\uni030D \uni030E \uni0310 \exclamdown \cent \sterling \yen \dieresis \copyright 
-	\ordfeminine \guillemotleft \registered \plusminus \uni00B2 \uni00B3 \acute 
-	\uni00B5 \periodcentered \cedilla \uni00B9 \ordmasculine \guillemotright 
-	\onequarter \onehalf \threequarters \questiondown \Agrave \Aacute \Acircumflex 
-	\Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis 
-	\Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute 
-	\Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex 
-	\Udieresis \Yacute \Thorn \germandbls \agrave \aacute \acircumflex \atilde 
-	\adieresis \aring \ae \ccedilla \egrave \eacute \ecircumflex \edieresis \igrave 
-	\iacute \icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex 
-	\otilde \odieresis \divide \oslash \ugrave \uacute \ucircumflex \udieresis 
-	\yacute \thorn \ydieresis \exclam \quotedbl \numbersign \dollar \percent 
-	\ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen 
-	\period \slash \zero \one \two \three \four \five \six \seven \eight \nine \colon 
-	\semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O 
-	\P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum 
-	\underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z 
-	\braceleft \braceright \asciitilde \uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 
-	\uniEF74 \uniEF73 \uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 \uniEB5E \uniEF8C 
-	\uniEF8D \uniEFA1 \uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB \uniEFCC \uniEFCD 
-	\uniEFCE \uniEFCF \uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 \uniEFD7 \uniEFD8 
-	\uniEFD9 \uniEFDA \uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF \uniEF91 \uniEF92 
-	\uniEF93 \uniEF94 \uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 \uniEF89 \uniEF8A 
-	\uniEF8B \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 \uniEFA8 \uniEFAA 
-	\uniEFAB \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 \uniEFB3 \uniEFB4 
-	\uniEFB5 \uniEFB6 \uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD \uniEFBE \uniEFBF 
-	\uniEFC0 \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 
-	\uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B 
-	\dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro 
-	\minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 
-	\uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A 
-	\uni047B \uni047E \uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 
-	\uni1C85 \uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 
-	\uniA64A \uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 
-	\uniA657 \uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D 
-	\uniA66E \uniA673 \uniA67E \uniA67F \uniA698 \uniA699 \uniA69A \uniA69B 
-	\uniA641.salt \uni0440.salt \uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 
-	\uni0444.salt \uni0444.salt2 \uni0445.salt \uni0445.salt2 \uni0445.salt3 
-	\uni0446.salt \uni0449.salt \uni0463.salt \uni0471.salt \uni0471.salt2 
-	\uni0443.salt \uni0434.salt \uni1C88.salt \uni0478.salt \uni0426.salt 
-	\uniE8E5 \uniE8ED \uniE902 \uniE907 \uniE90C \uniE90D \u1F540 \u1F541 \u1F542 
-	\u1F543 \u1F544 \u1F545 \uni205C \uF0124 \uF0125 \uF0126 \uF0120 \uF0121 \uF0122 
-	\uF0123 \uni0000 ];
+	\u1CFC0 \u1CF56 \u1CF58 \u1CF59 \u1CF5A \u1CF5B \u1CF5C \u1CF5D \u1CF5E \u1CF5F 
+	\uniEA53 \uniEB57 \uniEA8E \uniEA90 \uniEF71 \uniEB0A \uniEF72 \u1CFA8 \uniEB22 
+	\uniEB5D \uniF61C \uniEF7B \uniEF9F \uniEFA6 \uniEFAC \uniEFBC \uniEF60 \uniEF84 
+	\uniEA1C \uniEF66 \uniEF69 \uniEF9C \uniEF6D \uniEF9B \uniEB20 \uniEF62 \uniEF98 
+	\uniEF99 \uniEF9A \uniEF6A \uniEF6C \uniEF6B \uniEFB7 \uniEF61 \uniEC10 \uniEC17 
+	\uniEC18 \uniEC19 \uniEC1A \uniEC1B \uniEC1F \uniEC20 \uniEC21 \uniEC25 \uniEC30 
+	\uniEC31 \uniEC32 \uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 \uniEC39 
+	\uniEC3A \uniEC3B \uniEC3C \uniEC3D \uniEC3E \uniEA8F \uniEAA1 \uni2713 \uniEAC8 
+	\afii61352 \quoteleft \quoteright \quotesinglbase \quotereversed 
+	\quotedblleft \quotedblright \quotedblbase \uni201F \dagger \daggerdbl \bullet 
+	\uni2023 \onedotenleader \twodotenleader \ellipsis \uni2027 \guilsinglleft 
+	\guilsinglright \afii10146 \afii10194 \afii10147 \afii10195 \afii10148 
+	\afii10196 \afii10051 \afii10053 \afii10054 \afii10055 \afii10057 \afii10058 
+	\afii10059 \afii10060 \afii10062 \afii10145 \afii10017 \afii10018 \afii10019 
+	\afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 \afii10028 
+	\afii10029 \afii10030 \afii10031 \afii10032 \afii10033 \afii10034 \afii10035 
+	\afii10036 \afii10037 \afii10038 \afii10039 \afii10040 \afii10041 \afii10042 
+	\afii10043 \afii10044 \afii10045 \afii10046 \afii10048 \afii10049 \afii10065 
+	\afii10066 \afii10067 \afii10068 \afii10069 \afii10070 \afii10072 \afii10073 
+	\afii10074 \afii10076 \afii10077 \afii10078 \afii10079 \afii10080 \afii10081 
+	\afii10082 \afii10083 \afii10084 \afii10085 \afii10086 \afii10087 \afii10088 
+	\afii10089 \afii10090 \afii10091 \afii10092 \afii10093 \afii10094 \afii10096 
+	\afii10097 \afii10099 \afii10101 \afii10102 \afii10103 \afii10105 \afii10106 
+	\afii10107 \afii10108 \afii10193 \exclamdown \cent \sterling \yen \dieresis 
+	\copyright \ordfeminine \guillemotleft \registered \plusminus \uni00B2 
+	\uni00B3 \acute \uni00B5 \periodcentered \cedilla \uni00B9 \ordmasculine 
+	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
+	\Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
+	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
+	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
+	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
+	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
+	\ucircumflex \udieresis \yacute \thorn \ydieresis \exclam \quotedbl \numbersign 
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
+	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
+	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
+	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
+	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
+	\v \w \x \y \z \braceleft \braceright \asciitilde \uniEF6E \uniEF70 \uniEF6F 
+	\uniEF77 \uniEF79 \uniEF74 \uniEF73 \uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 
+	\uniEB5E \uniEF8C \uniEF8D \uniEFA1 \uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB 
+	\uniEFCC \uniEFCD \uniEFCE \uniEFCF \uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 
+	\uniEFD7 \uniEFD8 \uniEFD9 \uniEFDA \uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF 
+	\uniEF91 \uniEF92 \uniEF93 \uniEF94 \uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 
+	\uniEF89 \uniEF8A \uniEF8B \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 
+	\uniEFA8 \uniEFAA \uniEFAB \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 
+	\uniEFB3 \uniEFB4 \uniEFB5 \uniEFB6 \uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD 
+	\uniEFBE \uniEFBF \uniEFC0 \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 
+	\uniEFC7 \uniEFC8 \uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 
+	\uniF61A \uniF61B \dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 
+	\uni2074 \Euro \minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 
+	\uni0468 \uni0469 \uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 
+	\uni0471 \uni047A \uni047B \uni047E \uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 
+	\uni1C83 \uni1C84 \uni1C85 \uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 
+	\uniA640 \uniA641 \uniA64A \uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 
+	\uniA653 \uniA656 \uniA657 \uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B 
+	\uniA66C \uniA66D \uniA66E \uniA673 \uniA67E \uniA67F \uniA698 \uniA699 \uniA69A 
+	\uniA69B \uniA641.salt \uni0440.salt \uniA64B.salt \uniA64B.salt2 
+	\uniA64B.salt3 \uni0444.salt \uni0444.salt2 \uni0445.salt \uni0445.salt2 
+	\uni0445.salt3 \uni0446.salt \uni0449.salt \uni0463.salt \uni0471.salt 
+	\uni0471.salt2 \uni0443.salt \uni0434.salt \uni1C88.salt \uni0478.salt 
+	\uni0426.salt \uniE8E5 \uniE8ED \uniE902 \uniE907 \uniE90C \uniE90D \u1F540 
+	\u1F541 \u1F542 \u1F543 \u1F544 \u1F545 \uni205C \uF0124 \uF0125 \uF0126 \uF0120 
+	\uF0121 \uF0122 \uF0123 \uni0000 \uni0480 \uni0481 \uniA642 \uniA643 \uni202F 
+	\uni2028 \uni2029 ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
@@ -7621,9 +7639,10 @@ feature mkmk {
 	\u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF2D \u1CF20 \u1CF21 \u1CF22 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C \u1CF41 \u1CF42 
 	\u1CF43 \u1CF44 \u1CF45 \u1CF46 \u1CF30 \u1CF31 \u1CF32 \u1CF33 \u1CF35 \u1CF36 
-	\u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B \u1CF3C \u1CF3D \u1CF3F \u1CF40 \uniEA14 
-	\uni033E \gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 
-	\uni0307 \uni0308 \uni030B \uni030F \uni0311 \uniEA18 \u1CF0C \u1CF0D \u1CF0E 
+	\u1CF37 \u1CF38 \u1CF39 \u1CF3A \u1CF3B \u1CF3C \u1CF3D \u1CF3E \u1CF3F \u1CF40 
+	\uniEA14 \u1CF34 \uni033E \gravecomb \acutecomb \uni0302 \tildecomb \uni0304 
+	\uni0305 \uni0306 \uni0307 \uni0308 \hookabovecomb \uni030A \uni030B \uni030C 
+	\uni030D \uni030E \uni030F \uni0310 \uni0311 \uniEA18 \u1CF0C \u1CF0D \u1CF0E 
 	\uniEA08 \uni0483 \uni0484 \uni0485 \uni0486 \uni0487 \uni0488 \uni0489 \uni2DE0 
 	\uni2DE1 \uni2DE2 \uni2DE3 \uni2DE4 \uni2DE5 \uni2DE6 \uni2DE7 \uni2DE8 \uni2DE9 
 	\uni2DEA \uni2DEB \uni2DEC \uni2DED \uni2DEE \uni2DEF \uni2DF0 \uni2DF1 \uni2DF2 
@@ -7639,5 +7658,7 @@ table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, @GDEF_Component;
 
   LigatureCaretByPos \uniEE8E 229;
+  LigatureCaretByPos \uniEC0B 886 600;
+  LigatureCaretByPos \uniF530 314;
 } GDEF;
 
