@@ -7,8 +7,8 @@ Mezenets is a font for typesetting Znamenny Notation with or without priznaki.
 Mezenets uses COLR/CPAL v.0. The cinnabar marks are rendered in #CC0803 and the
 neumes and black marks are black. The font provides a set of Cyrillic characters
 borrowed from the [Vilnius font](https://github.com/slavonic/Vilnius), but modified to fit the metrics of the neumes.
-Note that because black has been harcoded into the CPAL table, it is not possible
-to modify the text color. This will be fixed in a later version of the font that uses COLR/CPAL v.1.
+Note that because black has been hardcoded into the CPAL table, it is not possible
+to modify the text color in your text editing software. This will be fixed in a later version of the font that uses COLR/CPAL v.1.
 
 ## History
 

@@ -105,7 +105,7 @@ def draw_main_text():
 
 # Divider lines
 def draw_divider_lines():
-    stroke(1)
+    stroke(0)
     strokeWidth(5)
     lineCap("round")
     line((MARGIN, HEIGHT - (MARGIN * 1.5)), (WIDTH - MARGIN, HEIGHT - (MARGIN * 1.5)))
