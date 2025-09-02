@@ -26,9 +26,9 @@
   <!-- Tell ufo2ft how to map UFO layers -> palette indices -->
   <key>com.github.googlei18n.ufo2ft.colorLayerMapping</key>
   <array>
-    <!-- default laeyr should paint using palette index 0 -->
+    <!-- color1 is black, should paint using palette index 0 -->
     <array>
-      <string>public.default</string>
+      <string>color1</string>
       <integer>0</integer>
     </array>
     <!-- layer "color0" should paint using palette index 1 -->
