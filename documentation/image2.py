@@ -21,10 +21,10 @@ FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = ""
-LINE_TWO = "𜽰𜽂𜼅   𜽐𜼱𜼆   𜽐𜽂𜼰𜼅   𜽝𜽂𜼄   𜽐𜽂𜼰𜼅  𜽖𜽂𜼢   𜽗𜽂𜼢   𜽲𜼆"
-LINE_THREE = "Тво  ѧ    по   бѣ   ди  тел  на   ѧ"
-LINE_FOUR = " "
+LINE_ONE = " "
+LINE_TWO = "    𜽰𜽂𜼅   𜽐𜼱𜼆   𜽐𜽂𜼰𜼅   𜽝𜽂𜼄   𜽐𜽂𜼰𜼅  𜽖𜽂𜼢   𜽗𜽂𜼢   𜽲𜼆"
+LINE_THREE = "    Тво  ѧ    по   бѣ   ди  тел  на   ѧ"
+LINE_FOUR = ""
 BIG_TEXT_FONT_SIZE = 160
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
