@@ -13,9 +13,9 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>211</integer>
+    <integer>212</integer>
     <key>copyright</key>
-    <string>Copyright 2025 The Mezenets Project Authors (https://github.com/slavonic/Mezenets)</string>
+    <string>Copyright 2025 The Mezenets Project Authors (https:\/\/github.com\/slavonic\/Mezenets)</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>ascender</key>
@@ -38,9 +38,7 @@ See README for more information.</string>
     <key>openTypeNameDesigner</key>
     <string>Aleksandr Andreev and Nikita Simmons</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.211</string>
-    <key>openTypeNameSampleText</key>
-    <string>콰콃켅 콐켱켆 콐콃켰켅 콝콃켄 콐콃켰켅 콖콃켢 콗콃켢 콲켆 콯켅 콟 쾆콃켰켅</string>
+    <string>Version 1.212</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>

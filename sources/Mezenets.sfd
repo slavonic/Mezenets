@@ -3,9 +3,9 @@ FontName: Mezenets-Regular
 FullName: Mezenets
 FamilyName: Mezenets
 Weight: Regular
-Copyright: Copyright 2025 The Mezenets Project Authors (https://github.com/slavonic/Mezenets)
+Copyright: Copyright 2025 The Mezenets Project Authors (https:\\/\\/github.com\\/slavonic\\/Mezenets)
 UComments: "2014-4-19: Created.+AAoA-See README for more information."
-Version: 1.211
+Version: 1.212
 ItalicAngle: 0
 UnderlinePosition: -80
 UnderlineWidth: 50
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1756716340
+ModificationTime: 1756918503
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1049,11 +1049,12 @@ ShortTable: cvt  41
   24
   71
 EndShort
-LangName: 1033 "" "" "" "" "" "" "" "" "" "Aleksandr Andreev and Nikita Simmons" "" "" "" "" "" "" "" "" "" "+z3DPQ88F +z1DPMc8G +z1DPQ88wzwUA +z13PQ88E +z1DPQ88wzwUA +z1bPQ88i +z1fPQ88i +z3LPBgAA +z2/PBQAA +z18A +z4bPQ88wzwUA"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Aleksandr Andreev and Nikita Simmons"
 GaspTable: 3 8 10 16 9 65535 15 1
+OtfFeatName: 'ss01' 1033 "Old-style Demestvenny"
+OtfFeatName: 'ss02' 1033 "New-style Demestvenny"
+OtfFeatName: 'ss03' 1033 "New-style Contracted Demestvenny"
 OtfFeatName: 'ss04' 1033 "Turn off coloring of cinnabar marks"
-OtfFeatName: 'ss03' 1033 "Contract Demestvenny ligatures"
-OtfFeatName: 'ss02' 1033 "Render Mechiki in the style used in the Demestvenny Azbuka of Kalashnikov"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none

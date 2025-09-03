@@ -1768,7 +1768,7 @@ feature salt {
 
 feature ss02 {
   featureNames {
-    name 3 1 0x409 "Render Mechiki in the style used in the Demestvenny Azbuka of Kalashnikov";
+    name 3 1 0x409 "New-style Demestvenny";
   };
 
  script DFLT;
@@ -1786,7 +1786,7 @@ feature ss02 {
 
 feature ss03 {
   featureNames {
-    name 3 1 0x409 "Contract Demestvenny ligatures";
+    name 3 1 0x409 "New-style Contracted Demestvenny";
   };
 
  script DFLT;
@@ -7303,6 +7303,9 @@ lookup mkmkStackingofCinnabarMarks {
 } mkmkStackingofCinnabarMarks;
 
 feature ss01 {
+  featureNames {
+    name 3 1 0x409 "Old-style Demestvenny";
+  };
 
  script DFLT;
      language dflt ;
@@ -7322,7 +7325,7 @@ feature ss01 {
 
 feature ss02 {
   featureNames {
-    name 3 1 0x409 "Render Mechiki in the style used in the Demestvenny Azbuka of Kalashnikov";
+    name 3 1 0x409 "New-style Demestvenny";
   };
 
  script DFLT;
@@ -7343,7 +7346,7 @@ feature ss02 {
 
 feature ss03 {
   featureNames {
-    name 3 1 0x409 "Contract Demestvenny ligatures";
+    name 3 1 0x409 "New-style Contracted Demestvenny";
   };
 
  script DFLT;
