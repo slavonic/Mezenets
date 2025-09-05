@@ -109,6 +109,29 @@ lookup ccmpSecondaryLigaturesforSlavonic {
     sub \uniA64D \uniE003  by \uniE931;
 } ccmpSecondaryLigaturesforSlavonic;
 
+lookup ligaStandardLigaturesinLatin {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigaturesinLatin;
+
+lookup ccmpContextualDotRemovalforLatin {
+  lookupflag 0;
+    @cc4_match_1 = [\i \j ];
+    @cc4_match_2 = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 
+	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E 
+	\uni030F \uni0310 \uni0311 \uni0326 \uni0327 \uni0328 \uni033E ];
+    @cc4_back_1 = [\i \j ];
+    @cc4_back_2 = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 
+	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E 
+	\uni030F \uni0310 \uni0311 \uni0326 \uni0327 \uni0328 \uni033E ];
+    @cc4_ahead_1 = [\i \j ];
+    @cc4_ahead_2 = [\gravecomb \acutecomb \uni0302 \tildecomb \uni0304 \uni0305 \uni0306 \uni0307 
+	\uni0308 \hookabovecomb \uni030A \uni030B \uni030C \uni030D \uni030E 
+	\uni030F \uni0310 \uni0311 \uni0326 \uni0327 \uni0328 \uni033E ];
+    sub @cc4_match_1' @cc4_ahead_2  by [\dotlessi \uni0237 ] ;
+} ccmpContextualDotRemovalforLatin;
+
 lookup ZnamennyPriznakification {
   lookupflag 0;
     sub \u1CF50 \u1CF42  by \uniEB66;
@@ -1351,22 +1374,22 @@ lookup PostcompositionPriznakification {
 
 lookup ccmpMedialFormofRavno {
   lookupflag 0;
-    @cc10_match_1 = [\u1CF22 ];
-    @cc10_match_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+    @cc12_match_1 = [\u1CF22 ];
+    @cc12_match_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
 	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
 	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
-    @cc10_back_1 = [\u1CF22 ];
-    @cc10_back_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+    @cc12_back_1 = [\u1CF22 ];
+    @cc12_back_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
 	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
 	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
-    @cc10_ahead_1 = [\u1CF22 ];
-    @cc10_ahead_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
+    @cc12_ahead_1 = [\u1CF22 ];
+    @cc12_ahead_2 = [\u1CF00 \u1CF01 \u1CF02 \u1CF03 \u1CF04 \u1CF05 \u1CF06 \u1CF07 \u1CF08 \u1CF09 
 	\u1CF0A \u1CF0B \uniEA05 \uniEA06 \uniEA07 \u1CF18 \u1CF19 \u1CF1A 
 	\u1CF1B \u1CF1C \u1CF1D \u1CF1E \u1CF1F \u1CF20 \u1CF21 \u1CF23 \u1CF24 
 	\u1CF25 \u1CF26 \u1CF27 \u1CF28 \u1CF29 \u1CF2A \u1CF2B \u1CF2C ];
-    sub @cc10_back_2 @cc10_match_1'  by [\uniEA18 ] ;
+    sub @cc12_back_2 @cc12_match_1'  by [\uniEA18 ] ;
 } ccmpMedialFormofRavno;
 
 lookup saltStylisticAlternativesforSlavonic {
@@ -1710,6 +1733,7 @@ feature ccmp {
       lookup Supportfordeprecatedmappingsccmp;
       lookup ccmpGlyphCompositionDecompositionforSlavonic;
       lookup ccmpSecondaryLigaturesforSlavonic;
+      lookup ccmpContextualDotRemovalforLatin;
       lookup ZnamennyPriznakification;
       lookup ZnamennyPriznakificationRound2;
       lookup PrecomposedformsforZnamennyNotation;
@@ -1738,6 +1762,7 @@ feature ccmp {
       lookup Supportfordeprecatedmappingsccmp;
       lookup ccmpGlyphCompositionDecompositionforSlavonic;
       lookup ccmpSecondaryLigaturesforSlavonic;
+      lookup ccmpContextualDotRemovalforLatin;
       lookup ZnamennyPriznakification;
       lookup ZnamennyPriznakificationRound2;
       lookup PrecomposedformsforZnamennyNotation;
@@ -1747,6 +1772,13 @@ feature ccmp {
       lookup PostcompositionPriznakification;
       lookup ccmpMedialFormofRavno;
 } ccmp;
+
+feature liga {
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatin;
+} liga;
 
 feature salt {
 
@@ -1831,48 +1863,48 @@ feature ss04 {
 
 lookup DemestvennySpecificKerning {
   lookupflag IgnoreMarks;
-    @kc20_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
+    @kc23_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
 	\uniEAD0 \uniEAD8 \uniEADA \uniEADC \uniEB17 \uniEB1D \uniEB24 \uniEB27 
 	\uniEB33 \uniEB38 \uniEB3D \uniEB41 \uniEF72 \uniF4D8 \uniEF61 \uniEF6A 
 	\uniEF6E ];
-    @kc20_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
+    @kc23_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
 	\uniEAAD \uniEAAE \uniEAAF \uniEAB0 \uniEAB1 \uniEAB2 \uniEAB3 \uniEAB4 
 	\uniEAB6 \uniEAB7 \uniEAB8 \uniEAB9 \uniEABA \uniEABB \uniEABC \uniEABD 
 	\u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 
 	\u1CF69 \u1CF6A ];
-    @kc20_second_2 = [\u1CF5D ];
-    pos @kc20_first_1 @kc20_second_1 -140;
-    pos @kc20_first_1 @kc20_second_2 -125;
+    @kc23_second_2 = [\u1CF5D ];
+    pos @kc23_first_1 @kc23_second_1 -140;
+    pos @kc23_first_1 @kc23_second_2 -125;
 } DemestvennySpecificKerning;
 
 lookup kernss01OldstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc21_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
+    @kc24_first_1 = [\uniEA76 \uniEB26 \uniEB2D \uniEB30 \uniEB3C \uniF400 \uniF401 \uniF40A \uniF41A 
 	\uniF41B \uniF4D6 \uniEFA1 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 
 	\uniF565 \uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniF59C 
 	\uniF5B6 \u1CF50 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
 	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D \u1CFA9 \u1CFAA ];
-    @kc21_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
+    @kc24_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEB33 \uniEB34 
 	\uniEB38 \uniEB39 \uniEB3A \uniEB3C \uniEB3D \uniEB3E \uniEB3F \uniEC12 
 	\uniEC17 \u1CF50 \u1CF54 \u1CF56 \u1CF59 \u1CFA7 \u1CFA9 \u1CFAA \u1CFAB ];
-    pos @kc21_first_1 @kc21_second_1 -140;
+    pos @kc24_first_1 @kc24_second_1 -140;
 } kernss01OldstyleDemestvennykerning;
 
 lookup kernss02NewstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc22_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
+    @kc25_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
 	\uniF41B \uniF4D6 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 \uniF565 
 	\uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniEF69 \uniEF98 
 	\uniEF99 \uniEF9A \uniEF9B \uniEF9C \uniF5D0 \uniEF6D \uniEF77 \uniF5EA 
 	\u1CF50 \u1CF52 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
 	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D ];
-    @kc22_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
+    @kc25_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEC12 \uniEC17 
 	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6C \uniEF6B \uniEF6D 
 	\uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \u1CF50 \u1CF54 \u1CF56 
 	\u1CF59 ];
-    pos @kc22_first_1 @kc22_second_1 -140;
+    pos @kc25_first_1 @kc25_second_1 -140;
 } kernss02NewstyleDemestvennykerning;
 
 lookup ss10EqualBaselineLookup {
@@ -6848,6 +6880,12 @@ lookup markMarkPositioningforSlavonic {
   pos base [\afii10110 ] <anchor 142 672> mark @Diacritic
 	<anchor 143 672> mark @Yerok
 	<anchor 119 320> mark @Numeral;
+  pos base [\J ] <anchor 49 200> mark @Numeral
+	<anchor 93 522> mark @Yerok
+	<anchor 93 522> mark @Diacritic;
+  pos base [\dotlessi \uni0237 ] <anchor 67 412> mark @Diacritic
+	<anchor 66 412> mark @Yerok
+	<anchor 63 320> mark @Numeral;
   pos base [\uni0460 ] <anchor 252 200> mark @Numeral
 	<anchor 286 522> mark @Diacritic
 	<anchor 424 522> mark @Yerok;
@@ -7541,9 +7579,8 @@ feature mkmk {
 	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
 	\Zcaron \zcaron \longs \AEacute \aeacute \Oslashacute \oslashacute \uni0237 
 	\Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave \trademark 
-	\partialdiff \infinity \approxequal \notequal \uniFB01 \uniFB02 \Scommaaccent 
-	\scommaaccent \uni021A \uni021B \caron \breve \dotaccent \ogonek \uni0326 
-	\uni0327 \uni0328 \uni1E9E \hungarumlaut ];
+	\partialdiff \infinity \approxequal \notequal \Scommaaccent \scommaaccent 
+	\uni021A \uni021B \caron \breve \dotaccent \ogonek \uni1E9E \hungarumlaut ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
@@ -7642,7 +7679,8 @@ feature mkmk {
 	\uniEBF8 \uniEBF9 \uniEBF1 \uniEBD0 \uni0476 \uni0477 \uni0478 \uni0479 \uni047C 
 	\uni047D \uniE612 \uniE714 \uniE800 \uniE814 \uniE8EB \uniE8F0 \uniE8E8 \uniE8E9 
 	\uniE8EA \uniE900 \uniE901 \uniE904 \uniE906 \uniE90E \uniE920 \uniE921 \uniE922 
-	\uniE923 \uniE924 \uniE925 \uniE926 \uniE92A \uniE92B \uniE930 \uniE931 ];
+	\uniE923 \uniE924 \uniE925 \uniE926 \uniE92A \uniE92B \uniE930 \uniE931 \uniFB01 
+	\uniFB02 ];
 @GDEF_Mark = [\uni034F \u1CF00.ss04 \u1CF01.ss04 \u1CF02.ss04 \u1CF03.ss04 
 	\u1CF04.ss04 \u1CF05.ss04 \u1CF06.ss04 \u1CF07.ss04 \u1CF08.ss04 \u1CF09.ss04 
 	\u1CF0A.ss04 \u1CF0B.ss04 \u1CF19.ss04 \u1CF1B.ss04 \u1CF1D.ss04 \uniEE50 
@@ -7674,7 +7712,7 @@ feature mkmk {
 	\uniA678 \uniA679 \uniA67A \uniA67B \uniA67C \uniA67D \uniA69E \uniA69F \uniE001 
 	\uniE003 \uniE005 \uniE9F0 \uniE9F1 \uniE9F2 \uniE9E0 \uniE9E1 \uniE9E2 \uniE9E3 
 	\uniE9E4 \uniE9E5 \uniE9E6 \uniE9E7 \uniE9E8 \uniE9E9 \uniE9EA \uniE9EB \uniE9EC 
-	\uniE9ED \uniE9EE \uniE9EF ];
+	\uniE9ED \uniE9EE \uniE9EF \uni0326 \uni0327 \uni0328 ];
 @GDEF_Component = [\uniEA50 \uniEA51 \uniEA52 ];
 
 table GDEF {

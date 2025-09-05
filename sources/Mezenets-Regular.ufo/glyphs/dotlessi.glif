@@ -2,6 +2,9 @@
 <glyph name="dotlessi" format="2">
   <advance width="112"/>
   <unicode hex="0131"/>
+  <anchor x="67" y="412" name="Diacritic"/>
+  <anchor x="66" y="412" name="Yerok"/>
+  <anchor x="63" y="320" name="Numeral"/>
   <outline>
     <contour>
       <point x="63" y="196" type="curve" smooth="yes"/>

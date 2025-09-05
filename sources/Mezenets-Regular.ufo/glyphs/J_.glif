@@ -2,6 +2,9 @@
 <glyph name="J" format="2">
   <advance width="138"/>
   <unicode hex="004A"/>
+  <anchor x="49" y="200" name="Numeral"/>
+  <anchor x="93" y="522" name="Yerok"/>
+  <anchor x="93" y="522" name="Diacritic"/>
   <outline>
     <contour>
       <point x="29" y="454" type="line"/>

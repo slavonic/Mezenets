@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1757012440
+ModificationTime: 1757085281
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -46,6 +46,8 @@ OS2Vendor: 'SCIN'
 Lookup: 4 0 0 "Support for deprecated mappings (ccmp)" { "Support for deprecated mappings (ccmp)-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition for Slavonic" { "'ccmp' Glyph Composition/Decomposition for Slavonic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Secondary Ligatures for Slavonic" { "'ccmp' Secondary Ligatures for Slavonic 1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'liga' Standard Ligatures in Latin" { "'liga' Standard Ligatures in Latin lookup subtable"  } ['liga' ('latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Contextual Dot Removal for Latin" { "'ccmp' Contextual Dot Removal for Latin-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Znamenny Priznakification" { "Znamenny Priznakification-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Znamenny Priznakification Round 2" { "Znamenny Priznakification Round 2-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Precomposed forms for Znamenny Notation" { "Precomposed forms for Znamenny Notation-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -63,6 +65,7 @@ Lookup: 1 0 0 "'ss04' Style Set 4 Black Marks" { "'ss04' Style Set 4 Black Marks
 Lookup: 1 0 0 "Demestvenny Contracted Variants" { "Demestvenny Contracted Variants-1"  } []
 Lookup: 1 0 0 "Ravno Lookup" { "Ravno Lookup-1"  } []
 Lookup: 1 0 0 "Omet Removal" { "Omet Removal-1"  } []
+Lookup: 1 0 0 "Latin Dot Removal" { "Latin Dot Removal-1"  } []
 Lookup: 258 8 0 "Demestvenny Specific Kerning" { "'kern' Vertical Omet +- Zapyataya-based neumes" [1,25,2] } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) 'ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' ss01 Oldstyle Demestvenny kerning" { "'kern' Demestvenny kerning - Oldstyle" [1,25,2] } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' ss02 Newstyle Demestvenny kerning" { "'kern' Demestvenny kerning - Newstyle" [1,25,2] } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) 'ss03' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -88,6 +91,23 @@ KernClass2: 2 2 "'kern' Demestvenny kerning - Oldstyle"
  312 uniEA76 uniEB26 uniEB2D uniEB30 uniEB3C uniF400 uniF401 uniF40A uniF41A uniF41B uniF4D6 uniEFA1 uniF4FC uniF504 uniF544 uniF545 uniF564 uniF565 uniF56A uniF56B uniF570 uniF571 uniF57C uniF57D uniF59C uniF5B6 u1CF50 u1CF53 u1CF54 u1CF55 u1CF72 u1CF75 u1CF76 u1CF79 u1CF7A u1CF96 u1CF98 u1CF9B u1CF9D u1CFA9 u1CFAA
  263 uniEA60 uniEA61 uniEA62 uniEA6C uniEA6D uniEA6E uniEA6F uniEA7D uniEA7E uniEA7F uniEA81 uniEA82 uniEA83 uniEA85 uniEA86 uniEB33 uniEB34 uniEB38 uniEB39 uniEB3A uniEB3C uniEB3D uniEB3E uniEB3F uniEC12 uniEC17 u1CF50 u1CF54 u1CF56 u1CF59 u1CFA7 u1CFA9 u1CFAA u1CFAB
  0 {} 0 {} 0 {} -140 {}
+ChainSub2: class "'ccmp' Contextual Dot Removal for Latin-1" 3 3 3 1
+  Class: 3 i j
+  Class: 187 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0326 uni0327 uni0328 uni033E
+  BClass: 3 i j
+  BClass: 187 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0326 uni0327 uni0328 uni033E
+  FClass: 3 i j
+  FClass: 187 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0326 uni0327 uni0328 uni033E
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "Latin Dot Removal"
+  ClassNames: "All_Others" "base" "accent"
+  BClassNames: "All_Others" "base" "accent"
+  FClassNames: "All_Others" "base" "accent"
+EndFPST
 ChainSub2: glyph "Contextual Pre-Contraction-1" 0 0 0 1
  String: 7 uniEAD0
  BString: 0 
@@ -1062,7 +1082,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 286 26 9
+WinInfo: 208 26 9
 BeginPrivate: 8
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -75175,6 +75195,9 @@ VWidth: 600
 Flags: W
 HStem: 94 26<-55 0.823305> 454 27<54.6038 65 103 138.893>
 VStem: -97 39<118 144>
+AnchorPoint: "Numeral" 49 200 basechar 0
+AnchorPoint: "Yerok" 93 522 basechar 0
+AnchorPoint: "Diacritic" 93 522 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -76233,6 +76256,7 @@ SplineSet
  106 223 110 223 115 224 c 1
  92 205 78 197 63 196 c 0
 EndSplineSet
+Substitution2: "Latin Dot Removal-1" dotlessi
 EndChar
 
 StartChar: j
@@ -76269,6 +76293,7 @@ SplineSet
  -19 111 5 126 6 127 c 1
  3 124 1 121 1 118 c 0
 EndSplineSet
+Substitution2: "Latin Dot Removal-1" uni0237
 EndChar
 
 StartChar: k
@@ -119637,6 +119662,9 @@ VWidth: 600
 Flags: W
 HStem: 196 200
 VStem: 38 40<223.023 320>
+AnchorPoint: "Diacritic" 67 412 basechar 0
+AnchorPoint: "Yerok" 66 412 basechar 0
+AnchorPoint: "Numeral" 63 320 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -133729,34 +133757,34 @@ VStem: -38 169
 LayerCount: 2
 Fore
 SplineSet
-59 451 m 1
- 42 436 l 2
- 42 436 40 435 38 434 c 0
- 29 428 7 414 3 410 c 1
- 55 457 l 2
- 65 467 94 483 94 483 c 0
- 95 483 122 451 131 440 c 0
- 133 438 134 436 134 436 c 1
- 111 419 98 410 95 410 c 0
- 94 410 80 426 70 438 c 0
- 65 444 60 450 59 451 c 1
-1 118 m 0
- 1 111 7 108 12 109 c 1
- 13 109 l 1
- 25 126 32 150 35 180 c 0
- 37 209 40 239 42 269 c 0
- 43 286 44 302 45 318 c 0
- 45 321 45 324 45 327 c 0
- 45 341 42 350 32 350 c 0
- 27 350 21 349 13 348 c 1
- 30 361 55 377 88 396 c 1
- 78 238 l 2
- 76 205 71 142 23 103 c 0
- 7 90 -9 83 -26 82 c 0
- -34 82 -38 85 -38 92 c 0
- -38 100 -28 106 -19 111 c 0
- -19 111 5 126 6 127 c 1
- 3 124 1 121 1 118 c 0
+59 451 m 5
+ 42 436 l 6
+ 42 436 40 435 38 434 c 4
+ 29 428 7 414 3 410 c 5
+ 55 457 l 6
+ 65 467 94 483 94 483 c 4
+ 95 483 122 451 131 440 c 4
+ 133 438 134 436 134 436 c 5
+ 111 419 98 410 95 410 c 4
+ 94 410 80 426 70 438 c 4
+ 65 444 60 450 59 451 c 5
+1 118 m 4
+ 1 111 7 108 12 109 c 5
+ 13 109 l 5
+ 25 126 32 150 35 180 c 4
+ 37 209 40 239 42 269 c 4
+ 43 286 44 302 45 318 c 4
+ 45 321 45 324 45 327 c 4
+ 45 341 42 350 32 350 c 4
+ 27 350 21 349 13 348 c 5
+ 30 361 55 377 88 396 c 5
+ 78 238 l 6
+ 76 205 71 142 23 103 c 4
+ 7 90 -9 83 -26 82 c 4
+ -34 82 -38 85 -38 92 c 4
+ -38 100 -28 106 -19 111 c 4
+ -19 111 5 126 6 127 c 5
+ 3 124 1 121 1 118 c 4
 EndSplineSet
 EndChar
 
@@ -137207,6 +137235,9 @@ Width: 105
 VWidth: 600
 Flags: W
 VStem: -38 126
+AnchorPoint: "Numeral" 63 320 basechar 0
+AnchorPoint: "Yerok" 66 412 basechar 0
+AnchorPoint: "Diacritic" 67 412 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -137856,6 +137887,7 @@ SplineSet
  252 223 256 223 261 224 c 1
  251 216 229 198 209 196 c 0
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup subtable" f i
 EndChar
 
 StartChar: uniFB02
@@ -137909,6 +137941,7 @@ SplineSet
  88 394 l 1
  162 394 l 1
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup subtable" f l
 EndChar
 
 StartChar: Scommaaccent
@@ -138165,6 +138198,7 @@ StartChar: uni0326
 Encoding: 806 806 2596
 Width: 0
 VWidth: 600
+GlyphClass: 4
 Flags: W
 HStem: 134 41<59.2737 122.658>
 VStem: 88 48<97.4989 160.385>
@@ -138187,6 +138221,7 @@ StartChar: uni0327
 Encoding: 807 807 2597
 Width: 0
 VWidth: 600
+GlyphClass: 4
 Flags: W
 HStem: 102 115
 VStem: 50 39<139.153 173.686>
@@ -138217,6 +138252,7 @@ StartChar: uni0328
 Encoding: 808 808 2598
 Width: 0
 VWidth: 600
+GlyphClass: 4
 Flags: W
 HStem: 108 27<43 97.5>
 VStem: 20 38<138.894 186.512>
