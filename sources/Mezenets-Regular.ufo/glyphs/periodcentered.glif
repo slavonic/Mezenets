@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="2">
-  <advance width="62"/>
+  <advance width="95"/>
   <unicode hex="00B7"/>
   <outline>
     <contour>
-      <point x="52" y="350" type="curve" smooth="yes"/>
-      <point x="52" y="346"/>
-      <point x="51" y="343"/>
-      <point x="50" y="339" type="curve" smooth="yes"/>
-      <point x="49" y="335"/>
-      <point x="47" y="332"/>
-      <point x="45" y="330" type="curve" smooth="yes"/>
-      <point x="43" y="328"/>
-      <point x="41" y="326"/>
-      <point x="38" y="324" type="curve" smooth="yes"/>
-      <point x="35" y="322"/>
-      <point x="32" y="322"/>
-      <point x="28" y="322" type="curve" smooth="yes"/>
-      <point x="22" y="322"/>
-      <point x="17" y="323"/>
-      <point x="14" y="327" type="curve" smooth="yes"/>
-      <point x="11" y="331"/>
-      <point x="10" y="336"/>
-      <point x="10" y="342" type="curve" smooth="yes"/>
-      <point x="10" y="346"/>
-      <point x="11" y="348"/>
-      <point x="12" y="352" type="curve" smooth="yes"/>
-      <point x="13" y="356"/>
-      <point x="16" y="360"/>
-      <point x="18" y="362" type="curve" smooth="yes"/>
-      <point x="20" y="364"/>
-      <point x="22" y="366"/>
-      <point x="25" y="368" type="curve" smooth="yes"/>
-      <point x="28" y="370"/>
-      <point x="31" y="370"/>
-      <point x="34" y="370" type="curve" smooth="yes"/>
-      <point x="46" y="370"/>
-      <point x="52" y="363"/>
+      <point x="87" y="338" type="line"/>
+      <point x="47" y="311" type="line"/>
+      <point x="29" y="344" type="line"/>
+      <point x="69" y="370" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -47,18 +18,18 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>322</integer>
+            <integer>311</integer>
             <key>width</key>
-            <integer>48</integer>
+            <integer>59</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>10</integer>
+            <integer>29</integer>
             <key>width</key>
-            <integer>42</integer>
+            <integer>58</integer>
           </dict>
         </array>
       </dict>
