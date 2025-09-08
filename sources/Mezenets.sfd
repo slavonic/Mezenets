@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1757085281
+ModificationTime: 1757358753
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -115,50 +115,75 @@ ChainSub2: glyph "Contextual Pre-Contraction-1" 0 0 0 1
  1
   SeqLookup: 0 "Omet Removal"
 EndFPST
-ChainSub2: glyph "'ss03' Contextual Demestvenny Contraction-1" 0 0 0 9
+ChainSub2: glyph "'ss03' Contextual Demestvenny Contraction-1" 0 0 0 14
  String: 6 u1CFA9
  BString: 6 u1CF54
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEB38
  BString: 6 u1CF54
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEB39
  BString: 6 u1CF54
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 6 u1CFAB
  BString: 6 u1CFA9
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 6 u1CF7B
  BString: 6 u1CF75
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEF69
  BString: 6 u1CF54
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEF6C
  BString: 6 u1CF54
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEF6A
  BString: 6 u1CF54
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
  String: 7 uniEF79
  BString: 7 uniEF69
- FString: 0 
+ FString: 0
+ 1
+  SeqLookup: 0 "Demestvenny Contracted Variants"
+ String: 7 uniEF69
+ BString: 6 u1CF75
+ FString: 0
+ 1
+  SeqLookup: 0 "Demestvenny Contracted Variants"
+ String: 7 uniEF6C
+ BString: 6 u1CF75
+ FString: 0
+ 1
+  SeqLookup: 0 "Demestvenny Contracted Variants"
+ String: 7 uniEF6A
+ BString: 6 u1CF75
+ FString: 0
+ 1
+  SeqLookup: 0 "Demestvenny Contracted Variants"
+ String: 7 uniEF79
+ BString: 6 u1CF54
+ FString: 0
+ 1
+  SeqLookup: 0 "Demestvenny Contracted Variants"
+ String: 7 uniEF79
+ BString: 6 u1CF75
+ FString: 0
  1
   SeqLookup: 0 "Demestvenny Contracted Variants"
 EndFPST
@@ -1071,10 +1096,11 @@ ShortTable: cvt  41
 EndShort
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Aleksandr Andreev and Nikita Simmons"
 GaspTable: 3 8 10 16 9 65535 15 1
-OtfFeatName: 'ss04' 1033 "Turn off coloring of cinnabar marks"
-OtfFeatName: 'ss03' 1033 "New-style Contracted Demestvenny"
-OtfFeatName: 'ss02' 1033 "New-style Demestvenny"
 OtfFeatName: 'ss01' 1033 "Old-style Demestvenny"
+OtfFeatName: 'ss02' 1033 "New-style Demestvenny"
+OtfFeatName: 'ss03' 1033 "New-style Contracted Demestvenny"
+OtfFeatName: 'ss04' 1033 "Turn off coloring of cinnabar marks"
+OtfFeatName: 'ss10' 1033 "Place capital letters inline"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1082,7 +1108,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 208 26 9
+WinInfo: 1950 26 9
 BeginPrivate: 8
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]

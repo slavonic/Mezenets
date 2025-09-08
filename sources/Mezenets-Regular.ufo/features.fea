@@ -1673,6 +1673,11 @@ lookup ss03ContextualDemestvennyContraction {
     sub \u1CF54  \uniEF6C'lookup DemestvennyContractedVariants   ;
     sub \u1CF54  \uniEF6A'lookup DemestvennyContractedVariants   ;
     sub \uniEF69  \uniEF79'lookup DemestvennyContractedVariants   ;
+    sub \u1CF75  \uniEF69'lookup DemestvennyContractedVariants   ;
+    sub \u1CF75  \uniEF6C'lookup DemestvennyContractedVariants   ;
+    sub \u1CF75  \uniEF6A'lookup DemestvennyContractedVariants   ;
+    sub \u1CF54  \uniEF79'lookup DemestvennyContractedVariants   ;
+    sub \u1CF75  \uniEF79'lookup DemestvennyContractedVariants   ;
 } ss03ContextualDemestvennyContraction;
 
 lookup ss04StyleSet4BlackMarks {
@@ -7401,6 +7406,9 @@ feature ss03 {
 } ss03;
 
 feature ss10 {
+  featureNames {
+    name 3 1 0x409 "Place capital letters inline";
+  };
 
  script DFLT;
      language dflt ;
