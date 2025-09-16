@@ -7508,87 +7508,88 @@ feature mkmk {
 	\uniEB5D \uniF61C \uniEF7B \uniEF9F \uniEFA6 \uniEFAC \uniEFBC \uniEF60 \uniEF84 
 	\uniEA1C \uniEF66 \uniEF69 \uniEF9C \uniEF6D \uniEF9B \uniEB20 \uniEF62 \uniEF98 
 	\uniEF99 \uniEF9A \uniEF6A \uniEF6C \uniEF6B \uniEFB7 \uniEF61 \uniEC10 \uniEC17 
-	\uniEC18 \uniEC19 \uniEC1A \uniEC1B \uniEC1F \uniEC20 \uniEC21 \uniEC25 \uniEC30 
-	\uniEC31 \uniEC32 \uniEC33 \uniEC34 \uniEC35 \uniEC36 \uniEC37 \uniEC38 \uniEC39 
-	\uniEC3A \uniEC3B \uniEC3C \uniEC3D \uniEC3E \uniEA8F \uniEAA1 \uni2713 \uniEAC8 
-	\afii61352 \quoteleft \quoteright \quotesinglbase \quotereversed 
-	\quotedblleft \quotedblright \quotedblbase \uni201F \dagger \daggerdbl \bullet 
-	\uni2023 \onedotenleader \twodotenleader \ellipsis \uni2027 \guilsinglleft 
-	\guilsinglright \afii10146 \afii10194 \afii10147 \afii10195 \afii10148 
-	\afii10196 \afii10051 \afii10053 \afii10054 \afii10055 \afii10057 \afii10058 
-	\afii10059 \afii10060 \afii10062 \afii10145 \afii10017 \afii10018 \afii10019 
-	\afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 \afii10028 
-	\afii10029 \afii10030 \afii10031 \afii10032 \afii10033 \afii10034 \afii10035 
-	\afii10036 \afii10037 \afii10038 \afii10039 \afii10040 \afii10041 \afii10042 
-	\afii10043 \afii10044 \afii10045 \afii10046 \afii10048 \afii10049 \afii10065 
-	\afii10066 \afii10067 \afii10068 \afii10069 \afii10070 \afii10072 \afii10073 
-	\afii10074 \afii10076 \afii10077 \afii10078 \afii10079 \afii10080 \afii10081 
-	\afii10082 \afii10083 \afii10084 \afii10085 \afii10086 \afii10087 \afii10088 
-	\afii10089 \afii10090 \afii10091 \afii10092 \afii10093 \afii10094 \afii10096 
-	\afii10097 \afii10099 \afii10101 \afii10102 \afii10103 \afii10105 \afii10106 
-	\afii10107 \afii10108 \afii10193 \exclamdown \cent \sterling \yen \dieresis 
-	\copyright \ordfeminine \guillemotleft \registered \plusminus \uni00B2 
-	\uni00B3 \acute \uni00B5 \periodcentered \cedilla \uni00B9 \ordmasculine 
-	\guillemotright \onequarter \onehalf \threequarters \questiondown \Agrave 
-	\Aacute \Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
-	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
-	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \multiply \Oslash \Ugrave 
-	\Uacute \Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute 
-	\acircumflex \atilde \adieresis \aring \ae \ccedilla \egrave \eacute 
-	\ecircumflex \edieresis \igrave \iacute \icircumflex \idieresis \eth \ntilde 
-	\ograve \oacute \ocircumflex \otilde \odieresis \divide \oslash \ugrave \uacute 
-	\ucircumflex \udieresis \yacute \thorn \ydieresis \exclam \quotedbl \numbersign 
-	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
-	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
-	\nine \colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J 
-	\K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \bracketleft \backslash \bracketright 
-	\asciicircum \underscore \grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u 
-	\v \w \x \y \z \braceleft \braceright \asciitilde \uniEF6E \uniEF70 \uniEF6F 
-	\uniEF77 \uniEF79 \uniEF74 \uniEF73 \uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 
-	\uniEB5E \uniEF8C \uniEF8D \uniEFA1 \uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB 
-	\uniEFCC \uniEFCD \uniEFCE \uniEFCF \uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 
-	\uniEFD7 \uniEFD8 \uniEFD9 \uniEFDA \uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF 
-	\uniEF91 \uniEF92 \uniEF93 \uniEF94 \uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 
-	\uniEF89 \uniEF8A \uniEF8B \uniEF9D \uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 
-	\uniEFA8 \uniEFAA \uniEFAB \uniEFAD \uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 
-	\uniEFB3 \uniEFB4 \uniEFB5 \uniEFB6 \uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD 
-	\uniEFBE \uniEFBF \uniEFC0 \uniEFC1 \uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 
-	\uniEFC7 \uniEFC8 \uniEFC9 \uniEF7C \uniF615 \uniF616 \uniF617 \uniF618 \uniF619 
-	\uniF61A \uniF61B \dotlessi \OE \oe \circumflex \ring \tilde \fraction \uni2215 
-	\uni2074 \Euro \minus \uni0460 \uni0461 \uni0464 \uni0465 \uni0466 \uni0467 
-	\uni0468 \uni0469 \uni046A \uni046B \uni046C \uni046D \uni046E \uni046F \uni0470 
-	\uni0471 \uni047A \uni047B \uni047E \uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 
-	\uni1C83 \uni1C84 \uni1C85 \uni1C86 \uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 
-	\uniA640 \uniA641 \uniA64A \uniA64B \uniA64C \uniA64D \uniA650 \uniA651 \uniA652 
-	\uniA653 \uniA656 \uniA657 \uniA65E \uniA65F \uniA668 \uniA669 \uniA66A \uniA66B 
-	\uniA66C \uniA66D \uniA66E \uniA673 \uniA67E \uniA67F \uniA698 \uniA699 \uniA69A 
-	\uniA69B \uniA641.salt \uni0440.salt \uniA64B.salt \uniA64B.salt2 
-	\uniA64B.salt3 \uni0444.salt \uni0444.salt2 \uni0445.salt \uni0445.salt2 
-	\uni0445.salt3 \uni0446.salt \uni0449.salt \uni0463.salt \uni0471.salt 
-	\uni0471.salt2 \uni0443.salt \uni0434.salt \uni1C88.salt \uni0478.salt 
-	\uni0426.salt \uniE8E5 \uniE8ED \uniE902 \uniE907 \uniE90C \uniE90D \u1F540 
-	\u1F541 \u1F542 \u1F543 \u1F544 \u1F545 \uni205C \uF0124 \uF0125 \uF0126 \uF0120 
-	\uF0121 \uF0122 \uF0123 \uni0000 \uni0480 \uni0481 \uniA642 \uniA643 \uni202F 
-	\uni2028 \uni2029 \Amacron \amacron \Abreve \abreve \Aogonek \aogonek \Cacute 
-	\cacute \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent \Ccaron \ccaron 
-	\Dcaron \dcaron \Dcroat \dcroat \Emacron \emacron \Ebreve \ebreve \Edotaccent 
-	\edotaccent \Eogonek \eogonek \Ecaron \ecaron \Gcircumflex \gcircumflex \Gbreve 
-	\gbreve \Gdotaccent \gdotaccent \Gcommaaccent \gcommaaccent \Hcircumflex 
-	\hcircumflex \Hbar \hbar \Itilde \itilde \Imacron \imacron \Ibreve \ibreve 
-	\Iogonek \iogonek \Idotaccent \IJ \ij \Jcircumflex \jcircumflex \Kcommaaccent 
-	\kcommaaccent \kgreenlandic \Lacute \lacute \Lcommaaccent \lcommaaccent 
-	\Lcaron \lcaron \Ldot \ldot \Lslash \lslash \Nacute \nacute \Ncommaaccent 
-	\ncommaaccent \Ncaron \ncaron \napostrophe \Eng \eng \Omacron \omacron \Obreve 
-	\obreve \Ohungarumlaut \ohungarumlaut \Racute \racute \Rcommaaccent 
-	\rcommaaccent \Rcaron \rcaron \Sacute \sacute \Scircumflex \scircumflex 
-	\Scedilla \scedilla \Scaron \scaron \Tcommaaccent \tcommaaccent \Tcaron \tcaron 
-	\Tbar \tbar \Utilde \utilde \Umacron \umacron \Ubreve \ubreve \Uring \uring 
-	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Wcircumflex \wcircumflex 
-	\Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute \Zdotaccent \zdotaccent 
-	\Zcaron \zcaron \longs \AEacute \aeacute \Oslashacute \oslashacute \uni0237 
-	\Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave \trademark 
-	\partialdiff \infinity \approxequal \notequal \Scommaaccent \scommaaccent 
-	\uni021A \uni021B \caron \breve \dotaccent \ogonek \uni1E9E \hungarumlaut ];
+	\uniEC18 \uniEC19 \uniEC1A \uniEC1B \uniEC1F \uniEC20 \uniEC21 \uniEC25 \uniEC40 
+	\uniEC41 \uniEC42 \uniEC43 \uniEC44 \uniEC30 \uniEC31 \uniEC32 \uniEC33 \uniEC34 
+	\uniEC35 \uniEC36 \uniEC37 \uniEC38 \uniEC39 \uniEC3A \uniEC3B \uniEC3C \uniEC3D 
+	\uniEC3E \uniEA8F \uniEAA1 \uni2713 \uniEAC8 \afii61352 \quoteleft \quoteright 
+	\quotesinglbase \quotereversed \quotedblleft \quotedblright \quotedblbase 
+	\uni201F \dagger \daggerdbl \bullet \uni2023 \onedotenleader \twodotenleader 
+	\ellipsis \uni2027 \guilsinglleft \guilsinglright \afii10146 \afii10194 
+	\afii10147 \afii10195 \afii10148 \afii10196 \afii10051 \afii10053 \afii10054 
+	\afii10055 \afii10057 \afii10058 \afii10059 \afii10060 \afii10062 \afii10145 
+	\afii10017 \afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 
+	\afii10025 \afii10026 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 
+	\afii10033 \afii10034 \afii10035 \afii10036 \afii10037 \afii10038 \afii10039 
+	\afii10040 \afii10041 \afii10042 \afii10043 \afii10044 \afii10045 \afii10046 
+	\afii10048 \afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 
+	\afii10070 \afii10072 \afii10073 \afii10074 \afii10076 \afii10077 \afii10078 
+	\afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 \afii10085 
+	\afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 \afii10092 
+	\afii10093 \afii10094 \afii10096 \afii10097 \afii10099 \afii10101 \afii10102 
+	\afii10103 \afii10105 \afii10106 \afii10107 \afii10108 \afii10193 \exclamdown 
+	\cent \sterling \yen \dieresis \copyright \ordfeminine \guillemotleft 
+	\registered \plusminus \uni00B2 \uni00B3 \acute \uni00B5 \periodcentered 
+	\cedilla \uni00B9 \ordmasculine \guillemotright \onequarter \onehalf 
+	\threequarters \questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis 
+	\Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute 
+	\Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde 
+	\Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute 
+	\Thorn \germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae 
+	\ccedilla \egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex 
+	\idieresis \eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide 
+	\oslash \ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis 
+	\exclam \quotedbl \numbersign \dollar \percent \ampersand \quotesingle 
+	\parenleft \parenright \asterisk \plus \comma \hyphen \period \slash \zero \one 
+	\two \three \four \five \six \seven \eight \nine \colon \semicolon \less \equal 
+	\greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \grave \a \b \c \d 
+	\e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \braceright 
+	\asciitilde \uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \uniEF74 \uniEF73 
+	\uniEB5A \uniEB5B \uniEB5C \uniEFA9 \uniEF63 \uniEB5E \uniEF8C \uniEF8D \uniEFA1 
+	\uniEFA3 \uniEFA5 \uniEA1B \uniEFCA \uniEFCB \uniEFCC \uniEFCD \uniEFCE \uniEFCF 
+	\uniEFD0 \uniEFD1 \uniEFD2 \uniEFD3 \uniEFD6 \uniEFD7 \uniEFD8 \uniEFD9 \uniEFDA 
+	\uniEFDB \uniEFDC \uniEFDD \uniEFDE \uniEFDF \uniEF91 \uniEF92 \uniEF93 \uniEF94 
+	\uniEF95 \uniEF85 \uniEF86 \uniEF87 \uniEF88 \uniEF89 \uniEF8A \uniEF8B \uniEF9D 
+	\uniEF9E \uniEFA0 \uniEFA2 \uniEFA4 \uniEFA7 \uniEFA8 \uniEFAA \uniEFAB \uniEFAD 
+	\uniEFAE \uniEFAF \uniEFB0 \uniEFB1 \uniEFB2 \uniEFB3 \uniEFB4 \uniEFB5 \uniEFB6 
+	\uniEFB8 \uniEFB9 \uniEFBA \uniEFBB \uniEFBD \uniEFBE \uniEFBF \uniEFC0 \uniEFC1 
+	\uniEFC2 \uniEFC3 \uniEFC4 \uniEFC5 \uniEFC6 \uniEFC7 \uniEFC8 \uniEFC9 \uniEF7C 
+	\uniF615 \uniF616 \uniF617 \uniF618 \uniF619 \uniF61A \uniF61B \dotlessi \OE \oe 
+	\circumflex \ring \tilde \fraction \uni2215 \uni2074 \Euro \minus \uni0460 
+	\uni0461 \uni0464 \uni0465 \uni0466 \uni0467 \uni0468 \uni0469 \uni046A \uni046B 
+	\uni046C \uni046D \uni046E \uni046F \uni0470 \uni0471 \uni047A \uni047B \uni047E 
+	\uni047F \uni0482 \uni1C80 \uni1C81 \uni1C82 \uni1C83 \uni1C84 \uni1C85 \uni1C86 
+	\uni1C87 \uni1C88 \uni2E2F \uni2E34 \uni2E43 \uniA640 \uniA641 \uniA64A \uniA64B 
+	\uniA64C \uniA64D \uniA650 \uniA651 \uniA652 \uniA653 \uniA656 \uniA657 \uniA65E 
+	\uniA65F \uniA668 \uniA669 \uniA66A \uniA66B \uniA66C \uniA66D \uniA66E \uniA673 
+	\uniA67E \uniA67F \uniA698 \uniA699 \uniA69A \uniA69B \uniA641.salt 
+	\uni0440.salt \uniA64B.salt \uniA64B.salt2 \uniA64B.salt3 \uni0444.salt 
+	\uni0444.salt2 \uni0445.salt \uni0445.salt2 \uni0445.salt3 \uni0446.salt 
+	\uni0449.salt \uni0463.salt \uni0471.salt \uni0471.salt2 \uni0443.salt 
+	\uni0434.salt \uni1C88.salt \uni0478.salt \uni0426.salt \uniE8E5 \uniE8ED 
+	\uniE902 \uniE907 \uniE90C \uniE90D \u1F540 \u1F541 \u1F542 \u1F543 \u1F544 
+	\u1F545 \uni205C \uF0124 \uF0125 \uF0126 \uF0120 \uF0121 \uF0122 \uF0123 \uni0000 
+	\uni0480 \uni0481 \uniA642 \uniA643 \uni202F \uni2028 \uni2029 \Amacron \amacron 
+	\Abreve \abreve \Aogonek \aogonek \Cacute \cacute \Ccircumflex \ccircumflex 
+	\Cdotaccent \cdotaccent \Ccaron \ccaron \Dcaron \dcaron \Dcroat \dcroat \Emacron 
+	\emacron \Ebreve \ebreve \Edotaccent \edotaccent \Eogonek \eogonek \Ecaron 
+	\ecaron \Gcircumflex \gcircumflex \Gbreve \gbreve \Gdotaccent \gdotaccent 
+	\Gcommaaccent \gcommaaccent \Hcircumflex \hcircumflex \Hbar \hbar \Itilde 
+	\itilde \Imacron \imacron \Ibreve \ibreve \Iogonek \iogonek \Idotaccent \IJ \ij 
+	\Jcircumflex \jcircumflex \Kcommaaccent \kcommaaccent \kgreenlandic \Lacute 
+	\lacute \Lcommaaccent \lcommaaccent \Lcaron \lcaron \Ldot \ldot \Lslash \lslash 
+	\Nacute \nacute \Ncommaaccent \ncommaaccent \Ncaron \ncaron \napostrophe \Eng 
+	\eng \Omacron \omacron \Obreve \obreve \Ohungarumlaut \ohungarumlaut \Racute 
+	\racute \Rcommaaccent \rcommaaccent \Rcaron \rcaron \Sacute \sacute 
+	\Scircumflex \scircumflex \Scedilla \scedilla \Scaron \scaron \Tcommaaccent 
+	\tcommaaccent \Tcaron \tcaron \Tbar \tbar \Utilde \utilde \Umacron \umacron 
+	\Ubreve \ubreve \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek \uogonek 
+	\Wcircumflex \wcircumflex \Ycircumflex \ycircumflex \Ydieresis \Zacute \zacute 
+	\Zdotaccent \zdotaccent \Zcaron \zcaron \longs \AEacute \aeacute \Oslashacute 
+	\oslashacute \uni0237 \Wgrave \wgrave \Wacute \wacute \Wdieresis \wdieresis 
+	\Ygrave \ygrave \trademark \partialdiff \infinity \approxequal \notequal 
+	\Scommaaccent \scommaaccent \uni021A \uni021B \caron \breve \dotaccent \ogonek 
+	\uni1E9E \hungarumlaut ];
 @GDEF_Ligature = [\uniEE74 \uniEA1E \uniEB66 \uniEB67 \uniEB6A \uniEB6B \uniEB6E 
 	\uniEB6F \uniEB70 \uniEB71 \uniEB74 \uniEB75 \u1CF57 \uniEB76 \uniEB77 \uniEB7B 
 	\uniEB7A \uniEA97 \uniEB7C \uniEB81 \uniEB83 \uniEB86 \uniEB87 \uniEA9D \uniEB89 
