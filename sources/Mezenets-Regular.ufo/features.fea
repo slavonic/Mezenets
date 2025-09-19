@@ -1898,17 +1898,17 @@ lookup kernss01OldstyleDemestvennykerning {
 
 lookup kernss02NewstyleDemestvennykerning {
   lookupflag IgnoreMarks;
-    @kc25_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniF400 \uniF401 \uniF40A \uniF41A 
-	\uniF41B \uniF4D6 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 \uniF565 
-	\uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniEF69 \uniEF98 
-	\uniEF99 \uniEF9A \uniEF9B \uniEF9C \uniF5D0 \uniEF6D \uniEF77 \uniF5EA 
-	\u1CF50 \u1CF52 \u1CF53 \u1CF54 \u1CF55 \u1CF72 \u1CF75 \u1CF76 \u1CF79 
-	\u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D ];
+    @kc25_first_1 = [\uniEA76 \uniEA8C \uniEB26 \uniEB2D \uniEB30 \uniEB5A \uniF400 \uniF401 \uniF40A 
+	\uniF41A \uniF41B \uniF4D6 \uniF4FC \uniF504 \uniF544 \uniF545 \uniF564 
+	\uniF565 \uniF56A \uniF56B \uniF570 \uniF571 \uniF57C \uniF57D \uniEF69 
+	\uniEF7B \uniEF7C \uniEF98 \uniEF99 \uniEF9A \uniEF9B \uniEF9C \uniF5D0 
+	\uniEF6D \uniEF77 \uniF5EA \u1CF50 \u1CF52 \u1CF53 \u1CF54 \u1CF55 
+	\u1CF72 \u1CF75 \u1CF76 \u1CF79 \u1CF7A \u1CF96 \u1CF98 \u1CF9B \u1CF9D ];
     @kc25_second_1 = [\uniEA60 \uniEA61 \uniEA62 \uniEA6C \uniEA6D \uniEA6E \uniEA6F \uniEA7D \uniEA7E 
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEC12 \uniEC17 
-	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6C \uniEF6B \uniEF6D 
-	\uniEF6E \uniEF70 \uniEF6F \uniEF77 \uniEF79 \u1CF50 \u1CF54 \u1CF56 
-	\u1CF59 ];
+	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6B \uniEF6C \uniEF6D 
+	\uniEF6E \uniEF6F \uniEF70 \uniEF77 \uniEF79 \uniEF7B \uniEF7C \u1CF50 
+	\u1CF54 \u1CF56 \u1CF59 \u1CF5D ];
     pos @kc25_first_1 @kc25_second_1 -140;
 } kernss02NewstyleDemestvennykerning;
 
