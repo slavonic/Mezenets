@@ -8,7 +8,7 @@ The font is named after Alexander Mezenets, a 17th-century Orthodox monk, musica
 
 Mezenets provides all of the necessary characters for typesetting music in Znamenny Notation, as used since the seventeenth century, with or without priznaki, and in Kazan Notation used for Put / Demestvenny chant.
 The font also provides a set of Cyrillic characters
-borrowed from the [Vilnius font](https://github.com/slavonic/Vilnius), but modified to fit the vertical metrics of the neumes. These Cyrillic characters are not intended for typesetting standalone Church Slavonic texts, but only lyrics in Znamenny musical scores in software settings where different fonts cannot be specified for lyrics.
+borrowed from the [Vilnius font](https://github.com/slavonic/Vilnius), but modified to fit the vertical metrics of the neumes, and Latin characters, borrowed from the [Fondamento font](https://github.com/librefonts/Fondamento). These Latin and Cyrillic characters are not intended for typesetting standalone texts, but only as a hack for typesetting lyrics in Znamenny musical scores in software where different fonts cannot be specified for different lines of lyrics.
 
 ## History
 
