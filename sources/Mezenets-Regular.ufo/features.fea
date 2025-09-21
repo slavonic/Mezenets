@@ -1871,14 +1871,14 @@ lookup DemestvennySpecificKerning {
   lookupflag IgnoreMarks;
     @kc23_first_1 = [\uniEA60 \uniEA64 \uniEA67 \uniEA6C \uniEA77 \uniEA7A \uniEA8D \uniEAC6 \uniEAC9 
 	\uniEAD0 \uniEAD8 \uniEADA \uniEADC \uniEB17 \uniEB1D \uniEB24 \uniEB27 
-	\uniEB33 \uniEB38 \uniEB3D \uniEB41 \uniEF72 \uniF4D8 \uniEF61 \uniEF6A 
-	\uniEF6E ];
+	\uniEB33 \uniEB38 \uniEB3D \uniEB41 \uniEF61 \uniEF6A \uniEF6E \uniEF72 
+	\uniEF7B \uniF4D8 ];
     @kc23_second_1 = [\uniEAA3 \uniEAA4 \uniEAA5 \uniEAA6 \uniEAA7 \uniEAA8 \uniEAA9 \uniEAAA \uniEAAB 
 	\uniEAAD \uniEAAE \uniEAAF \uniEAB0 \uniEAB1 \uniEAB2 \uniEAB3 \uniEAB4 
 	\uniEAB6 \uniEAB7 \uniEAB8 \uniEAB9 \uniEABA \uniEABB \uniEABC \uniEABD 
 	\u1CF60 \u1CF61 \u1CF62 \u1CF63 \u1CF64 \u1CF65 \u1CF66 \u1CF67 \u1CF68 
 	\u1CF69 \u1CF6A ];
-    @kc23_second_2 = [\u1CF5D ];
+    @kc23_second_2 = [\u1CF5D.ss03 \u1CF5D ];
     pos @kc23_first_1 @kc23_second_1 -140;
     pos @kc23_first_1 @kc23_second_2 -125;
 } DemestvennySpecificKerning;
@@ -1909,7 +1909,7 @@ lookup kernss02NewstyleDemestvennykerning {
 	\uniEA7F \uniEA81 \uniEA82 \uniEA83 \uniEA85 \uniEA86 \uniEC12 \uniEC17 
 	\uniEF60 \uniEF61 \uniEF62 \uniEF69 \uniEF6A \uniEF6B \uniEF6C \uniEF6D 
 	\uniEF6E \uniEF6F \uniEF70 \uniEF77 \uniEF79 \uniEF7B \uniEF7C \u1CF50 
-	\u1CF54 \u1CF56 \u1CF59 \u1CF5D ];
+	\u1CF54 \u1CF56 \u1CF59 ];
     pos @kc25_first_1 @kc25_second_1 -140;
 } kernss02NewstyleDemestvennykerning;
 
