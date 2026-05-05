@@ -255,7 +255,7 @@ packaging==25.0
     #   gftools
 picosvg==0.22.3
     # via nanoemoji
-pillow==11.3.0
+pillow==12.2.0
     # via
     #   diffenator2
     #   gftools
